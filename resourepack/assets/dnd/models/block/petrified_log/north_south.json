@@ -1,0 +1,19 @@
+{
+    "parent": "dnd:block/cube_spawner_all",
+    "textures": {
+      "top": "dnd:block/petrified_log_top",
+      "bottom": "dnd:block/petrified_log_top",
+      "north": "dnd:block/petrified_log_side",
+      "south": "dnd:block/petrified_log_side",
+      "east": "dnd:block/petrified_log_side",
+      "west": "dnd:block/petrified_log_side",
+      "particle": "dnd:block/petrified_log_side"
+    },
+  	"display": {
+  		"head": {
+  			"rotation": [-120, 0, 0],
+  			"translation": [0, -18.5, -14],
+  			"scale": [3, 3, 3]
+  		}
+  	}
+}

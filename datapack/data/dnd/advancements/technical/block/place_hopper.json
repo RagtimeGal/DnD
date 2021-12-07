@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "place_hopper": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:hopper"
+      }
+    }
+  },
+  "rewards": {
+    "function": "dnd:block/barrel/hopper_updating/advancement"
+  }
+}

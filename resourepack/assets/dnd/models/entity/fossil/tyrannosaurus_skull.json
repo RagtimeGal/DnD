@@ -1,0 +1,106 @@
+{
+	"texture_size": [256, 256],
+	"textures": {
+		"0": "dnd:entity/fossil/tyrannosaurus"
+	},
+	"elements": [
+		{
+			"from": [0.46944, -0.1552, 9.41367],
+			"to": [15.46944, 19.8448, 23.41367],
+			"rotation": {"angle": 0, "axis": "x", "origin": [7.96944, 9.3448, 9.16368]},
+			"faces": {
+				"north": {"uv": [4.3125, 11.125, 5.25, 12.375], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [3.4375, 11.125, 4.3125, 12.375], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [6.125, 11.125, 7.0625, 12.375], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [5.25, 11.125, 6.125, 12.375], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [5.25, 11.125, 4.3125, 10.25], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [6.1875, 10.25, 5.25, 11.125], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [1.46944, 7.84479, -5.58632],
+			"to": [14.46944, 17.84479, 9.41368],
+			"rotation": {"angle": 0, "axis": "x", "origin": [7.96944, 9.3448, 9.16368]},
+			"faces": {
+				"north": {"uv": [0.9375, 9.625, 1.75, 10.25], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [0, 9.625, 0.9375, 10.25], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [1.75, 9.625, 2.6875, 10.25], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [1.75, 9.625, 0.9375, 8.6875], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [2.5625, 8.6875, 1.75, 9.625], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [1.46944, 17.84479, -5.58632],
+			"to": [14.46944, 7.84479, 9.41368],
+			"rotation": {"angle": 0, "axis": "x", "origin": [7.96944, 9.3448, 9.16368]},
+			"faces": {
+				"north": {"uv": [0.9375, 9.625, 1.75, 10.25], "rotation": 180, "texture": "#0", "tintindex": 0},
+				"east": {"uv": [1.75, 9.625, 2.6875, 10.25], "rotation": 180, "texture": "#0", "tintindex": 0},
+				"west": {"uv": [0, 9.625, 0.9375, 10.25], "rotation": 180, "texture": "#0", "tintindex": 0},
+				"up": {"uv": [2.5625, 9.625, 1.75, 8.6875], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [1.75, 8.6875, 0.9375, 9.625], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [2.46944, -0.1552, -5.53633],
+			"to": [13.46944, 8.8448, 9.46367],
+			"rotation": {"angle": 0, "axis": "x", "origin": [7.96944, 24.67813, 11.76367]},
+			"faces": {
+				"north": {"uv": [4.5, 9.625, 5.1875, 10.1875], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [3.5625, 9.625, 4.5, 10.1875], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [5.1875, 9.625, 6.125, 10.1875], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [5.1875, 9.625, 4.5, 8.6875], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [5.875, 8.6875, 5.1875, 9.625], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [2.46944, 8.8448, -5.53633],
+			"to": [13.46944, -0.1552, 9.46367],
+			"rotation": {"angle": 0, "axis": "x", "origin": [7.96944, 24.67813, 11.76367]},
+			"faces": {
+				"north": {"uv": [4.5, 9.625, 5.1875, 10.1875], "rotation": 180, "texture": "#0", "tintindex": 0},
+				"east": {"uv": [5.1875, 9.625, 6.125, 10.1875], "rotation": 180, "texture": "#0", "tintindex": 0},
+				"west": {"uv": [3.5625, 9.625, 4.5, 10.1875], "rotation": 180, "texture": "#0", "tintindex": 0},
+				"up": {"uv": [5.875, 9.625, 5.1875, 8.6875], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [5.1875, 8.6875, 4.5, 9.625], "texture": "#0", "tintindex": 0}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [-180, 0, -180],
+			"translation": [0, -9.5, -5]
+		},
+		"head": {
+			"translation": [0, -32, -4],
+			"scale": [1.6, 1.6, 1.6]
+		}
+	},
+	"groups": [
+		{
+			"name": "Entire",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [
+				{
+					"name": "Head",
+					"origin": [16, 8.81466, -17.49092],
+					"color": 0,
+					"children": [0, 1, 2, 3, 4]
+				},
+				{
+					"name": "Limbs",
+					"origin": [2, 1.75, -18],
+					"color": 0,
+					"children": []
+				},
+				{
+					"name": "Body",
+					"origin": [-9, 1.75, -18],
+					"color": 0,
+					"children": []
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,116 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 149,
+          "name": "dnd:gameplay/paleontology/sand/junk"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 50,
+          "name": "dnd:gameplay/paleontology/sand/fossils"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "dnd:gameplay/paleontology/sand/treasure"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "nbt": "{dnd:{id:\"brush\",level:0}}"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 164,
+          "name": "dnd:gameplay/paleontology/sand/junk"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 33,
+          "name": "dnd:gameplay/paleontology/sand/fossils"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "name": "dnd:gameplay/paleontology/sand/treasure"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "nbt": "{dnd:{id:\"brush\",level:1}}"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 170,
+          "name": "dnd:gameplay/paleontology/sand/junk"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 24,
+          "name": "dnd:gameplay/paleontology/sand/fossils"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 6,
+          "name": "dnd:gameplay/paleontology/sand/treasure"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "nbt": "{dnd:{id:\"brush\",level:2}}"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 177,
+          "name": "dnd:gameplay/paleontology/sand/junk"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 15,
+          "name": "dnd:gameplay/paleontology/sand/fossils"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 8,
+          "name": "dnd:gameplay/paleontology/sand/treasure"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "nbt": "{dnd:{id:\"brush\",level:3}}"
+          }
+        }
+      ]
+    }
+  ]
+}

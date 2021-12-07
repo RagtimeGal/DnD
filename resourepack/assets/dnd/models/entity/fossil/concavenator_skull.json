@@ -1,0 +1,71 @@
+{	
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "dnd:entity/fossil/concavenator"
+	},
+	"elements": [
+		{
+			"from": [4.99938, -0.15543, 6.71812],
+			"to": [10.99938, 7.84457, 15.71812],
+			"rotation": {"angle": 0, "axis": "x", "origin": [7.99938, 18.59457, 8.21812]},
+			"faces": {
+				"north": {"uv": [8.125, 9.875, 8.875, 10.875], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [7, 9.875, 8.125, 10.875], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [10, 9.875, 10.75, 10.875], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [8.875, 9.875, 10, 10.875], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [8.875, 9.875, 8.125, 8.75], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [9.625, 8.75, 8.875, 9.875], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [5.99938, 1.84457, 0.71812],
+			"to": [9.99938, 8.84457, 9.71812],
+			"rotation": {"angle": 0, "axis": "x", "origin": [7.99938, 18.59457, 8.21812]},
+			"faces": {
+				"north": {"uv": [1.125, 1.125, 1.625, 2], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [0, 1.125, 1.125, 2], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [2.75, 1.125, 3.25, 2], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [1.625, 1.125, 2.75, 2], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [1.625, 1.125, 1.125, 0], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [2.125, 0, 1.625, 1.125], "texture": "#0", "tintindex": 0}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [-180, 0, -180],
+			"translation": [0, -9.5, -5]
+		},
+		"head": {
+			"translation": [0, -32.5, -2],
+			"scale": [1.6, 1.6, 1.6]
+		}
+	},
+	"groups": [
+		{
+			"name": "Entire",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [
+				{
+					"name": "Body",
+					"origin": [0, 0, 0],
+					"color": 0,
+					"children": []
+				},
+				{
+					"name": "Head",
+					"origin": [0, 0, 0],
+					"color": 0,
+					"children": [0, 1]
+				},
+				{
+					"name": "Limbs",
+					"origin": [0, 0, 0],
+					"color": 0,
+					"children": []
+				}
+			]
+		}
+	]
+}

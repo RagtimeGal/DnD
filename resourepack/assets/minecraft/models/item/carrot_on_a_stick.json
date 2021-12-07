@@ -1,0 +1,218 @@
+{
+	"parent": "item/handheld_rod",
+	"textures": {
+		"layer0": "item/carrot_on_a_stick"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 400000
+			},
+			"model": "dnd:item/needle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400001
+			},
+			"model": "dnd:item/dna_needle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400002
+			},
+			"model": "dnd:item/embryo_needle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400003
+			},
+			"model": "dnd:item/monster_vat"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400004
+			},
+			"model": "dnd:item/brush"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400005
+			},
+			"model": "dnd:item/exposed_brush"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400006
+			},
+			"model": "dnd:item/weathered_brush"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400007
+			},
+			"model": "dnd:item/oxidized_brush"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400008
+			},
+			"model": "dnd:item/chisel"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400009
+			},
+			"model": "dnd:item/amber_staff"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400010
+			},
+			"model": "dnd:item/fossil_stand"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 401001
+			},
+			"model": "dnd:item/parrot_egg"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 401002
+			},
+			"model": "dnd:item/dodo_egg"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 402001
+			},
+			"model": "dnd:item/bee_ootheca"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 402002
+			},
+			"model": "dnd:item/spider_ootheca"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 402003
+			},
+			"model": "dnd:item/cave_spider_ootheca"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 402004
+			},
+			"model": "dnd:item/silverfish_ootheca"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 402005
+			},
+			"model": "dnd:item/endermite_ootheca"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 403001
+			},
+			"model": "dnd:item/axolotl_egg"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 404001
+			},
+			"model": "dnd:item/cod_roe"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 404002
+			},
+			"model": "dnd:item/salmon_roe"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 404003
+			},
+			"model": "dnd:item/tropical_fish_roe"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 404004
+			},
+			"model": "dnd:item/pufferfish_roe"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 404005
+			},
+			"model": "dnd:item/squid_roe"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 404006
+			},
+			"model": "dnd:item/glow_squid_roe"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 404007
+			},
+			"model": "dnd:item/shulker_roe"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 405000
+			},
+			"model": "dnd:item/dinosaur_egg"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 405001
+			},
+			"model": "dnd:item/acrocanthosaurus_egg"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 405002
+			},
+			"model": "dnd:item/concavenator_egg"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 405003
+			},
+			"model": "dnd:item/corythosaurus_egg"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 405004
+			},
+			"model": "dnd:item/gallimimus_egg"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 405005
+			},
+			"model": "dnd:item/tyrannosaurus_egg"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 405006
+			},
+			"model": "dnd:item/compsognathus_egg"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 405007
+			},
+			"model": "dnd:item/ankylosaurus_egg"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 405008
+			},
+			"model": "dnd:item/pachycephalosaurus_egg"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "ate_ancient_acorn": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{dnd:{id:\"frozen_meat\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dnd:item/frozen_meat"
+  },
+  "parent": "dnd:technical/root"
+}

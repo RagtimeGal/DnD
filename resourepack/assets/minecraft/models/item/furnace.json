@@ -1,0 +1,110 @@
+{
+  "parent": "block/furnace",
+  "textures": {
+    "layer0": "block/furnace"
+  },
+  "overrides": [
+    {
+        "predicate": {
+          "custom_model_data": 400009
+        },
+      "model": "dnd:block/amber_block"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400010
+        },
+      "model": "dnd:block/budding_amber"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400011
+        },
+      "model": "dnd:block/petrified_log/up_down"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400012
+        },
+      "model": "dnd:block/amber_tiles"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400013
+        },
+      "model": "dnd:block/petrified_wood/up_down"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400014
+        },
+      "model": "dnd:block/chiseled_petrified_log/up_down"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400015
+        },
+      "model": "dnd:block/chiseled_petrified_wood/up_down"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400016
+        },
+      "model": "dnd:block/polished_amber"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 401000
+        },
+      "model": "dnd:block/dinosaur_egg"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 401001
+        },
+      "model": "dnd:block/acrocanthosaurus_egg"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 401002
+        },
+      "model": "dnd:block/concavenator_egg"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 401003
+        },
+      "model": "dnd:block/corythosaurus_egg"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 401004
+        },
+      "model": "dnd:block/gallimimus_egg"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 401005
+        },
+      "model": "dnd:block/tyrannosaurus_egg"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 401006
+        },
+      "model": "dnd:block/compsognathus_egg"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 401007
+        },
+      "model": "dnd:block/ankylosaurus_egg"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 401008
+        },
+      "model": "dnd:block/pachycephalosaurus_egg"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "entity.dodo.idle": {
+    "sounds": [
+      "dnd:entity/dodo_idle1",
+      "dnd:entity/dodo_idle2"
+    ],
+    "subtitle": "subtitles.dnd.dodo.idle"
+  },
+  "entity.dodo.death": {
+    "sounds": [
+      {
+        "name": "dnd:entity/dodo_death1",
+        "pitch": 1.2
+      },
+      {
+        "name": "dnd:entity/dodo_death1",
+        "pitch": 1.5
+      },
+      {
+        "name": "dnd:entity/dodo_death1",
+        "pitch": 1.8
+      }
+    ],
+    "volume": 2,
+    "subtitle": "subtitles.dnd.dodo.death"
+  },
+  "entity.dodo.hurt": {
+    "sounds": [
+      "dnd:entity/dodo_hurt1",
+      "dnd:entity/dodo_hurt2"
+    ],
+    "subtitle": "subtitles.dnd.dodo.hurt"
+  },
+  "ui.cultivator.take_result": {
+    "sounds": [
+      {
+        "name": "dnd:block/cultivator",
+        "pitch": 1
+      },
+      {
+        "name": "dnd:block/cultivator",
+        "pitch": 1.4
+      },
+      {
+        "name": "dnd:block/cultivator",
+        "pitch": 1.8
+      },
+      {
+        "name": "dnd:block/cultivator",
+        "pitch": 0.8
+      }
+    ],
+    "subtitle": "subtitles.dnd.ui.cultivator.take_result"
+  },
+  "ui.extractor.take_result": {
+    "sounds": [
+      {
+        "name": "dnd:block/extractor",
+        "pitch": 1
+      },
+      {
+        "name": "dnd:block/extractor",
+        "pitch": 1.4
+      },
+      {
+        "name": "dnd:block/extractor",
+        "pitch": 1.8
+      },
+      {
+        "name": "dnd:block/extractor",
+        "pitch": 0.8
+      }
+    ],
+    "subtitle": "subtitles.dnd.ui.extractor.take_result"
+  },
+  "ui.modifier.take_result": {
+    "sounds": [
+      {
+        "name": "dnd:block/modifier",
+        "pitch": 1
+      },
+      {
+        "name": "dnd:block/modifier",
+        "pitch": 1.4
+      },
+      {
+        "name": "dnd:block/modifier",
+        "pitch": 1.8
+      },
+      {
+        "name": "dnd:block/modifier",
+        "pitch": 0.8
+      }
+    ],
+    "subtitle": "subtitles.dnd.ui.modifier.take_result"
+  },
+  "item.chisel.use": {
+    "sounds": [
+      {
+        "name": "ui/stonecutter/cut1",
+        "volume": 1
+      },
+      {
+        "name": "ui/stonecutter/cut1",
+        "volume": 1,
+        "pitch": 0.92
+      },
+      {
+        "name": "ui/stonecutter/cut2",
+        "volume": 1
+      },
+      {
+        "name": "ui/stonecutter/cut2",
+        "volume": 1,
+        "pitch": 0.92
+      }
+    ],
+    "subtitle": "subtitles.dnd.item.chisel.use"
+  },
+  "block.egg.hatch": {
+    "sounds": [
+      "mob/turtle/baby/egg_hatched1",
+      "mob/turtle/baby/egg_hatched2",
+      "mob/turtle/baby/egg_hatched3"
+    ],
+    "subtitle": "subtitles.dnd.block.egg.hatch"
+  }
+}

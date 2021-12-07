@@ -1,0 +1,72 @@
+{
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "dnd:entity/fossil/compsognathus",
+		"particle": "dnd:entity/fossil/compsognathus"
+	},
+	"elements": [
+		{
+			"from": [7.25, 0, 6],
+			"to": [9.25, 2, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.25, -0.25, 8.5]},
+			"faces": {
+				"north": {"uv": [8.5, 3.5, 9.5, 4.5], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [6.5, 3.5, 8.5, 4.5], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [11.5, 3.5, 12.5, 4.5], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [9.5, 3.5, 11.5, 4.5], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [9.5, 3.5, 8.5, 1.5], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [10.5, 1.5, 9.5, 3.5], "texture": "#0", "tintindex": 0}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [-180, 0, -180],
+			"translation": [0, -9.5, -5]
+		},
+		"head": {
+			"translation": [0, -32.5, 0],
+			"scale": [1.6, 1.6, 1.6]
+		}
+	},
+	"groups": [
+		{
+			"name": "Entire",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [
+				{
+					"name": "Limbs",
+					"origin": [0, 0, 0],
+					"color": 0,
+					"children": [
+						{
+							"name": "Legs",
+							"origin": [0, 0, 0],
+							"color": 0,
+							"children": []
+						},
+						{
+							"name": "Arms",
+							"origin": [0, 0, 0],
+							"color": 0,
+							"children": []
+						}
+					]
+				},
+				{
+					"name": "Body",
+					"origin": [0, 0, 0],
+					"color": 0,
+					"children": []
+				},
+				{
+					"name": "Head",
+					"origin": [0, 0, 0],
+					"color": 0,
+					"children": [0]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,129 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnd:items/acrocanthosaurus_fossil",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.fossil.acrocanthosaurus",
+                "color": "white",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnd:items/ankylosaurus_fossil",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.fossil.ankylosaurus",
+                "color": "white",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnd:items/compsognathus_fossil",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.fossil.compsognathus",
+                "color": "white",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnd:items/concavenator_fossil",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.fossil.concavenator",
+                "color": "white",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnd:items/corythosaurus_fossil",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.fossil.corythosaurus",
+                "color": "white",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnd:items/gallimimus_fossil",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.fossil.gallimimus",
+                "color": "white",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnd:items/pachycephalosaurus_fossil",
+          "weight": 9,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.fossil.pachycephalosaurus",
+                "color": "white",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnd:items/tyrannosaurus_fossil",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.fossil.tyrannosaurus",
+                "color": "white",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

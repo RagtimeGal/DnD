@@ -1,0 +1,11 @@
+{
+  "parent": "dnd:block/petrified_slab",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 400000
+      },
+      "model": "dnd:block/petrified_planks"
+    }
+  ]
+}

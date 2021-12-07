@@ -1,0 +1,202 @@
+{
+  "criteria": {
+    "amphibian": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "item": "minecraft:carrot_on_a_stick",
+                "nbt": "{dnd:{id:\"embryo_needle\",genome:{identifier:\"amphibian\"}}}"
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "#dnd:identifier/amphibian"
+        }
+      }
+    },
+    "bird": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "item": "minecraft:carrot_on_a_stick",
+                "nbt": "{dnd:{id:\"embryo_needle\",genome:{identifier:\"bird\"}}}"
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "#dnd:identifier/bird"
+        }
+      }
+    },
+    "cetacea": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "item": "minecraft:carrot_on_a_stick",
+                "nbt": "{dnd:{id:\"embryo_needle\",genome:{identifier:\"cetacea\"}}}"
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "#dnd:identifier/cetacea"
+        }
+      }
+    },
+    "fish": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "item": "minecraft:carrot_on_a_stick",
+                "nbt": "{dnd:{id:\"embryo_needle\",genome:{identifier:\"fish\"}}}"
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "#dnd:identifier/fish"
+        }
+      }
+    },
+    "insect": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "item": "minecraft:carrot_on_a_stick",
+                "nbt": "{dnd:{id:\"embryo_needle\",genome:{identifier:\"insect\"}}}"
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "#dnd:identifier/insect"
+        }
+      }
+    },
+    "mammal": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "item": "minecraft:carrot_on_a_stick",
+                "nbt": "{dnd:{id:\"embryo_needle\",genome:{identifier:\"mammal\"}}}"
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "#dnd:identifier/mammal"
+        }
+      }
+    },
+    "mollusk": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "item": "minecraft:carrot_on_a_stick",
+                "nbt": "{dnd:{id:\"embryo_needle\",genome:{identifier:\"mollusk\"}}}"
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "#dnd:identifier/mollusk"
+        }
+      }
+    },
+    "mystery": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "item": "minecraft:carrot_on_a_stick",
+                "nbt": "{dnd:{id:\"embryo_needle\",genome:{identifier:\"mystery\"}}}"
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "#dnd:identifier/mystery"
+        }
+      }
+    },
+    "primate": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "item": "minecraft:carrot_on_a_stick",
+                "nbt": "{dnd:{id:\"embryo_needle\",genome:{identifier:\"primate\"}}}"
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "#dnd:identifier/primate"
+        }
+      }
+    },
+    "reptile": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "item": "minecraft:carrot_on_a_stick",
+                "nbt": "{dnd:{id:\"embryo_needle\",genome:{identifier:\"reptile\"}}}"
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "#dnd:identifier/reptile"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "amphibian",
+      "bird",
+      "cetacea",
+      "fish",
+      "insect",
+      "mammal",
+      "mollusk",
+      "mystery",
+      "primate",
+      "reptile"
+    ]
+  ],
+  "rewards": {
+    "function": "dnd:item/embryo_needle/item"
+  },
+  "parent": "dnd:technical/root"
+}

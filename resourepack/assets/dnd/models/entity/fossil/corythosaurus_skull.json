@@ -1,0 +1,104 @@
+{
+	"texture_size": [256, 256],
+	"textures": {
+		"0": "dnd:entity/fossil/corythosaurus"
+	},
+	"elements": [
+		{
+			"from": [5.18182, -4.94442, 2.52033],
+			"to": [11.18182, 8.15558, 13.52033],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8.18182, 22.77224, 0.02033]},
+			"faces": {
+				"north": {"uv": [4.25, 4.75, 4.625, 5.5625], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [3.5625, 4.75, 4.25, 5.5625], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [5.3125, 4.75, 5.6875, 5.5625], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [4.625, 4.75, 5.3125, 5.5625], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [4.625, 4.75, 4.25, 4.0625], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [5, 4.0625, 4.625, 4.75], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [11.18182, 8.05558, 13.52033],
+			"to": [5.18182, -5.04442, 2.52033],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8.18182, 22.77224, 0.02033]},
+			"faces": {
+				"north": {"uv": [5.3125, 4.75, 5.6875, 5.5625], "rotation": 180, "texture": "#0", "tintindex": 0},
+				"east": {"uv": [3.5625, 4.75, 4.25, 5.5625], "rotation": 180, "texture": "#0", "tintindex": 0},
+				"south": {"uv": [4.25, 4.75, 4.625, 5.5625], "rotation": 180, "texture": "#0", "tintindex": 0},
+				"west": {"uv": [4.625, 4.75, 5.3125, 5.5625], "rotation": 180, "texture": "#0", "tintindex": 0},
+				"up": {"uv": [5, 4.75, 4.625, 4.0625], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [4.625, 4.0625, 4.25, 4.75], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [6.18182, 2.05558, -2.47967],
+			"to": [10.18182, 8.15558, 2.52033],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8.18182, 22.77224, 0.02033]},
+			"faces": {
+				"north": {"uv": [5.3125, 1.1875, 5.5625, 1.5625], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [5, 1.1875, 5.3125, 1.5625], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [5.875, 1.1875, 6.125, 1.5625], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [5.5625, 1.1875, 5.875, 1.5625], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [5.5625, 1.1875, 5.3125, 0.875], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [5.8125, 0.875, 5.5625, 1.1875], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [7.18182, 8.05558, 3.52033],
+			"to": [9.18182, 13.15558, 10.52033],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8.18182, 22.77224, 0.02033]},
+			"faces": {
+				"north": {"uv": [5.4375, 0.4375, 5.5625, 0.75], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [5, 0.4375, 5.4375, 0.75], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [6, 0.4375, 6.125, 0.75], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [5.5625, 0.4375, 6, 0.75], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [5.5625, 0.4375, 5.4375, 0], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [5.6875, 0, 5.5625, 0.4375], "texture": "#0", "tintindex": 0}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [-180, 0, -180],
+			"translation": [0, -9.5, -5]
+		},
+		"head": {
+			"translation": [0, -32.5, -2],
+			"scale": [1.6, 1.6, 1.6]
+		}
+	},
+	"groups": [
+		{
+			"name": "Entire",
+			"origin": [0, 2, -19],
+			"color": 0,
+			"children": [
+				{
+					"name": "Body",
+					"origin": [0, 2, -19],
+					"color": 0,
+					"children": []
+				},
+				{
+					"name": "Head",
+					"origin": [0, 2, 17],
+					"color": 0,
+					"children": [0, 1, 2, 3]
+				},
+				{
+					"name": "Limbs",
+					"origin": [0, 2, -19],
+					"color": 0,
+					"children": [
+						{
+							"name": "Legs1",
+							"origin": [8.18182, 14.90693, 18.44536],
+							"color": 0,
+							"children": []
+						}
+					]
+				}
+			]
+		}
+	]
+}

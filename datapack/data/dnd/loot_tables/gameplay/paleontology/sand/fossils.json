@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnd:gameplay/paleontology/sand/dino_fossils",
+          "weight": 4,
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "doFossilAccuracy"
+                },
+                "score": "dnd.config"
+              },
+              "range": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnd:gameplay/fossils/pristine_fossil",
+          "weight": 4,
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "doFossilAccuracy"
+                },
+                "score": "dnd.config"
+              },
+              "range": 0
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnd:items/petrified_log",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnd:items/plant_fossil",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnd:items/amber",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

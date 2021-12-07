@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnd:gameplay/fossils/shattered_fossil",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnd:gameplay/fossils/eroded_fossil",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnd:gameplay/fossils/fractured_fossil",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnd:gameplay/fossils/cracked_fossil",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnd:gameplay/fossils/pristine_fossil",
+          "weight": 20
+        }
+      ]
+    }
+  ]
+}

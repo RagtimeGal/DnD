@@ -1,0 +1,7 @@
+{
+  "parent": "dnd:block/dinosaur_egg",
+  "textures": {
+	"base": "dnd:block/pachycephalosaurus_egg",
+  "particle": "dnd:block/pachycephalosaurus_egg"
+  }
+}

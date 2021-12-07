@@ -1,0 +1,13 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dnd:items/frozen_dodo_meat"
+        }
+      ]
+    }
+  ]
+}

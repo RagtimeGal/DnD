@@ -1,0 +1,62 @@
+{
+  "parent": "block/structure_block",
+  "textures": {
+    "layer0": "block/structure_block"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 400000
+      },
+      "model": "dnd:item/nothing"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400001
+      },
+      "model": "dnd:item/amber"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400002
+      },
+      "model": "dnd:item/dna_vial"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400003
+      },
+      "model": "dnd:item/upgrade_cartridge"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400006
+      },
+      "model": "dnd:item/compound_eyes"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400007
+      },
+      "model": "dnd:item/proboscis"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400008
+      },
+      "model": "dnd:item/tuft"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400009
+      },
+      "model": "dnd:item/amber_gemstone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400010
+      },
+      "model": "dnd:item/computer_chip"
+    }
+  ]
+}

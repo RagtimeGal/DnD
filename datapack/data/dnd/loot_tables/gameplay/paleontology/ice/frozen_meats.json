@@ -1,0 +1,108 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "dnd:gameplay/paleontology/ice/meat_preservation/6",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "dnd.fossil_preservation": {
+                      "min": 6
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "dnd:gameplay/paleontology/ice/meat_preservation/5",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "dnd.fossil_preservation": {
+                      "min": 5
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "dnd:gameplay/paleontology/ice/meat_preservation/4",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "dnd.fossil_preservation": {
+                      "min": 4
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "dnd:gameplay/paleontology/ice/meat_preservation/3",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "dnd.fossil_preservation": {
+                      "min": 3
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "dnd:gameplay/paleontology/ice/meat_preservation/2",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "dnd.fossil_preservation": {
+                      "min": 2
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "dnd:gameplay/paleontology/ice/meat_preservation/1",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "dnd.fossil_preservation": {
+                      "min": 1
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "dnd:gameplay/paleontology/ice/meat_preservation/0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

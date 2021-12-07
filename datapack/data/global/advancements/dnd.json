@@ -1,0 +1,42 @@
+{
+  "display": {
+    "title": {
+      "translate": "DND (MISSING RESOURCES)",
+      "with": [
+        [{
+          "translate": "advancements.dnd.installed_datapacks_menu.title"
+        }]
+      ]
+    },
+    "description": {
+      "translate": "The Dinos & Dodos Resource Pack is not installed.",
+      "with": [
+        [{
+            "translate": "advancements.dnd.installed_datapacks_menu.description_1",
+            "color": "dark_green"
+          },
+          {
+            "translate": "config.dnd.version",
+            "color": "blue"
+          },
+          {
+            "translate": "advancements.dnd.installed_datapacks_menu.description_2",
+            "color": "gray"
+          }
+        ]
+      ]
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "icon": {
+      "item": "minecraft:barrier",
+      "nbt": "{CustomModelData:400000}"
+    }
+  },
+  "parent": "global:rag",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

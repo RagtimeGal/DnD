@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dnd:gameplay/fossils/eroded_fossil",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnd:items/amber_block",
+          "weight": 45
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnd:items/budding_amber",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

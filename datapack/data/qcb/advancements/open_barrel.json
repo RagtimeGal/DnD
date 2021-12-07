@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "barrel": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "block": "minecraft:barrel",
+                        "state": {
+                            "open": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "qcb:find_barrel/raycast_start"
+    }
+}

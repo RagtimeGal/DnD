@@ -1,0 +1,71 @@
+{
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "dnd:entity/fossil/gallimimus"
+	},
+	"elements": [
+		{
+			"from": [5.99827, 0.08516, 8.28936],
+			"to": [9.99827, 5.08516, 14.28936],
+			"rotation": {"angle": 0, "axis": "x", "origin": [7.99827, 26.33516, 16.78936]},
+			"faces": {
+				"north": {"uv": [0.75, 5.875, 1.25, 6.5], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [0, 5.875, 0.75, 6.5], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [2, 5.875, 2.5, 6.5], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [1.25, 5.875, 2, 6.5], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [1.25, 5.875, 0.75, 5.125], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [1.75, 5.125, 1.25, 5.875], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [5.99827, 1.08516, 2.28936],
+			"to": [9.99827, 5.08516, 8.28936],
+			"rotation": {"angle": 0, "axis": "x", "origin": [7.99827, 26.33516, 16.78936]},
+			"faces": {
+				"north": {"uv": [0.75, 7.25, 1.25, 7.75], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [0, 7.25, 0.75, 7.75], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [2, 7.25, 2.5, 7.75], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [1.25, 7.25, 2, 7.75], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [1.25, 7.25, 0.75, 6.5], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [1.75, 6.5, 1.25, 7.25], "texture": "#0", "tintindex": 0}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [-180, 0, -180],
+			"translation": [0, -9.5, -5]
+		},
+		"head": {
+			"translation": [0, -32.5, -4],
+			"scale": [1.6, 1.6, 1.6]
+		}
+	},
+	"groups": [
+		{
+			"name": "Entire",
+			"origin": [0, 4, 0],
+			"color": 0,
+			"children": [
+				{
+					"name": "Body",
+					"origin": [0, 4, 0],
+					"color": 0,
+					"children": []
+				},
+				{
+					"name": "Head",
+					"origin": [-0.00294, 20.625, -5.25],
+					"color": 0,
+					"children": [0, 1]
+				},
+				{
+					"name": "Limbs",
+					"origin": [0, 4, 0],
+					"color": 0,
+					"children": []
+				}
+			]
+		}
+	]
+}

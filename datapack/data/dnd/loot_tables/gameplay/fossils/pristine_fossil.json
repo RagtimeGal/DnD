@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dnd:items/acrocanthosaurus_fossil"
+        },
+        {
+          "type": "loot_table",
+          "name": "dnd:items/ankylosaurus_fossil"
+        },
+        {
+          "type": "loot_table",
+          "name": "dnd:items/compsognathus_fossil"
+        },
+        {
+          "type": "loot_table",
+          "name": "dnd:items/concavenator_fossil"
+        },
+        {
+          "type": "loot_table",
+          "name": "dnd:items/corythosaurus_fossil"
+        },
+        {
+          "type": "loot_table",
+          "name": "dnd:items/gallimimus_fossil"
+        },
+        {
+          "type": "loot_table",
+          "name": "dnd:items/pachycephalosaurus_fossil"
+        },
+        {
+          "type": "loot_table",
+          "name": "dnd:items/tyrannosaurus_fossil"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+	"texture_size": [256, 256],
+	"textures": {
+		"0": "dnd:entity/fossil/acrocanthosaurus"
+	},
+	"elements": [
+		{
+			"from": [1.9902, 0.02668, 7.6492],
+			"to": [13.9902, 14.02668, 18.6492],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8.0049, 27.00168, 15.5242]},
+			"faces": {
+				"north": {"uv": [5.3125, 6.0625, 6.0625, 6.9375], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [4.625, 6.0625, 5.3125, 6.9375], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [6.75, 6.0625, 7.5, 6.9375], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [6.0625, 6.0625, 6.75, 6.9375], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [6.0625, 6.0625, 5.3125, 5.375], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [6.8125, 5.375, 6.0625, 6.0625], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [3.0098, 3.02668, -6.3508],
+			"to": [13.0098, 14.02668, 7.6492],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8.0049, 27.00168, 15.5242]},
+			"faces": {
+				"north": {"uv": [5.5, 7.8125, 6.125, 8.5], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [4.625, 7.8125, 5.5, 8.5], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [7, 7.8125, 7.625, 8.5], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [6.125, 7.8125, 7, 8.5], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [6.125, 7.8125, 5.5, 6.9375], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [6.75, 6.9375, 6.125, 7.8125], "texture": "#0", "tintindex": 0}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [-180, 0, -180],
+			"translation": [0, -9.5, -5]
+		},
+		"head": {
+			"translation": [0, -32.5, 0],
+			"scale": [1.6, 1.6, 1.6]
+		}
+	},
+	"groups": [
+		{
+			"name": "Entire",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [
+				{
+					"name": "Body",
+					"origin": [-15, 21.56836, -13.84359],
+					"color": 0,
+					"children": []
+				},
+				{
+					"name": "Head",
+					"origin": [-15, 21.56836, -13.84359],
+					"color": 0,
+					"children": [0, 1]
+				},
+				{
+					"name": "Limbs",
+					"origin": [-15, 21.56836, -13.84359],
+					"color": 0,
+					"children": []
+				}
+			]
+		}
+	]
+}

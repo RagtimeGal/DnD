@@ -1,0 +1,12 @@
+{
+    "block.barrel.open": {
+        "replace": true,
+        "sounds": [],
+        "subititles": ""
+    },
+    "block.barrel.close": {
+        "replace": true,
+        "sounds": [],
+        "subititles": ""
+    }
+}

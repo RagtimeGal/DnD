@@ -1,0 +1,38 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/tropical_fish"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 400000
+			},
+			"model": "dnd:item/decaying_frozen_meat"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400001
+			},
+			"model": "dnd:item/tainted_frozen_meat"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400002
+			},
+			"model": "dnd:item/rotted_frozen_meat"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400003
+			},
+			"model": "dnd:item/spoiled_frozen_meat"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400004
+			},
+			"model": "dnd:item/frozen_dodo_meat"
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400004,dnd:{id:\"ancient_dna_source\",type:\"frozen_meat\",accuracy:5,genome:{id:\"dnd:dodo\",identifier:\"bird\",unique_data:{Attributes:[{Base:0.3d,Name:\"minecraft:generic.movement_speed\"},{Base:12.0d,Name:\"minecraft:generic.max_health\"}],Health:12.0f,DeathLootTable:\"dnd:entity/dodo\",CustomName:'{\"translate\":\"entity.dnd.dodo\"}',Tags:[\"dnd.dodo\",\"dnd.bird\",\"dnd.passive\"]},custom_entity_data:{baby_feed_item:\"dnd:plant\",models:{adult:[400033,400034],baby:[400035,400036],fossil:[400000,400007,400034,400035,400036]}},egg_data:{type:\"egg_item\",CustomModelData:401002,name:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.dodo_egg\"}'}}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.frozen_meat.dodo",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "lore.dnd.item.accuracy.5",
+                  "color": "gray",
+                  "italic": false
+                },
+                "",
+                {
+                  "translate": "pack.dnd",
+                  "color": "#FFAA00",
+                  "italic": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

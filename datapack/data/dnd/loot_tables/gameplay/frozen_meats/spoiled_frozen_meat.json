@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnd:gameplay/frozen_meats/rarity"
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CustomModelData:400003,dnd:{accuracy:1}}"
+    },
+    {
+      "function": "minecraft:set_lore",
+      "lore": [
+        {
+          "translate": "lore.dnd.item.accuracy.1",
+          "color": "gray",
+          "italic": false
+        },
+        "",
+        {
+          "translate": "pack.dnd",
+          "color": "#FFAA00",
+          "italic": true
+        }
+      ],
+      "replace": true
+    }
+  ]
+}

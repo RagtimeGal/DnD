@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnd:gameplay/frozen_meats/spoiled_frozen_meat",
+          "weight": 60
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnd:gameplay/frozen_meats/rotted_frozen_meat",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnd:gameplay/frozen_meats/tainted_frozen_meat",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnd:gameplay/frozen_meats/decaying_frozen_meat",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dnd:gameplay/frozen_meats/pristine_frozen_meat",
+          "weight": 5
+        }
+      ]
+    }
+  ]
+}
