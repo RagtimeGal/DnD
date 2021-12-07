@@ -10,4 +10,5 @@ Dinos & Dodos adds a brand new paleontology system, genetic modification and clo
 # Credits
 
 Created by Ragno
+
 Special thanks to CreeperMagnet_ for optimization and reworks
