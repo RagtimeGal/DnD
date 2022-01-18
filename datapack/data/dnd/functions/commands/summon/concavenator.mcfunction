@@ -1,5 +1,5 @@
 ####################
-# Summons a Gallimimus
+# Summons a Concavenator
 ####################
 
 # Spawns Loot

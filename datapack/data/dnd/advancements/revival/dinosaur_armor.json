@@ -1,0 +1,34 @@
+{
+  "parent": "dnd:revival/paleontology_table",
+  "display": {
+    "icon": {
+      "item": "minecraft:leather_chestplate",
+      "nbt": "{CustomModelData:400001}"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.dinosaur_armor.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.dinosaur_armor.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "osteoderm_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_chestplate"
+            ],
+            "nbt": "{dnd:{id:\"osteoderm_chestplate\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

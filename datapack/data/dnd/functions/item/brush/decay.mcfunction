@@ -9,7 +9,7 @@ execute store result storage dnd:storage root.temp.item.tag.dnd.uses int 1 run s
 
 # Oxidize
 execute if entity @s[scores={dnd.dummy=256..}] run function dnd:item/brush/oxidize
-item modify entity @s weapon.mainhand dnd:item/copy_nbt
+item modify entity @s weapon.mainhand dnd:copy_nbt
 
 # Reset
 scoreboard players reset @s dnd.dummy

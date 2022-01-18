@@ -1,0 +1,50 @@
+{
+  "parent": "block/structure_block",
+  "textures": {
+    "layer0": "block/structure_block"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 400000
+      },
+      "model": "dnd:item/nothing"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400001
+      },
+      "model": "dnd:item/amber"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400002
+      },
+      "model": "dnd:item/dna_vial"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400003
+      },
+      "model": "dnd:item/computer_chip"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400004
+      },
+      "model": "dnd:item/ankylosaurid_osteoderm"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400005
+      },
+      "model": "dnd:item/apex_tooth"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400009
+      },
+      "model": "dnd:item/amber_gemstone"
+    }
+  ]
+}

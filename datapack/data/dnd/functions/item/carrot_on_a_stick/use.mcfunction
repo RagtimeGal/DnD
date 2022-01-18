@@ -8,6 +8,9 @@ execute if entity @s[nbt={SelectedItem:{tag:{dnd:{id:"egg_block"}}}}] run functi
 # Egg Item
 execute if entity @s[nbt={SelectedItem:{tag:{dnd:{id:"egg_item"}}}}] run function dnd:item/egg_item/item
 
+# Bucket
+execute if entity @s[nbt={SelectedItem:{tag:{dnd:{id:"bucket"}}}}] run function dnd:item/bucket/item
+
 # Fossil Stand
 execute if entity @s[nbt={SelectedItem:{tag:{dnd:{id:"fossil_stand"}}}}] run function dnd:item/fossil_stand/item
 

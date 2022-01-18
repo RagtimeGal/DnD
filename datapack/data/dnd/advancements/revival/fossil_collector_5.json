@@ -25,7 +25,7 @@
             "items": [
               "minecraft:bone"
             ],
-            "nbt": "{dnd:{id:\"ancient_dna_source\",accuracy:5,type:\"fossil\",genome:{id:\"dnd:acrocanthosaurus\"}}}"
+            "nbt": "{dnd:{id:\"ancient_dna_source\",accuracy:5,genome:{id:\"dnd:acrocanthosaurus\"}}}"
           }
         ]
       }
@@ -38,7 +38,7 @@
             "items": [
               "minecraft:bone"
             ],
-            "nbt": "{dnd:{id:\"ancient_dna_source\",accuracy:5,type:\"fossil\",genome:{id:\"dnd:ankylosaurus\"}}}"
+            "nbt": "{dnd:{id:\"ancient_dna_source\",accuracy:5,genome:{id:\"dnd:ankylosaurus\"}}}"
           }
         ]
       }
@@ -51,7 +51,7 @@
             "items": [
               "minecraft:bone"
             ],
-            "nbt": "{dnd:{id:\"ancient_dna_source\",accuracy:5,type:\"fossil\",genome:{id:\"dnd:compsognathus\"}}}"
+            "nbt": "{dnd:{id:\"ancient_dna_source\",accuracy:5,genome:{id:\"dnd:compsognathus\"}}}"
           }
         ]
       }
@@ -64,7 +64,7 @@
             "items": [
               "minecraft:bone"
             ],
-            "nbt": "{dnd:{id:\"ancient_dna_source\",accuracy:5,type:\"fossil\",genome:{id:\"dnd:concavenator\"}}}"
+            "nbt": "{dnd:{id:\"ancient_dna_source\",accuracy:5,genome:{id:\"dnd:concavenator\"}}}"
           }
         ]
       }
@@ -77,7 +77,7 @@
             "items": [
               "minecraft:bone"
             ],
-            "nbt": "{dnd:{id:\"ancient_dna_source\",accuracy:5,type:\"fossil\",genome:{id:\"dnd:corythosaurus\"}}}"
+            "nbt": "{dnd:{id:\"ancient_dna_source\",accuracy:5,genome:{id:\"dnd:corythosaurus\"}}}"
           }
         ]
       }
@@ -90,7 +90,7 @@
             "items": [
               "minecraft:bone"
             ],
-            "nbt": "{dnd:{id:\"ancient_dna_source\",accuracy:5,type:\"fossil\",genome:{id:\"dnd:gallimimus\"}}}"
+            "nbt": "{dnd:{id:\"ancient_dna_source\",accuracy:5,genome:{id:\"dnd:gallimimus\"}}}"
           }
         ]
       }
@@ -103,7 +103,7 @@
             "items": [
               "minecraft:bone"
             ],
-            "nbt": "{dnd:{id:\"ancient_dna_source\",accuracy:5,type:\"fossil\",genome:{id:\"dnd:pachycephalosaurus\"}}}"
+            "nbt": "{dnd:{id:\"ancient_dna_source\",accuracy:5,genome:{id:\"dnd:pachycephalosaurus\"}}}"
           }
         ]
       }
@@ -116,7 +116,33 @@
             "items": [
               "minecraft:bone"
             ],
-            "nbt": "{dnd:{id:\"ancient_dna_source\",accuracy:5,type:\"fossil\",genome:{id:\"dnd:tyrannosaurus\"}}}"
+            "nbt": "{dnd:{id:\"ancient_dna_source\",accuracy:5,genome:{id:\"dnd:tyrannosaurus\"}}}"
+          }
+        ]
+      }
+    },
+    "dodo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tropical_fish"
+            ],
+            "nbt": "{dnd:{id:\"ancient_dna_source\",accuracy:5,genome:{id:\"dnd:dodo\"}}}"
+          }
+        ]
+      }
+    },
+    "gigantopithecus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tropical_fish"
+            ],
+            "nbt": "{dnd:{id:\"ancient_dna_source\",accuracy:5,genome:{id:\"dnd:gigantopithecus\"}}}"
           }
         ]
       }

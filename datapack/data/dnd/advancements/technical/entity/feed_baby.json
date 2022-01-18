@@ -1,0 +1,19 @@
+{
+  "parent": "dnd:technical/root",
+  "criteria": {
+    "feed_baby": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "tag": "dnd:baby_feed_items"
+        },
+        "entity": {
+          "nbt": "{Tags:[\"dnd.baby\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dnd:entity/global/behavior/baby/feeding/raycast_start"
+  }
+}

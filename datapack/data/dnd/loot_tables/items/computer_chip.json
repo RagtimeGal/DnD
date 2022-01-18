@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400010,dnd:{id:\"computer_chip\"}}"
+              "tag": "{CustomModelData:400003,dnd:{id:\"computer_chip\"}}"
             },
             {
               "function": "minecraft:set_name",

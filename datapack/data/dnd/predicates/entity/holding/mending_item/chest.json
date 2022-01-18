@@ -1,0 +1,11 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "chest": {
+        "nbt": "{Enchantments:[{id:\"minecraft:mending\"}],dnd:{repaired:0b}}"
+      }
+    }
+  }
+}

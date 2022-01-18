@@ -1,0 +1,38 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "dnd:storage"
+    },
+    "ops": [
+      {
+        "source": "root.temp.item.tag",
+        "target": "{}",
+        "op": "merge"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "item.durability",
+        "with": [
+          {
+            "nbt": "root.temp.item.tag.dnd.durability[0]",
+            "storage": "dnd:storage"
+          },
+          {
+            "nbt": "root.temp.item.tag.dnd.durability[1]",
+            "storage": "dnd:storage"
+          }
+        ],
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false
+  }
+]

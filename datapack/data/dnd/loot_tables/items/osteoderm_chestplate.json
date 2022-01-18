@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{color:16750848},HideFlags:68,Unbreakable:1b,RepairCost:100,dnd:{id:\"osteoderm_chestplate\",durability:[384,384],repaired:1b},CustomModelData:400001,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:5,Operation:0,UUID:[I;1504889939,632113780,-1621691386,1994864697],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:1,Operation:0,UUID:[I;1956142438,1081099559,-2027513040,-1890927506],Slot:\"chest\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.3,Operation:0,UUID:[I;1361837879,1405962608,-1451020437,-1751022971],Slot:\"chest\"}]}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.osteoderm_chestplate",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.durability",
+                  "color": "gray",
+                  "italic": false,
+                  "with": [384, 384]
+                },
+                {
+                  "translate": "pack.dnd",
+                  "color": "#FFAA00",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:leather_chestplate"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400005,dnd:{id:\"ancient_dna_source\",type:\"frozen_meat\",accuracy:5,genome:{id:\"dnd:gigantopithecus\",identifier:\"primate\",unique_data:{Attributes:[{Base:0.42d,Name:\"minecraft:generic.movement_speed\"},{Base:30.0d,Name:\"minecraft:generic.max_health\"}],Health:30.0f,DeathLootTable:\"dnd:entity/gigantopithecus\",CustomName:'{\"translate\":\"entity.dnd.gigantopithecus\"}',Tags:[\"dnd.gigantopithecus\",\"dnd.primate\",\"dnd.passive\",\"dnd.can_sit\"]},custom_entity_data:{baby_feed_item:{id:\"minecraft:bamboo\"},models:{adult:[400039,400040,400038,400037],baby:[400043,400044,400042,400041],fossil:[400002,400007,400037,400038,400039]}},egg_data:{type:\"embryo_needle\",name:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.gigantopithecus_embryo\"}'}}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.frozen_meat.gigantopithecus",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "lore.dnd.item.accuracy.5",
+                  "color": "gray",
+                  "italic": false
+                },
+                "",
+                {
+                  "translate": "pack.dnd",
+                  "color": "#FFAA00",
+                  "italic": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

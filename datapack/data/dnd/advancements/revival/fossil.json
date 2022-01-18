@@ -25,7 +25,7 @@
             "items": [
               "minecraft:bone"
             ],
-            "nbt": "{dnd:{id:\"ancient_dna_source\",type:\"fossil\"}}"
+            "nbt": "{dnd:{id:\"ancient_dna_source\"}}"
           }
         ]
       }

@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{BlockEntityTag:{id:\"minecraft:furnace\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{dnd:{placed_block:1b,block:\"petrified_wood\"}}}]},CustomModelData:400013,dnd:{id:\"petrified_wood\"}}"
+                            "tag": "{BlockEntityTag:{id:\"minecraft:furnace\",Items:[{id:\"minecraft:barrier\",Count:1b,tag:{dnd:{placed_block:1b,block:\"petrified_wood\"}}}]},CustomModelData:400004,dnd:{id:\"petrified_wood\"}}"
                         },
                         {
                           "function": "minecraft:set_name",

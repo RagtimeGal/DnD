@@ -1,0 +1,29 @@
+{
+  "parent": "dnd:revival/fossil",
+  "display": {
+    "icon": {
+      "item": "minecraft:tropical_fish",
+      "nbt": "{CustomModelData:400002}"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.frozen_meat.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.frozen_meat.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ate_frozen_meat": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{dnd:{id:\"ancient_dna_source\",type:\"frozen_meat\"}}"
+        }
+      }
+    }
+  }
+}

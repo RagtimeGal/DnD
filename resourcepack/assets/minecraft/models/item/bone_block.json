@@ -1,0 +1,224 @@
+{
+  "parent": "block/bone_block",
+  "textures": {
+    "layer0": "block/bone_block"
+  },
+  "overrides": [
+    {
+        "predicate": {
+          "custom_model_data": 400000
+        },
+      "model": "dnd:entity/fossil/egg"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400001
+        },
+      "model": "dnd:entity/fossil/sauropod_femur"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400002
+        },
+      "model": "dnd:entity/fossil/dung"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400007
+        },
+      "model": "dnd:entity/fossil/imprint"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400008
+        },
+      "model": "dnd:entity/fossil/saurischian_pelvis"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400009
+        },
+      "model": "dnd:entity/fossil/ornithischian_pelvis"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400010
+        },
+      "model": "dnd:entity/fossil/acrocanthosaurus_skull"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400011
+        },
+      "model": "dnd:entity/fossil/acrocanthosaurus_stiff"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400012
+        },
+      "model": "dnd:entity/fossil/acrocanthosaurus_posed"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400013
+        },
+      "model": "dnd:entity/fossil/ankylosaurus_skull"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400014
+        },
+      "model": "dnd:entity/fossil/ankylosaurus_stiff"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400015
+        },
+      "model": "dnd:entity/fossil/ankylosaurus_posed"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400016
+        },
+      "model": "dnd:entity/fossil/compsognathus_skull"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400017
+        },
+      "model": "dnd:entity/fossil/compsognathus_stiff"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400018
+        },
+      "model": "dnd:entity/fossil/compsognathus_posed"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400019
+        },
+      "model": "dnd:entity/fossil/concavenator_skull"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400020
+        },
+      "model": "dnd:entity/fossil/concavenator_stiff"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400021
+        },
+      "model": "dnd:entity/fossil/concavenator_posed"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400022
+        },
+      "model": "dnd:entity/fossil/corythosaurus_skull"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400023
+        },
+      "model": "dnd:entity/fossil/corythosaurus_stiff"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400024
+        },
+      "model": "dnd:entity/fossil/corythosaurus_posed"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400025
+        },
+      "model": "dnd:entity/fossil/gallimimus_skull"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400026
+        },
+      "model": "dnd:entity/fossil/gallimimus_stiff"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400027
+        },
+      "model": "dnd:entity/fossil/gallimimus_posed"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400028
+        },
+      "model": "dnd:entity/fossil/pachycephalosaurus_skull"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400029
+        },
+      "model": "dnd:entity/fossil/pachycephalosaurus_stiff"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400030
+        },
+      "model": "dnd:entity/fossil/pachycephalosaurus_posed"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400031
+        },
+      "model": "dnd:entity/fossil/tyrannosaurus_skull"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400032
+        },
+      "model": "dnd:entity/fossil/tyrannosaurus_stiff"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400033
+        },
+      "model": "dnd:entity/fossil/tyrannosaurus_posed"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400034
+        },
+      "model": "dnd:entity/fossil/dodo_skull"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400035
+        },
+      "model": "dnd:entity/fossil/dodo_stiff"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400036
+        },
+      "model": "dnd:entity/fossil/dodo_posed"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400037
+        },
+      "model": "dnd:entity/fossil/gigantopithecus_skull"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400038
+        },
+      "model": "dnd:entity/fossil/gigantopithecus_stiff"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400039
+        },
+      "model": "dnd:entity/fossil/gigantopithecus_posed"
+    }
+  ]
+}

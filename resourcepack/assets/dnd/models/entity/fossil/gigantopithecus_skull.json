@@ -1,0 +1,72 @@
+{
+	"texture_size": [256, 256],
+	"textures": {
+		"0": "dnd:entity/fossil/gigantopithecus"
+	},
+	"elements": [
+		{
+			"from": [3.75, 0, 4.52778],
+			"to": [12.25, 8, 12.02778],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 26.75, 11.52778]},
+			"faces": {
+				"north": {"uv": [3.8125, 4.375, 4.875, 5.375], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [2.875, 4.375, 3.8125, 5.375], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [5.8125, 4.375, 6.875, 5.375], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [4.875, 4.375, 5.8125, 5.375], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [4.875, 4.375, 3.8125, 3.4375], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [5.9375, 3.4375, 4.875, 4.375], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [6.25, 0, 3.02778],
+			"to": [9.75, 3, 4.52778],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 26.75, 11.52778]},
+			"faces": {
+				"north": {"uv": [2.3125, 3.625, 2.75, 4], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [2.125, 3.625, 2.3125, 4], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [2.9375, 3.625, 3.375, 4], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [2.75, 3.625, 2.9375, 4], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [2.75, 3.625, 2.3125, 3.4375], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [3.1875, 3.4375, 2.75, 3.625], "texture": "#0", "tintindex": 0}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [-180, 0, -180],
+			"translation": [0, -1.55, -9],
+			"scale": [2, 2, 2]
+		},
+		"head": {
+			"translation": [0, -18.5, 0],
+			"scale": [3.3, 3.3, 3.3]
+		}
+	},
+	"groups": [
+		{
+			"name": "Entire",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [
+				{
+					"name": "Head",
+					"origin": [0, 9, 0],
+					"color": 0,
+					"children": [0, 1]
+				},
+				{
+					"name": "Body",
+					"origin": [0, 9, 0],
+					"color": 0,
+					"children": []
+				},
+				{
+					"name": "Limbs",
+					"origin": [0, 9, 0],
+					"color": 0,
+					"children": []
+				}
+			]
+		}
+	]
+}

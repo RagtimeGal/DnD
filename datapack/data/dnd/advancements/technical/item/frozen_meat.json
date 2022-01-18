@@ -4,7 +4,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{dnd:{id:\"frozen_meat\"}}"
+          "nbt": "{dnd:{id:\"ancient_dna_source\",type:\"frozen_meat\"}}"
         }
       }
     }

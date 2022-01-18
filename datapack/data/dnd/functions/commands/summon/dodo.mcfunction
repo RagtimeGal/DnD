@@ -1,9 +1,9 @@
 ####################
-# Summons a Gallimimus
+# Summons a Dodo
 ####################
 
 # Spawns Loot
-loot spawn ~ ~ ~ loot dnd:items/dodo_fossil
+loot spawn ~ ~ ~ loot dnd:items/frozen_dodo_meat
 # Copies loot to storage
 data modify storage dnd:storage root.temp.genome set from entity @e[type=item,limit=1,sort=nearest] Item.tag.dnd.genome
 # Kills Item
