@@ -1,3 +1,7 @@
+<a href="https://www.smithed.dev"/>
+  <img src="https://www.smithed.dev/files/badge.png" height="28px"/>
+</a>
+
 # What is Dinos & Dodos?
 
 Dinos & Dodos is a minecraft datapack that adds prehistoric flora and fauna to your game which can be brought back through the use of genetic engineering.
