@@ -7,7 +7,7 @@
           "source_entity": {
             "equipment": {
               "mainhand": {
-                "item": "minecraft:carrot_on_a_stick",
+                "items": ["minecraft:carrot_on_a_stick"],
                 "nbt": "{dnd:{id:\"embryo_needle\",genome:{identifier:\"amphibian\"}}}"
               }
             }
@@ -25,7 +25,7 @@
           "source_entity": {
             "equipment": {
               "mainhand": {
-                "item": "minecraft:carrot_on_a_stick",
+                "items": ["minecraft:carrot_on_a_stick"],
                 "nbt": "{dnd:{id:\"embryo_needle\",genome:{identifier:\"bird\"}}}"
               }
             }
@@ -43,7 +43,7 @@
           "source_entity": {
             "equipment": {
               "mainhand": {
-                "item": "minecraft:carrot_on_a_stick",
+                "items": ["minecraft:carrot_on_a_stick"],
                 "nbt": "{dnd:{id:\"embryo_needle\",genome:{identifier:\"cetacea\"}}}"
               }
             }
@@ -61,7 +61,7 @@
           "source_entity": {
             "equipment": {
               "mainhand": {
-                "item": "minecraft:carrot_on_a_stick",
+                "items": ["minecraft:carrot_on_a_stick"],
                 "nbt": "{dnd:{id:\"embryo_needle\",genome:{identifier:\"fish\"}}}"
               }
             }
@@ -79,7 +79,7 @@
           "source_entity": {
             "equipment": {
               "mainhand": {
-                "item": "minecraft:carrot_on_a_stick",
+                "items": ["minecraft:carrot_on_a_stick"],
                 "nbt": "{dnd:{id:\"embryo_needle\",genome:{identifier:\"insect\"}}}"
               }
             }
@@ -97,7 +97,7 @@
           "source_entity": {
             "equipment": {
               "mainhand": {
-                "item": "minecraft:carrot_on_a_stick",
+                "items": ["minecraft:carrot_on_a_stick"],
                 "nbt": "{dnd:{id:\"embryo_needle\",genome:{identifier:\"mammal\"}}}"
               }
             }
@@ -115,7 +115,7 @@
           "source_entity": {
             "equipment": {
               "mainhand": {
-                "item": "minecraft:carrot_on_a_stick",
+                "items": ["minecraft:carrot_on_a_stick"],
                 "nbt": "{dnd:{id:\"embryo_needle\",genome:{identifier:\"mollusk\"}}}"
               }
             }
@@ -133,7 +133,7 @@
           "source_entity": {
             "equipment": {
               "mainhand": {
-                "item": "minecraft:carrot_on_a_stick",
+                "items": ["minecraft:carrot_on_a_stick"],
                 "nbt": "{dnd:{id:\"embryo_needle\",genome:{identifier:\"mystery\"}}}"
               }
             }
@@ -151,7 +151,7 @@
           "source_entity": {
             "equipment": {
               "mainhand": {
-                "item": "minecraft:carrot_on_a_stick",
+                "items": ["minecraft:carrot_on_a_stick"],
                 "nbt": "{dnd:{id:\"embryo_needle\",genome:{identifier:\"primate\"}}}"
               }
             }
@@ -169,7 +169,7 @@
           "source_entity": {
             "equipment": {
               "mainhand": {
-                "item": "minecraft:carrot_on_a_stick",
+                "items": ["minecraft:carrot_on_a_stick"],
                 "nbt": "{dnd:{id:\"embryo_needle\",genome:{identifier:\"reptile\"}}}"
               }
             }

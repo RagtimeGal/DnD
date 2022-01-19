@@ -5,6 +5,7 @@
 ## Store entity info to storage
 data remove storage dnd:storage root.temp.item
 data modify storage dnd:storage root.temp.item.tag.dnd.id set value "bucket"
+data modify storage dnd:storage root.temp.item.tag.dnd.genome.is_bucket set value 1b
 data modify storage dnd:storage root.temp.item.tag.CustomModelData set from entity @s ArmorItems[3].tag.dnd.genome.custom_entity_data.bucket_data.CustomModelData
 data modify storage dnd:storage root.temp.item.tag.display.Name set from entity @s ArmorItems[3].tag.dnd.genome.custom_entity_data.bucket_data.name
 data modify storage dnd:storage root.temp.item.tag.dnd.genome.id set from entity @s ArmorItems[3].tag.dnd.genome.id

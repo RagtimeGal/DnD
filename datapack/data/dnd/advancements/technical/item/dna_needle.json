@@ -7,7 +7,7 @@
           "source_entity": {
             "equipment": {
               "mainhand": {
-                "item": "minecraft:carrot_on_a_stick",
+                "items": ["minecraft:carrot_on_a_stick"],
                 "nbt": "{dnd:{id:\"dna_needle\"}}"
               }
             }

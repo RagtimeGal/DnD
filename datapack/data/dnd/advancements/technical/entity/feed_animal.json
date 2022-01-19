@@ -5,7 +5,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "item": "minecraft:bamboo"
+          "items": ["minecraft:bamboo"]
         },
         "entity": {
           "nbt": "{Tags:[\"dnd.gigantopithecus\"]}"

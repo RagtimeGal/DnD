@@ -5,7 +5,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "item": "minecraft:bucket"
+          "items": ["minecraft:bucket"]
         },
         "entity": {
           "nbt": "{Tags:[\"dnd.bucketable\"]}"

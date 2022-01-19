@@ -11,3 +11,5 @@ tag @s add dnd.tick
 tag @s add dnd.second_clock
 tag @s add dnd.entity
 tag @s add dnd.trader_entity
+
+data modify entity @s ArmorItems[3].tag.dnd.genome.custom_entity_data.baby_feed_item set from entity @s ArmorItems[3].tag.dnd.genome.custom_entity_data.porkchop_feed_item
