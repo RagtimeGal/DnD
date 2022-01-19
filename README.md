@@ -1,5 +1,5 @@
 <a href="https://www.smithed.dev"/>
-  <img src="https://www.smithed.dev/files/badge.png" height="28px"/>
+  <img src="https://www.smithed.dev/files/badge.png" style="height:28px;"/>
 </a>
 
 # What is Dinos & Dodos?
