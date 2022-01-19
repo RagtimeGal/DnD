@@ -17,11 +17,11 @@ tp @e[tag=dnd.entity] ~ ~-666 ~
 tp @e[tag=dnd.modified] ~ ~-666 ~
 
 ## Team
-team remove global.antivil
+team remove smithed.prevent_aggression
 
 ## Uninstall Message
 tellraw @a [{"translate":"pack.dnd.uninstall","color":"red"}]
 
 ## Disable Datapack
-datapack disable "file/DnDv1.2.0Datapack.zip"
-datapack disable "file/DNDv1.2.0Datapack"
+datapack disable "file/DnDv1.2.1Datapack.zip"
+datapack disable "file/DNDv1.2.1Datapack"

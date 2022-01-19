@@ -26,7 +26,10 @@
                   "translate": "item.durability",
                   "color": "gray",
                   "italic": false,
-                  "with": [384, 384]
+                  "with": [
+                    384,
+                    384
+                  ]
                 },
                 {
                   "translate": "pack.dnd",

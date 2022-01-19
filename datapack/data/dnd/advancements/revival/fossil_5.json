@@ -23,7 +23,8 @@
         "items": [
           {
             "items": [
-              "minecraft:bone"
+              "minecraft:bone",
+              "minecraft:tropical_fish"
             ],
             "nbt": "{dnd:{id:\"ancient_dna_source\",accuracy:5}}"
           }

@@ -4,6 +4,21 @@
       "rolls": 1,
       "entries": [
         {
+          "type": "minecraft:item",
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnd:{id:\"paleontology_item\",type:\"fossil\"}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
           "type": "minecraft:alternatives",
           "children": [
             {

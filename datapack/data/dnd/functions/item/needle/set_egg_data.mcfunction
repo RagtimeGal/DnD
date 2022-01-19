@@ -146,7 +146,6 @@ execute if entity @s[type=trader_llama] run data modify storage dnd:storage root
 # Dolphin
 execute if entity @s[type=dolphin] run data modify storage dnd:storage root.temp.item.tag.dnd.genome set value {id:"minecraft:dolphin",egg_data:{type:"embryo_needle",name:'{"italic":false,"color":"white","translate":"item.dnd.dolphin_embryo"}'}}
 
-
 ## Item
 # Turtle
 execute if entity @s[type=turtle] run data modify storage dnd:storage root.temp.item.tag.dnd.genome set value {id:"minecraft:turtle",egg_data:{type:"item",id:"minecraft:turtle_egg"}}

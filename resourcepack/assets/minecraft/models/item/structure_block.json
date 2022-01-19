@@ -39,12 +39,6 @@
         "custom_model_data": 400005
       },
       "model": "dnd:item/apex_tooth"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 400009
-      },
-      "model": "dnd:item/amber_gemstone"
     }
   ]
 }

@@ -1,10 +1,8 @@
 ####################
-# Copies over the custom entity data from storage
+# AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 ####################
 
 effect give @s minecraft:invisibility 1000000 0 true
-# Copy genome
-data modify entity @s ArmorItems[3].tag.dnd.genome set from storage dnd:storage root.temp.genome
 # Set Age
 data modify entity @s ArmorItems[3].tag.dnd.age set value -12000
 # Add tags

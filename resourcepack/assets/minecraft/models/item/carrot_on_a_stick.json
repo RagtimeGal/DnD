@@ -60,15 +60,33 @@
 		},
 		{
 			"predicate": {
-				"custom_model_data": 400009
-			},
-			"model": "dnd:item/amber_staff"
-		},
-		{
-			"predicate": {
 				"custom_model_data": 400010
 			},
 			"model": "dnd:item/fossil_stand"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400011
+			},
+			"model": "dnd:item/waxed_brush"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400012
+			},
+			"model": "dnd:item/waxed_exposed_brush"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400013
+			},
+			"model": "dnd:item/waxed_weathered_brush"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400014
+			},
+			"model": "dnd:item/waxed_oxidized_brush"
 		},
     {
 			"predicate": {

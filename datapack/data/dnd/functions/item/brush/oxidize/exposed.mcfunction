@@ -2,10 +2,14 @@
 # Increases the oxidization
 ####################
 
-# Chance Break
-execute if predicate dnd:chance/one_fourth run function dnd:item/brush/oxidize/break/brush
-
-# Expose
+## Oxidize by a level
+# Set level to 1
 data modify storage dnd:storage root.temp.item.tag.dnd.level set value 1
+data modify storage dnd:storage root.temp.item.tag.dnd.uses set value 0
+# Replace CMD
 data modify storage dnd:storage root.temp.item.tag.CustomModelData set value 400005
-execute if data storage dnd:storage root.temp.item.tag.display{Name:'{"italic":false,"translate":"item.dnd.brush"}'} run data modify storage dnd:storage root.temp.item.tag.display.Name set value '{"italic":false,"translate":"item.dnd.exposed_brush"}'
+# Replace item name
+data modify storage dnd:storage root.temp.item.tag.display.Name set value '{"italic":false,"translate":"item.dnd.exposed_brush"}'
+
+## Set Data back to item
+item modify entity @s weapon.mainhand dnd:copy_nbt

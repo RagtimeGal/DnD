@@ -1,32 +1,46 @@
 {
-  "pools": [{
-    "rolls": 1,
-    "entries": [{
-      "type": "minecraft:item",
-      "weight": 1,
-      "functions": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-          "function": "minecraft:set_nbt",
-          "tag": "{CustomModelData:400004,HideFlags:68,Unbreakable:1b,RepairCost:100,dnd:{id:\"brush\",level:0,uses:0,waxed:0b}}"
-        },
-        {
-          "function": "minecraft:set_name",
-          "name": {
-            "translate": "item.dnd.brush",
-            "italic": false
-          }
-        },
-        {
-          "function": "minecraft:set_lore",
-          "lore": [
-                  {
-            "translate": "pack.dnd",
-            "color": "#FFAA00",
-            "italic": true
-          }]
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400004,HideFlags:68,Unbreakable:1b,RepairCost:100,dnd:{id:\"brush\",durability:[1024,1024],uses:0,level:0,waxed:0b}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.brush",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "item.durability",
+                  "color": "gray",
+                  "italic": false,
+                  "with": [
+                    1024,
+                    1024
+                  ]
+                },
+                {
+                  "translate": "pack.dnd",
+                  "color": "#FFAA00",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:carrot_on_a_stick"
         }
-      ],
-      "name": "minecraft:carrot_on_a_stick"
-    }]
-  }]
+      ]
+    }
+  ]
 }

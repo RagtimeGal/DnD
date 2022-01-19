@@ -4,6 +4,21 @@
       "rolls": 1,
       "entries": [
         {
+          "type": "minecraft:item",
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnd:{id:\"paleontology_item\",type:\"pristine\"}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
           "type": "loot_table",
           "name": "dnd:items/frozen_dodo_meat"
         },

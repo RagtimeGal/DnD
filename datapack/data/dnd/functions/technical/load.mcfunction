@@ -9,20 +9,22 @@ scoreboard objectives add dnd.timer dummy
 scoreboard objectives add dnd.carrot_on_a_stick minecraft.used:carrot_on_a_stick
 scoreboard objectives add dnd.mine_sand minecraft.mined:minecraft.sand
 scoreboard objectives add dnd.mine_red_sand minecraft.mined:minecraft.red_sand
+scoreboard objectives add dnd.mine_packed_ice minecraft.mined:minecraft.packed_ice
+scoreboard objectives add dnd.mine_blue_ice minecraft.mined:minecraft.blue_ice
 scoreboard objectives add dnd.fossil_preservation dummy
 scoreboard objectives add dnd.current_xp xp
 scoreboard objectives add dnd.old_xp dummy
 
 ## Antivillager
-team add global.antivil
+team add smithed.prevent_aggression
 
 ## Schedule
 schedule function dnd:technical/ten_second_clock/main 10s replace
 schedule function dnd:technical/second_clock/main 1s replace
 
 ## Set Config
-scoreboard players set version dnd.config 111
-execute unless score version dnd.config matches 111 run function dnd:technical/update
+scoreboard players set version dnd.config 120
+execute unless score version dnd.config matches 120 run function dnd:technical/update
 
 ## Send Chat Messages
 execute if score IsInstalled dnd.config matches 1 if score doReloadMessage dnd.config matches 1 run function dnd:technical/reload_message
