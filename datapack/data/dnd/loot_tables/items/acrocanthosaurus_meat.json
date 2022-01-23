@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400000,dnd:{id:\"ancient_meat\",mob:\"acrocanthosaurus\"}}"
+              "tag": "{CustomModelData:400000,dnd:{id:\"ancient_meat\",mob:\"acrocanthosaurus\"},tcc:{gobblerift_meat:1b}}"
             },
             {
               "function": "minecraft:set_name",

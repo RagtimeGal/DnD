@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{id:\"amber\"}}"
+              "tag": "{CustomModelData:400001,dnd:{id:\"amber\"},tcc:{jewelry_table_data:\"mineral\"}}"
             },
             {
               "function": "minecraft:set_name",
@@ -19,15 +19,17 @@
                 "translate": "item.dnd.amber",
                 "italic": false,
                 "color": "white"
-                      }
+              }
             },
             {
               "function": "minecraft:set_lore",
-              "lore": [{
-                "translate": "pack.dnd",
-                "color": "#FFAA00",
-                "italic": true
-                      }]
+              "lore": [
+                {
+                  "translate": "pack.dnd",
+                  "color": "#FFAA00",
+                  "italic": true
+                }
+              ]
             }
           ]
         }

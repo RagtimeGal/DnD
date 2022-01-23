@@ -188,8 +188,6 @@ execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:bubble_coral_fan"}] run
 execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:fire_coral_fan"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"block.minecraft.fire_coral"}]}'],genome:{id:"minecraft:fire_coral",identifier:"coral",egg_data:{type:"item",id:"minecraft:fire_coral"}}}
 ## horn_coral_fan
 execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:horn_coral_fan"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"block.minecraft.horn_coral"}]}'],genome:{id:"minecraft:horn_coral",identifier:"coral",egg_data:{type:"item",id:"minecraft:horn_coral"}}}
-## apple
-execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:apple"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"lore.dnd.structure.oak_tree"}]}'],genome:{id:"minecraft:oak_sapling",identifier:"plant",egg_data:{type:"item",id:"minecraft:oak_sapling"}}}
 ## melon_slice
 execute if data block ~ ~ ~ Items[{Slot:3b,id:"minecraft:melon_slice"}] run data modify storage dnd:storage root.temp.item_to_dna_data set value {lore:['{"translate":"lore.dnd.structure","color":"gray","italic":false,"with":[{"translate":"block.minecraft.melon"}]}'],genome:{id:"minecraft:melon_seeds",identifier:"plant",egg_data:{type:"item",id:"minecraft:melon_seeds"}}}
 ## carrot

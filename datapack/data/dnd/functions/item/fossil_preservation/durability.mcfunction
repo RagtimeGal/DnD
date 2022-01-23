@@ -4,6 +4,8 @@
 
 # Subtract
 function dnd:item/durability/damage_generic_amount/mainhand_1
+execute if entity @s[nbt={Inventory:[{Slot:-106b,tag:{tcc:{ring:{gemstone:"dnd:amber"}}}}]}] run function tcc:item/durability/damage_generic_amount/offhand_1
+
 # If Brush
 execute if entity @s[predicate=dnd:entity/holding/brush] run function dnd:item/brush/damage
 # Find entity

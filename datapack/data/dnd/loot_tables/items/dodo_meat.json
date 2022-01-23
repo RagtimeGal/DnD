@@ -11,12 +11,12 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400000,dnd:{id:\"ancient_meat\",mob:\"ankylosaurus\"},tcc:{gobblerift_meat:1b}}"
+              "tag": "{CustomModelData:400000,dnd:{id:\"ancient_meat\",mob:\"dodo\"},tcc:{gobblerift_meat:1b}}"
             },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "item.dnd.raw_ankylosaurus_meat",
+                "translate": "item.dnd.raw_dodo_meat",
                 "color": "white",
                 "italic": false
                       }

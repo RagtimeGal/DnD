@@ -1,16 +1,19 @@
 ############################################################
-# Description: Adds a gemstone to a ring
-# Creator: CreeperMagnet_
+# Adds a gemstone to a ring
 ############################################################
 
-execute if data storage tcc:storage root.temp.gemstone{quality:"cut"} if data storage tcc:storage root.temp.default_name run data modify storage tcc:storage root.temp.item.tag.display.Name set value '{"translate":"item.dnd.amber_ring","italic":false}'
-execute if data storage tcc:storage root.temp.gemstone{quality:"pristine"} if data storage tcc:storage root.temp.default_name run data modify storage tcc:storage root.temp.item.tag.display.Name set value '{"translate":"item.dnd.amber_ring.pristine","italic":false,"color":"yellow"}'
+data modify storage tcc:storage root.temp.item.tag.tcc.ring.gemstone set value "dnd:amber"
 
 data modify storage tcc:storage root.temp.item.tag.display.Lore[-1] set value '{"translate":"pack.collaboration","italic":true,"color":"white","with":[{"translate":"pack.tcc","color":"#008725","italic":true},{"translate":"pack.dnd","color":"#FFAA00","italic":true}]}'
 data modify storage tcc:storage root.temp.item.tag.display.Lore append value '""'
 data modify storage tcc:storage root.temp.item.tag.display.Lore append value '{"italic":false,"color":"gray","translate":"item.modifiers.offhand"}'
-execute if data storage tcc:storage root.temp.gemstone{quality:"cut"} run data modify storage tcc:storage root.temp.item.tag.display.Lore append value '{"italic":false,"color":"blue","translate":"attribute.modifier.plus.0","with":["1",{"translate":"attribute.name.dnd.fossil_preservation"}]}'
-execute if data storage tcc:storage root.temp.gemstone{quality:"pristine"} run data modify storage tcc:storage root.temp.item.tag.display.Lore append value '{"italic":false,"color":"blue","translate":"attribute.modifier.plus.0","with":["2",{"translate":"attribute.name.dnd.fossil_preservation"}]}'
+execute unless data storage tcc:storage root.temp.item.tag.tcc.ring{metal:"minecraft:netherite"} run data modify storage tcc:storage root.temp.item.tag.display.Lore append value '{"italic":false,"color":"blue","translate":"attribute.modifier.plus.0","with":["1",{"translate":"attribute.name.dnd.fossil_preservation"}]}'
 
-data modify storage tcc:storage root.temp.item.tag.tcc.gemstone.lore_attribute set value 1
-scoreboard players set tcc.temp_1 tcc.dummy 408000
+# Netherite Option
+execute if data storage tcc:storage root.temp.item.tag.tcc.ring{metal:"minecraft:netherite"} run data modify storage tcc:storage root.temp.item.tag.AttributeModifiers set value [{Amount:0.1d,Slot:"offhand",AttributeName:"minecraft:generic.knockback_resistance",Operation:0,UUID:[I; -2, 0, 3, 3],Name:"generic.knockback_resistance"}]
+execute if data storage tcc:storage root.temp.item.tag.tcc.ring{metal:"minecraft:netherite"} run data modify storage tcc:storage root.temp.item.tag.HideFlags set value 6
+execute if data storage tcc:storage root.temp.item.tag.tcc.ring{metal:"minecraft:netherite"} run data modify storage tcc:storage root.temp.item.tag.display.Lore append value '{"italic":false,"color":"blue","translate":"attribute.modifier.plus.0","with":["2",{"translate":"attribute.name.dnd.fossil_preservation"}]}'
+execute if data storage tcc:storage root.temp.item.tag.tcc.ring{metal:"minecraft:netherite"} run data modify storage tcc:storage root.temp.item.tag.display.Lore append value '{"italic":false,"color":"blue","translate":"attribute.modifier.plus.0","with":["1",{"translate":"attribute.name.generic.knockback_resistance"}]}'
+
+# Custom model data value
+scoreboard players add @s tcc.dummy 409000

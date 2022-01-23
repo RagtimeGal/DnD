@@ -51,7 +51,7 @@
       "predicate": {
         "equipment": {
           "offhand": {
-            "nbt": "{tcc:{id:\"ring\",gemstone:{id:\"dnd:amber\"}}}"
+            "nbt": "{tcc:{id:\"ring\",ring:{gemstone:\"dnd:amber\"}}}"
           }
         }
       }
