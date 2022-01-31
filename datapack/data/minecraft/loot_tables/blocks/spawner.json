@@ -17,7 +17,7 @@
               "source": "block_entity",
               "ops": [
                 {
-                  "source": "SpawnData.ArmorItems[3].tag.dnd",
+                  "source": "SpawnData.entity.ArmorItems[3].tag.dnd",
                   "target": "dnd.spawner",
                   "op": "replace"
                 }

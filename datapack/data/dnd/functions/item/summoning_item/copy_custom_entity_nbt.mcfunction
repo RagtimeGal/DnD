@@ -5,6 +5,8 @@
 effect give @s minecraft:invisibility 1000000 0 true
 # Copy genome
 data modify entity @s ArmorItems[3].tag.dnd.genome set from storage dnd:storage root.temp.genome
+# Join Team
+team join smithed.prevent_aggression @s
 # Set Age
 data modify entity @s ArmorItems[3].tag.dnd.age set value -1200
 # Add tags

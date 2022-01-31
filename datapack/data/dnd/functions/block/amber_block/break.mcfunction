@@ -7,4 +7,4 @@ execute as @e[type=armor_stand,tag=dnd.spawner_drop,distance=...1,limit=1] run l
 ## Summon Entity
 execute at @s if predicate dnd:chance/eight_hundredths run function dnd:block/amber_block/spawn_entity
 ## Play Particles
-particle minecraft:item minecraft:furnace{CustomModelData:400009} ~ ~ ~ 0.2 0.2 0.2 0.05 20 normal @a
+particle minecraft:item minecraft:furnace{CustomModelData:400000} ~ ~ ~ 0.2 0.2 0.2 0.05 20 normal @a

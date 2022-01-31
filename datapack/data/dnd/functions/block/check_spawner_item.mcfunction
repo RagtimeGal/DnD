@@ -6,7 +6,6 @@
 summon armor_stand ~ ~ ~ {Tags:["dnd.entity","dnd.spawner_drop","smithed.entity"],Invisible:1b,Invulnerable:1b,Small:1b,Marker:1b,Silent:1b}
 execute unless data entity @s Item.tag.dnd.spawner.tool.id run data modify entity @s Item.tag.dnd.spawner.tool.id set value 'minecraft:netherite_pickaxe'
 data modify entity @e[type=armor_stand,tag=dnd.spawner_drop,distance=..0.1,limit=1] HandItems[0] set from entity @s Item.tag.dnd.spawner.tool
-
 ## What should drop?
 execute if entity @s[predicate=dnd:block/check_spawner_item/block/amber_block] run function dnd:block/amber_block/break
 execute if entity @s[predicate=dnd:block/check_spawner_item/block/amber_tiles] run function dnd:block/amber_tiles/break

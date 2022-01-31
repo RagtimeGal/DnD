@@ -23,8 +23,8 @@ schedule function dnd:technical/ten_second_clock/main 10s replace
 schedule function dnd:technical/second_clock/main 1s replace
 
 ## Set Config
-scoreboard players set version dnd.config 120
-execute unless score version dnd.config matches 120 run function dnd:technical/update
+execute unless score version dnd.config matches 123 run function dnd:technical/update
+scoreboard players set version dnd.config 123
 
 ## Send Chat Messages
 execute if score IsInstalled dnd.config matches 1 if score doReloadMessage dnd.config matches 1 run function dnd:technical/reload_message
