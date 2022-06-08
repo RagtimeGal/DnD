@@ -153,6 +153,11 @@ execute if entity @s[type=turtle] run data modify storage dnd:storage root.temp.
 execute if entity @s[type=ender_dragon] run data modify storage dnd:storage root.temp.item.tag.dnd.genome set value {id:"minecraft:ender_dragon",egg_data:{type:"item",id:"minecraft:dragon_egg"}}
 # Chicken
 execute if entity @s[type=chicken] run data modify storage dnd:storage root.temp.item.tag.dnd.genome set value {id:"minecraft:chicken",egg_data:{type:"item",id:"minecraft:egg"}}
+# Player
+execute if entity @s[type=player] run data modify storage dnd:storage root.temp.item.tag.dnd.genome set value {id:"minecraft:player",egg_data:{type:"item",id:"minecraft:player_head",tag:{}}}
+# Frog
+execute if entity @s[type=frog] run data modify storage dnd:storage root.temp.item.tag.dnd.genome set value {id:"minecraft:frog",egg_data:{type:"item",id:"minecraft:frogspawn"}}
+
 
 ## Custom Entity
 execute if entity @s[tag=dnd.trader_entity] if data entity @s ArmorItems[3].tag.dnd.genome run data modify storage dnd:storage root.temp.item.tag.dnd.genome set from entity @s ArmorItems[3].tag.dnd.genome

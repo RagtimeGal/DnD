@@ -58,6 +58,9 @@ data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.MainGe
 data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.HiddenGene set from entity @s HiddenGene
 # Goat
 data modify storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.IsScreamingGoat set from entity @s IsScreamingGoat
+# Player
+loot spawn ~ ~ ~ loot dnd:gameplay/player_head
+execute as @e[type=item,nbt={Item:{tag:{temp:1b}}}] run function dnd:item/needle/head_item
 
 data modify entity @s[tag=!dnd.trader_entity] CustomName set value ''
 data modify storage dnd:storage root.temp.VillagerData set from entity @s VillagerData
@@ -67,6 +70,7 @@ execute if entity @s[tag=dnd.modified] run data modify storage dnd:storage root.
 execute if entity @s[tag=dnd.modified] run item modify entity @p[advancements={dnd:technical/item/needle=true}] weapon.mainhand dnd:item/needle_modified
 data modify entity @s CustomName set from storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.CustomName
 data modify entity @s VillagerData set from storage dnd:storage root.temp.VillagerData
+
 
 # Scoreboard
 scoreboard players set temp_0 dnd.dummy 1

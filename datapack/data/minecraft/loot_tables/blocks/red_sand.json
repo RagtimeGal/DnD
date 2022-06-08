@@ -17,6 +17,15 @@
                   "nbt": "{dnd:{id:\"brush\"}}"
                 }
               }
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "feature": "dnd:formation"
+                }
+              }
             }
           ]
         }
@@ -39,6 +48,12 @@
               "predicate": {
                 "items": ["minecraft:carrot_on_a_stick"],
                 "nbt": "{dnd:{id:\"brush\"}}"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "feature": "dnd:formation"
               }
             }
           ]

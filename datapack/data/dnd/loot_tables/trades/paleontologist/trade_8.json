@@ -10,8 +10,8 @@
             {
               "function": "set_count",
               "count": {
-                "min": 5,
-                "max": 10
+                "min": 10,
+                "max": 15
               }
             }
           ]
@@ -23,7 +23,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "dnd:items/amber_block"
+          "name": "dnd:items/chicken_extract"
         }
       ]
     }

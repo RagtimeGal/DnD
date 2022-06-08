@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "minecraft:axolotl",
+    "minecraft:allay",
     "minecraft:bat",
     "minecraft:bee",
     "minecraft:blaze",
@@ -20,6 +21,7 @@
     "minecraft:endermite",
     "minecraft:evoker",
     "minecraft:fox",
+    "minecraft:frog",
     "minecraft:ghast",
     "minecraft:giant",
     "minecraft:glow_squid",
@@ -58,12 +60,14 @@
     "minecraft:squid",
     "minecraft:stray",
     "minecraft:strider",
+    "minecraft:tadpole",
     "minecraft:trader_llama",
     "minecraft:tropical_fish",
     "minecraft:turtle",
     "minecraft:vex",
     "minecraft:villager",
     "minecraft:vindicator",
+    "minecraft:warden",
     "minecraft:wandering_trader",
     "minecraft:witch",
     "minecraft:wither",
@@ -72,6 +76,7 @@
     "minecraft:zoglin",
     "minecraft:zombie",
     "minecraft:zombie_villager",
-    "minecraft:zombified_piglin"
+    "minecraft:zombified_piglin",
+    "minecraft:player"
   ]
 }

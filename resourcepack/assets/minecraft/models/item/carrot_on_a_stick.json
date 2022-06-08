@@ -60,6 +60,12 @@
 		},
 		{
 			"predicate": {
+				"custom_model_data": 400009
+			},
+			"model": "dnd:item/chicken_extract"
+		},
+		{
+			"predicate": {
 				"custom_model_data": 400010
 			},
 			"model": "dnd:item/fossil_stand"
@@ -231,6 +237,12 @@
 				"custom_model_data": 405008
 			},
 			"model": "dnd:item/pachycephalosaurus_egg"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 405009
+			},
+			"model": "dnd:item/triceratops_egg"
 		},
     {
 			"predicate": {

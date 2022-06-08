@@ -4,6 +4,6 @@
 
 ## Give player the bucket
 item modify entity @s weapon.mainhand dnd:reduce_count
-loot give @s loot dnd:gameplay/entity_bucket
+loot give @s loot dnd:gameplay/base_items/entity_bucket
 ## Add tag
 tag @s add dnd.tag

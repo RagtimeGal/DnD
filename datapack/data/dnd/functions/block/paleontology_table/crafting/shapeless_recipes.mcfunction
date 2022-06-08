@@ -8,13 +8,6 @@ data modify storage dnd:storage root.temp.shapeless_crafting_input set from stor
 data modify storage dnd:storage root.temp.shapeless_crafting_input append from storage dnd:storage root.temp.crafting_input.1[]
 data modify storage dnd:storage root.temp.shapeless_crafting_input append from storage dnd:storage root.temp.crafting_input.2[]
 
-# Petrified Log -> Petrified Planks
-execute store result score @s dnd.dummy if entity @s[scores={dnd.dummy=0}] if score count dnd.dummy matches 1 if data storage dnd:storage root.temp{shapeless_crafting_input:[{tag:{dnd:{id:"petrified_log"}}}]} run loot replace block ~ ~ ~ container.16 loot dnd:recipes/petrified_planks
-
-# Chiseled Petrified Log -> Petrified Planks
-execute store result score @s dnd.dummy if entity @s[scores={dnd.dummy=0}] if score count dnd.dummy matches 1 if data storage dnd:storage root.temp{shapeless_crafting_input:[{tag:{dnd:{id:"chiseled_petrified_log"}}}]} run loot replace block ~ ~ ~ container.16 loot dnd:recipes/petrified_planks
-
-
 # Brush -> Waxed Brush
 execute if entity @s[scores={dnd.dummy=0}] if score count dnd.dummy matches 2 if data storage dnd:storage root.temp{shapeless_crafting_input:[{tag:{dnd:{id:"brush",waxed:0b}}},{id:"minecraft:honeycomb"}]} run function dnd:block/paleontology_table/crafting/special_recipes/wax_brush
 # Waxed Brush -> Brush

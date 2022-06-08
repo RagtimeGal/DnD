@@ -9,6 +9,7 @@
     "minecraft:pillager",
     "minecraft:vindicator",
     "minecraft:witch",
-    "minecraft:illusioner"
+    "minecraft:illusioner",
+    "minecraft:player"
   ]
 }

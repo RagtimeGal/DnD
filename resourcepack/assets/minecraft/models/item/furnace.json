@@ -6,54 +6,6 @@
   "overrides": [
     {
         "predicate": {
-          "custom_model_data": 400000
-        },
-      "model": "dnd:block/amber_block"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400001
-        },
-      "model": "dnd:block/budding_amber"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400002
-        },
-      "model": "dnd:block/petrified_log/up_down"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400003
-        },
-      "model": "dnd:block/amber_tiles"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400004
-        },
-      "model": "dnd:block/petrified_wood/up_down"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400005
-        },
-      "model": "dnd:block/chiseled_petrified_log/up_down"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400006
-        },
-      "model": "dnd:block/chiseled_petrified_wood/up_down"
-    },
-    {
-        "predicate": {
-          "custom_model_data": 400007
-        },
-      "model": "dnd:block/polished_amber"
-    },
-    {
-        "predicate": {
           "custom_model_data": 401000
         },
       "model": "dnd:block/dinosaur_egg"
@@ -105,6 +57,12 @@
           "custom_model_data": 401008
         },
       "model": "dnd:block/pachycephalosaurus_egg"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 401009
+        },
+      "model": "dnd:block/triceratops_egg"
     }
   ]
 }

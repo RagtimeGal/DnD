@@ -2,8 +2,10 @@
 # Turn the baby into an adult
 ####################
 
-## Remove baby tag
+# Remove baby tag
 tag @s remove dnd.baby
+# Remove self from dnd.timer
+scoreboard players reset @s dnd.timer
 ## Drop Item
 # Acrocanthosaurus
 execute if entity @s[tag=dnd.acrocanthosaurus] run loot spawn ~ ~ ~ loot dnd:items/apex_tooth

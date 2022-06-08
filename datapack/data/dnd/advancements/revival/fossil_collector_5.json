@@ -108,6 +108,19 @@
         ]
       }
     },
+    "triceratops": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bone"
+            ],
+            "nbt": "{dnd:{id:\"ancient_dna_source\",accuracy:5,genome:{id:\"dnd:triceratops\"}}}"
+          }
+        ]
+      }
+    },
     "tyrannosaurus": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {

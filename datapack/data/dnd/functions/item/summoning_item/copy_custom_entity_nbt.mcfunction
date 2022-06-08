@@ -8,7 +8,7 @@ data modify entity @s ArmorItems[3].tag.dnd.genome set from storage dnd:storage 
 # Join Team
 team join smithed.prevent_aggression @s
 # Set Age
-data modify entity @s ArmorItems[3].tag.dnd.age set value -1200
+data modify entity @s ArmorItems[3].tag.dnd.age set value -2400
 # Add tags
 tag @s add dnd.baby
 tag @s add dnd.tick

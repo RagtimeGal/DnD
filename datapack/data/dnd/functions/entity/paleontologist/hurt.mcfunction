@@ -2,6 +2,6 @@
 # Creates hurt color
 ####################
 
-data modify entity @s ArmorItems[3].tag.CustomModelData set value 409002
-data modify entity @s HandItems[0].tag.CustomModelData set value 409003
+item replace entity @s weapon.mainhand with leather_horse_armor{CustomModelData:409003}
+item replace entity @s armor.head with leather_horse_armor{CustomModelData:409002}
 tag @s add dnd.hurt

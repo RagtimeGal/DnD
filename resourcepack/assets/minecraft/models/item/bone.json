@@ -81,6 +81,12 @@
 				"custom_model_data": 400107
 			},
 			"model": "dnd:item/pachycephalosaurus_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400108
+			},
+			"model": "dnd:item/triceratops_fossil"
 		}
 	]
 }

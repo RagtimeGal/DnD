@@ -270,6 +270,30 @@
     },
     {
         "predicate": {
+          "custom_model_data": 400045
+        },
+      "model": "dnd:entity/adult_triceratops_idle"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400046
+        },
+      "model": "dnd:entity/adult_triceratops_walking"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400047
+        },
+      "model": "dnd:entity/baby_triceratops_idle"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400048
+        },
+      "model": "dnd:entity/baby_triceratops_walking"
+    },
+    {
+        "predicate": {
           "custom_model_data": 409000
         },
       "model": "dnd:entity/paleontologist/head"

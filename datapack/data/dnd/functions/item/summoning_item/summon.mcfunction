@@ -40,6 +40,8 @@ execute if data storage dnd:storage root.temp.genome{id:"minecraft:endermite"} r
 execute if data storage dnd:storage root.temp.genome{id:"minecraft:evoker"} run summon evoker ~ ~0.01 ~ {Tags:["dnd.newly_spawned_clone"]}
 # fox
 execute if data storage dnd:storage root.temp.genome{id:"minecraft:fox"} run summon fox ~ ~0.01 ~ {Tags:["dnd.newly_spawned_clone"]}
+# frog
+execute if data storage dnd:storage root.temp.genome{id:"minecraft:frog"} run summon frog ~ ~0.01 ~ {Tags:["dnd.newly_spawned_clone"]}
 # ghast
 execute if data storage dnd:storage root.temp.genome{id:"minecraft:ghast"} run summon ghast ~ ~0.01 ~ {Tags:["dnd.newly_spawned_clone"]}
 # giant

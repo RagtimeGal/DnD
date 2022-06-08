@@ -20,5 +20,8 @@
     "tick": {
       "trigger": "minecraft:tick"
     }
+  },
+  "rewards": {
+    "function": "dnd:entity/player/join"
   }
 }

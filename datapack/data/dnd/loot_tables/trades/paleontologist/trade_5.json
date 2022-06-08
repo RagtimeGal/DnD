@@ -10,8 +10,8 @@
             {
               "function": "set_count",
               "count": {
-                "min": 10,
-                "max": 15
+                "min": 5,
+                "max": 10
               }
             }
           ]
@@ -23,7 +23,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "dnd:items/petrified_log"
+          "name": "dnd:items/amber"
         }
       ]
     }
