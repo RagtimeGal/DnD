@@ -23,19 +23,28 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "dnd:items/paleontologist_helmet"
+          "name": "dnd:items/paleontologist_helmet",
+          "weight": 1
         },
         {
           "type": "loot_table",
-          "name": "dnd:items/paleontologist_chestplate"
+          "name": "dnd:items/paleontologist_chestplate",
+          "weight": 1
         },
         {
           "type": "loot_table",
-          "name": "dnd:items/paleontologist_leggings"
+          "name": "dnd:items/paleontologist_leggings",
+          "weight": 1
         },
         {
           "type": "loot_table",
-          "name": "dnd:items/paleontologist_boots"
+          "name": "dnd:items/paleontologist_boots",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "dnd:items/formation_explorer_map",
+          "weight": 3
         }
       ]
     }

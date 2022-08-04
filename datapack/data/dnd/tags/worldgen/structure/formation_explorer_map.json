@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+      "dnd:arid_formation",
+      "dnd:frigid_formation",
+      "dnd:moist_formation"
+    ]
+  }

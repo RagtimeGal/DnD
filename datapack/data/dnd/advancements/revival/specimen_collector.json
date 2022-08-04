@@ -1,0 +1,164 @@
+{
+  "parent": "dnd:revival/fossil_collector",
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick",
+      "nbt": "{CustomModelData:400010}"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.specimen_collector.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.specimen_collector.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "acrocanthosaurus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "nbt": "{dnd:{id:\"fossil_specimen\",genome:{id:\"dnd:acrocanthosaurus\"}}}"
+          }
+        ]
+      }
+    },
+    "ankylosaurus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "nbt": "{dnd:{id:\"fossil_specimen\",genome:{id:\"dnd:ankylosaurus\"}}}"
+          }
+        ]
+      }
+    },
+    "compsognathus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "nbt": "{dnd:{id:\"fossil_specimen\",genome:{id:\"dnd:compsognathus\"}}}"
+          }
+        ]
+      }
+    },
+    "concavenator": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "nbt": "{dnd:{id:\"fossil_specimen\",genome:{id:\"dnd:concavenator\"}}}"
+          }
+        ]
+      }
+    },
+    "corythosaurus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "nbt": "{dnd:{id:\"fossil_specimen\",genome:{id:\"dnd:corythosaurus\"}}}"
+          }
+        ]
+      }
+    },
+    "gallimimus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "nbt": "{dnd:{id:\"fossil_specimen\",genome:{id:\"dnd:gallimimus\"}}}"
+          }
+        ]
+      }
+    },
+    "pachycephalosaurus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "nbt": "{dnd:{id:\"fossil_specimen\",genome:{id:\"dnd:pachycephalosaurus\"}}}"
+          }
+        ]
+      }
+    },
+    "triceratops": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "nbt": "{dnd:{id:\"fossil_specimen\",genome:{id:\"dnd:triceratops\"}}}"
+          }
+        ]
+      }
+    },
+    "tyrannosaurus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "nbt": "{dnd:{id:\"fossil_specimen\",genome:{id:\"dnd:tyrannosaurus\"}}}"
+          }
+        ]
+      }
+    },
+    "dodo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "nbt": "{dnd:{id:\"fossil_specimen\",genome:{id:\"dnd:dodo\"}}}"
+          }
+        ]
+      }
+    },
+    "gigantopithecus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "nbt": "{dnd:{id:\"fossil_specimen\",genome:{id:\"dnd:gigantopithecus\"}}}"
+          }
+        ]
+      }
+    }
+  }
+}

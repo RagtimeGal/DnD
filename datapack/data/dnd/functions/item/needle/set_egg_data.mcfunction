@@ -3,6 +3,8 @@
 ####################
 
 ## Egg Item
+# Allay
+execute if entity @s[type=allay] run data modify storage dnd:storage root.temp.item.tag.dnd.genome set value {id:"minecraft:allay",egg_data:{type:"egg_item",CustomModelData:400003,name:'{"italic":false,"color":"white","translate":"item.dnd.allay_vat"}'}}
 # Axolotl
 execute if entity @s[type=axolotl] run data modify storage dnd:storage root.temp.item.tag.dnd.genome set value {id:"minecraft:axolotl",egg_data:{type:"egg_item",CustomModelData:403001,name:'{"italic":false,"color":"white","translate":"item.dnd.axolotl_egg"}'}}
 # Parrot
@@ -69,6 +71,8 @@ execute if entity @s[type=slime] run data modify storage dnd:storage root.temp.i
 execute if entity @s[type=stray] run data modify storage dnd:storage root.temp.item.tag.dnd.genome set value {id:"minecraft:stray",egg_data:{type:"egg_item",CustomModelData:400003,name:'{"italic":false,"color":"white","translate":"item.dnd.stray_vat"}'}}
 # Vex
 execute if entity @s[type=vex] run data modify storage dnd:storage root.temp.item.tag.dnd.genome set value {id:"minecraft:vex",egg_data:{type:"egg_item",CustomModelData:400003,name:'{"italic":false,"color":"white","translate":"item.dnd.vex_vat"}'}}
+# Warden
+execute if entity @s[type=warden] run data modify storage dnd:storage root.temp.item.tag.dnd.genome set value {id:"minecraft:warden",egg_data:{type:"egg_item",CustomModelData:400003,name:'{"italic":false,"color":"white","translate":"item.dnd.warden_vat"}'}}
 # Wither
 execute if entity @s[type=wither] run data modify storage dnd:storage root.temp.item.tag.dnd.genome set value {id:"minecraft:wither",egg_data:{type:"egg_item",CustomModelData:400003,name:'{"italic":false,"color":"white","translate":"item.dnd.wither_vat"}'}}
 # Wither Skeleton
@@ -157,6 +161,8 @@ execute if entity @s[type=chicken] run data modify storage dnd:storage root.temp
 execute if entity @s[type=player] run data modify storage dnd:storage root.temp.item.tag.dnd.genome set value {id:"minecraft:player",egg_data:{type:"item",id:"minecraft:player_head",tag:{}}}
 # Frog
 execute if entity @s[type=frog] run data modify storage dnd:storage root.temp.item.tag.dnd.genome set value {id:"minecraft:frog",egg_data:{type:"item",id:"minecraft:frogspawn"}}
+# Frog
+execute if entity @s[type=tadpole] run data modify storage dnd:storage root.temp.item.tag.dnd.genome set value {id:"minecraft:frog",egg_data:{type:"item",id:"minecraft:frogspawn"}}
 
 
 ## Custom Entity

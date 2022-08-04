@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:bone"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:flint"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "dnd:items/amber"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "parent": "block/barrel",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 400000
+      },
+      "model": "dnd:block/paleontology_table"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400001
+      },
+      "model": "dnd:block/cultivator/north"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400002
+      },
+      "model": "dnd:block/cultivator/east"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400003
+      },
+      "model": "dnd:block/cultivator/south"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400004
+      },
+      "model": "dnd:block/cultivator/west"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400005
+      },
+      "model": "dnd:block/extractor/north"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400006
+      },
+      "model": "dnd:block/extractor/east"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400007
+      },
+      "model": "dnd:block/extractor/south"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400008
+      },
+      "model": "dnd:block/extractor/west"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400009
+      },
+      "model": "dnd:block/modifier/north"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400010
+      },
+      "model": "dnd:block/modifier/east"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400011
+      },
+      "model": "dnd:block/modifier/south"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400012
+      },
+      "model": "dnd:block/modifier/west"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400013
+      },
+      "model": "dnd:block/clay_fossil"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400014
+      },
+      "model": "dnd:block/clay_fossil_overlay"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400015
+      },
+      "model": "dnd:block/mud_fossil"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400016
+      },
+      "model": "dnd:block/mud_fossil_overlay"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400017
+      },
+      "model": "dnd:block/sandstone_fossil"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400018
+      },
+      "model": "dnd:block/sandstone_fossil_overlay"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400019
+      },
+      "model": "dnd:block/terracotta_fossil"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400020
+      },
+      "model": "dnd:block/terracotta_fossil_overlay"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "parent": "dnd:technical/root",
+  "criteria": {
+    "feed_baby": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"dnd.fossil_specimen\"]}"
+        },
+        "player": {
+          "flags": {
+            "is_sneaking": true
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dnd:item/fossil_specimen/interaction/raycast_start"
+  }
+}

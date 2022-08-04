@@ -1,5 +1,5 @@
 {
-  "parent": "dnd:revival/root",
+  "parent": "dnd:revival/fossil_formation",
   "display": {
     "icon": {
       "item": "minecraft:carrot_on_a_stick",
@@ -23,8 +23,7 @@
         "items": [
           {
             "items": [
-              "minecraft:bone",
-              "minecraft:tropical_fish"
+              "minecraft:structure_block"
             ],
             "nbt": "{dnd:{id:\"ancient_dna_source\"}}"
           }

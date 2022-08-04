@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:401000,dnd:{id:\"ancient_dna_source\",type:\"primary_fossil\",genome:{id:\"dnd:acrocanthosaurus\",identifier:\"bird\",unique_data:{Attributes:[{Base:0.51d,Name:\"minecraft:generic.movement_speed\"},{Base:70.0d,Name:\"minecraft:generic.max_health\"}],Health:70.0f,DeathLootTable:\"dnd:entity/acrocanthosaurus\",CustomName:'{\"translate\":\"entity.dnd.acrocanthosaurus\"}',Tags:[\"dnd.acrocanthosaurus\",\"dnd.dinosaur\",\"dnd.aggressive\"]},custom_entity_data:{baby_feed_item:{id:\"minecraft:beef\"},models:{adult:[400001,400002],baby:[400003,400004],fossil:[400000,400008,400010,400011,400012]}},egg_data:{type:\"egg_block\",hatch_cycle:\"night\",CustomModelData:405001,BlockCustomModelData:401001,name:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.acrocanthosaurus_egg\"}'},specimen_name:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.specimen.acrocanthosaurus\"}'}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.primary_fossil.acrocanthosaurus",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "lore.dnd.item.primary_fossil",
+                  "color": "gray",
+                  "italic": false
+                },
+                "",
+                {
+                  "translate": "pack.dnd",
+                  "color": "#FFAA00",
+                  "italic": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

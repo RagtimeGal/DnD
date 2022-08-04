@@ -23,7 +23,15 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "dnd:gameplay/fossils/fractured_fossil"
+          "name": "dnd:gameplay/fossils/blue_ice_primary_fossil"
+        },
+        {
+          "type": "loot_table",
+          "name": "dnd:gameplay/fossils/sandstone_primary_fossil"
+        },
+        {
+          "type": "loot_table",
+          "name": "dnd:gameplay/fossils/terracotta_primary_fossil"
         }
       ]
     }

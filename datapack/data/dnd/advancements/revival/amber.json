@@ -1,5 +1,5 @@
 {
-  "parent": "dnd:revival/root",
+  "parent": "dnd:revival/fossil_formation",
   "display": {
     "icon": {
       "item": "minecraft:structure_block",

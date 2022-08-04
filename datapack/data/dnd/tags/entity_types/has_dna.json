@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "minecraft:axolotl",
     "minecraft:allay",
+    "minecraft:axolotl",
     "minecraft:bat",
     "minecraft:bee",
     "minecraft:blaze",

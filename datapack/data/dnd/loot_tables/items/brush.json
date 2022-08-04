@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400004,HideFlags:68,Unbreakable:1b,RepairCost:100,dnd:{id:\"brush\",durability:[1024,1024],uses:0,level:0,waxed:0b}}"
+              "tag": "{CustomModelData:400004,HideFlags:68,Unbreakable:1b,RepairCost:100,dnd:{id:\"brush\",durability:[512,512]}}"
             },
             {
               "function": "minecraft:set_name",
@@ -26,8 +26,8 @@
                   "color": "gray",
                   "italic": false,
                   "with": [
-                    1024,
-                    1024
+                    512,
+                    512
                   ]
                 },
                 {

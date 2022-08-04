@@ -1,0 +1,15 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "dnd:block/sandstone_fossil_bottom",
+    "side": "dnd:block/sandstone_fossil",
+    "top": "minecraft:block/sandstone_top"
+  },
+  "display": {
+    "head": {
+      "rotation": [0, 0, 0],
+      "translation": [0, -43.23, 0],
+      "scale": [1.601, 1.601, 1.601]
+    }
+  }
+}

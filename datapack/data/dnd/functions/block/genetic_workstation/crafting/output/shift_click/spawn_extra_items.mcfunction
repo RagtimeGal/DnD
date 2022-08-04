@@ -1,7 +1,6 @@
-############################################################
-# Description: Spawns the extra items needed from creating an extra
-# Creator: CreeperMagnet_
-############################################################
+####################
+# Spawns the extra items needed from creating an extra
+####################
 
 summon item ~ ~ ~ {Tags:["dnd.extra_item"],Item:{id:"minecraft:stone",Count:1b}}
 data modify entity @e[tag=dnd.extra_item,type=item,limit=1,sort=nearest] Item set from storage dnd:storage root.temp.item

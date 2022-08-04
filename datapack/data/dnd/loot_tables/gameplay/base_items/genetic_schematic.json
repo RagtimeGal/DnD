@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:paper",
+          "name": "minecraft:structure_block",
           "functions": [
             {
               "function": "minecraft:set_lore",
@@ -30,7 +30,7 @@
                   "italic": false,
                   "with": [
                     {
-                      "nbt": "root.temp.ancient_dna_source_data.lore",
+                      "nbt": "root.temp.specimen_data.lore",
                       "storage": "dnd:storage",
                       "interpret": true
                     }
@@ -46,7 +46,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:400001,dnd:{id:\"genetic_schematic\"}}"
+              "tag": "{CustomModelData:400006,dnd:{id:\"genetic_schematic\"}}"
             },
             {
               "function": "minecraft:set_name",

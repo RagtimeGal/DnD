@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 48,
+          "name": "dnd:gameplay/paleontology/junk"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "name": "dnd:gameplay/paleontology/treasure"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 47,
+          "name": "dnd:gameplay/fossils/blue_ice_primary_fossil"
+        }
+      ]
+    }
+  ]
+}

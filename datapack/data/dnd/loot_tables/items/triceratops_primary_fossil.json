@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:401018,dnd:{id:\"ancient_dna_source\",type:\"primary_fossil\",genome:{id:\"dnd:triceratops\",identifier:\"bird\",unique_data:{Attributes:[{Base:0.48d,Name:\"minecraft:generic.movement_speed\"},{Base:60.0d,Name:\"minecraft:generic.max_health\"}],Health:60.0f,DeathLootTable:\"dnd:entity/triceratops\",CustomName:'{\"translate\":\"entity.dnd.triceratops\"}',Tags:[\"dnd.triceratops\",\"dnd.dinosaur\",\"dnd.neutral\",\"dnd.light_herd\"]},custom_entity_data:{baby_feed_item:{id:\"minecraft:fern\"},models:{adult:[400045,400046],baby:[400047,400048],fossil:[400001,400009,400040,400041,400042]}},egg_data:{type:\"egg_block\",hatch_cycle:\"day\",CustomModelData:405009,BlockCustomModelData:401009,name:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.triceratops_egg\"}'},specimen_name:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.specimen.triceratops\"}'}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.primary_fossil.triceratops",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "lore.dnd.item.primary_fossil",
+                  "color": "gray",
+                  "italic": false
+                },
+                "",
+                {
+                  "translate": "pack.dnd",
+                  "color": "#FFAA00",
+                  "italic": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

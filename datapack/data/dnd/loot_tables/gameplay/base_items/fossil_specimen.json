@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:carrot_on_a_stick",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400010,dnd:{id:\"fossil_specimen\"}}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "translate": "lore.dnd.structure",
+                  "color": "gray",
+                  "italic": false,
+                  "with": [
+                    {
+                      "nbt": "root.temp.crafting_input.1[{Slot:1b}].tag.dnd.genome.unique_data.CustomName",
+                      "storage": "dnd:storage",
+                      "interpret": true
+                    }
+                  ]
+                },
+                "",
+                {
+                  "translate": "pack.dnd",
+                  "color": "#FFAA00",
+                  "italic": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

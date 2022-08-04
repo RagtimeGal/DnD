@@ -6,10 +6,6 @@
         {
           "type": "loot_table",
           "name": "dnd:trades/paleontologist/trade_4/needle"
-        },
-        {
-          "type": "loot_table",
-          "name": "dnd:trades/paleontologist/trade_4/plant_fossil"
         }
       ]
     }

@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:401008,dnd:{id:\"ancient_dna_source\",type:\"primary_fossil\",genome:{id:\"dnd:corythosaurus\",identifier:\"bird\",unique_data:{Attributes:[{Base:0.48d,Name:\"minecraft:generic.movement_speed\"},{Base:60.0d,Name:\"minecraft:generic.max_health\"}],Health:60.0f,DeathLootTable:\"dnd:entity/corythosaurus\",CustomName:'{\"translate\":\"entity.dnd.corythosaurus\"}',Tags:[\"dnd.corythosaurus\",\"dnd.dinosaur\",\"dnd.neutral\",\"dnd.light_herd\"]},custom_entity_data:{baby_feed_item:{id:\"minecraft:fern\"},models:{adult:[400009,400010],baby:[400011,400012],fossil:[400001,400009,400022,400023,400024]}},egg_data:{type:\"egg_block\",hatch_cycle:\"day\",CustomModelData:405003,BlockCustomModelData:401003,name:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.corythosaurus_egg\"}'},specimen_name:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.specimen.corythosaurus\"}'}}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.primary_fossil.corythosaurus",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "lore.dnd.item.primary_fossil",
+                  "color": "gray",
+                  "italic": false
+                },
+                "",
+                {
+                  "translate": "pack.dnd",
+                  "color": "#FFAA00",
+                  "italic": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

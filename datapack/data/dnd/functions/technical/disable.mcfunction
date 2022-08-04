@@ -23,5 +23,5 @@ team remove smithed.prevent_aggression
 tellraw @a [{"translate":"pack.dnd.uninstall","color":"red"}]
 
 ## Disable Datapack
-datapack disable "file/DnDv1.3.0Datapack.zip"
-datapack disable "file/DNDv1.3.0Datapack"
+datapack disable "file/DnDv1.4.0Datapack.zip"
+datapack disable "file/DNDv1.4.0Datapack"

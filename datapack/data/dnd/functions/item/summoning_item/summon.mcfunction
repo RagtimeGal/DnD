@@ -4,6 +4,8 @@
 
 # Axolotl
 execute if data storage dnd:storage root.temp.genome{id:"minecraft:axolotl"} run summon axolotl ~ ~0.01 ~ {Tags:["dnd.newly_spawned_clone"]}
+# Allay
+execute if data storage dnd:storage root.temp.genome{id:"minecraft:allay"} run summon allay ~ ~0.01 ~ {Tags:["dnd.newly_spawned_clone"]}
 # bat
 execute if data storage dnd:storage root.temp.genome{id:"minecraft:bat"} run summon bat ~ ~0.01 ~ {Tags:["dnd.newly_spawned_clone"]}
 # bee
@@ -116,6 +118,8 @@ execute if data storage dnd:storage root.temp.genome{id:"minecraft:squid"} run s
 execute if data storage dnd:storage root.temp.genome{id:"minecraft:stray"} run summon stray ~ ~0.01 ~ {Tags:["dnd.newly_spawned_clone"]}
 # strider
 execute if data storage dnd:storage root.temp.genome{id:"minecraft:strider"} run summon strider ~ ~0.01 ~ {Tags:["dnd.newly_spawned_clone"]}
+# tadpole
+execute if data storage dnd:storage root.temp.genome{id:"minecraft:tadpole"} run summon tadpole ~ ~0.01 ~ {Tags:["dnd.newly_spawned_clone"]}
 # trader_llama
 execute if data storage dnd:storage root.temp.genome{id:"minecraft:trader_llama"} run summon trader_llama ~ ~0.01 ~ {Tags:["dnd.newly_spawned_clone"]}
 # tropical_fish
@@ -130,6 +134,8 @@ execute if data storage dnd:storage root.temp.genome{id:"minecraft:villager"} ru
 execute if data storage dnd:storage root.temp.genome{id:"minecraft:vindicator"} run summon vindicator ~ ~0.01 ~ {Tags:["dnd.newly_spawned_clone"]}
 # wandering_trader
 execute if data storage dnd:storage root.temp.genome{id:"minecraft:wandering_trader"} run summon wandering_trader ~ ~0.01 ~ {Tags:["dnd.newly_spawned_clone"]}
+# warden
+execute if data storage dnd:storage root.temp.genome{id:"minecraft:warden"} run summon warden ~ ~0.01 ~ {Tags:["dnd.newly_spawned_clone"],Brain:{memories:{"minecraft:dig_cooldown":{value:{},ttl:1200L}}}}
 # witch
 execute if data storage dnd:storage root.temp.genome{id:"minecraft:witch"} run summon witch ~ ~0.01 ~ {Tags:["dnd.newly_spawned_clone"]}
 # wither

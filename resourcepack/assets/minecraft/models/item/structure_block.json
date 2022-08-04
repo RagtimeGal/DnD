@@ -39,6 +39,144 @@
         "custom_model_data": 400005
       },
       "model": "dnd:item/apex_tooth"
-    }
+    },
+    {
+			"predicate": {
+				"custom_model_data": 400006
+			},
+			"model": "dnd:item/genetic_schematic"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 401000
+			},
+			"model": "dnd:item/acrocanthosaurus_primary_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 401001
+			},
+			"model": "dnd:item/acrocanthosaurus_secondary_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 401002
+			},
+			"model": "dnd:item/ankylosaurus_primary_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 401003
+			},
+			"model": "dnd:item/ankylosaurus_secondary_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 401004
+			},
+			"model": "dnd:item/compsognathus_primary_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 401005
+			},
+			"model": "dnd:item/compsognathus_secondary_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 401006
+			},
+			"model": "dnd:item/concavenator_primary_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 401007
+			},
+			"model": "dnd:item/concavenator_secondary_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 401008
+			},
+			"model": "dnd:item/corythosaurus_primary_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 401009
+			},
+			"model": "dnd:item/corythosaurus_secondary_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 401010
+			},
+			"model": "dnd:item/dodo_primary_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 401011
+			},
+			"model": "dnd:item/dodo_secondary_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 401012
+			},
+			"model": "dnd:item/gallimimus_primary_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 401013
+			},
+			"model": "dnd:item/gallimimus_secondary_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 401014
+			},
+			"model": "dnd:item/gigantopithecus_primary_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 401015
+			},
+			"model": "dnd:item/gigantopithecus_secondary_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 401016
+			},
+			"model": "dnd:item/pachycephalosaurus_primary_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 401017
+			},
+			"model": "dnd:item/pachycephalosaurus_secondary_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 401018
+			},
+			"model": "dnd:item/triceratops_primary_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 401019
+			},
+			"model": "dnd:item/triceratops_secondary_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 401020
+			},
+			"model": "dnd:item/tyrannosaurus_primary_fossil"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 401021
+			},
+			"model": "dnd:item/tyrannosaurus_secondary_fossil"
+		}
   ]
 }
