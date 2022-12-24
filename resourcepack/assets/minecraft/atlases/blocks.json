@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {
+      "type": "directory",
+      "source": "dnd_entity",
+      "prefix": "entity/"
+    },
+    {
+      "type": "directory",
+      "source": "dnd_gui",
+      "prefix": "gui/"
+    }
+  ]
+}
