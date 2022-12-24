@@ -3,7 +3,7 @@
 ####################
 
 ## Entity Functions
-execute as @e[type=#dnd:technical/tick] at @s run function dnd:entity/tick
+execute as @e[type=#dnd:technical/tick,tag=dnd.tick] at @s run function dnd:entity/tick
 
 ## Player Tick
 execute as @a at @s run function dnd:entity/player/tick/main

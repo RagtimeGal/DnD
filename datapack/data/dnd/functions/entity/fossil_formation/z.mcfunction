@@ -4,7 +4,7 @@
 
 loot spawn ~ ~ ~ loot dnd:gameplay/fossil_formation_rando_xz
 execute store result score @s dnd.dummy run data get entity @e[type=item,nbt={Item:{tag:{dnd:{temp:1}}}},limit=1,sort=nearest] Item.tag.dnd.number 1
-kill @e[type=item,nbt={Item:{tag:{dnd:{temp:1}}}},limit=1,sort=nearest]
+kill @e[type=item,nbt={Item:{tag:{dnd:{temp:1}}}}]
 
 execute if score @s dnd.dummy matches 1 positioned ~ ~ ~1 run function dnd:entity/fossil_formation/y
 execute if score @s dnd.dummy matches 2 positioned ~ ~ ~2 run function dnd:entity/fossil_formation/y
