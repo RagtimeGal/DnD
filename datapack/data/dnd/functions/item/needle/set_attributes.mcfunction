@@ -37,7 +37,7 @@ execute if score temp_1 dnd.dummy matches 1.. store result storage dnd:storage r
 execute store result score temp_1 dnd.dummy run attribute @s minecraft:generic.movement_speed get 1000
 execute if score temp_1 dnd.dummy matches 1.. store result storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.Attributes[{Name:"minecraft:generic.movement_speed"}].Base double 0.001 run scoreboard players get temp_1 dnd.dummy
 # Jump Strength
-execute store result score temp_1 dnd.dummy run attribute @s minecraft:horse.jump_stength get 1000
+execute store result score temp_1 dnd.dummy run attribute @s minecraft:horse.jump_strength get 1000
 execute if score temp_1 dnd.dummy matches 1.. store result storage dnd:storage root.temp.item.tag.dnd.genome.unique_data.Attributes[{Name:"minecraft:horse.jump_stength"}].Base double 0.001 run scoreboard players get temp_1 dnd.dummy
 # Spawn Reinforcements
 execute store result score temp_1 dnd.dummy run attribute @s minecraft:zombie.spawn_reinforcements get 1000
