@@ -1,9 +1,9 @@
 {
-  "parent": "dnd:revival/fossil_formation",
+  "parent": "dnd:revival/enter_formation",
   "display": {
     "icon": {
       "item": "minecraft:structure_block",
-      "nbt": "{CustomModelData:400001}"
+      "nbt": "{CustomModelData:400012}"
     },
     "title": {
       "translate": "advancements.dnd.revival.amber.title"
@@ -17,18 +17,31 @@
     "hidden": false
   },
   "criteria": {
-    "amber": {
+    "strange_amber": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:structure_block"
-            ],
-            "nbt": "{dnd:{id:\"amber\"}}"
+            "nbt": "{dnd:{id:\"dnd:strange_amber\"}}"
+          }
+        ]
+      }
+    },
+    "primary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:primary_fossil\",entity:\"dnd:endermite\"}}"
           }
         ]
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "strange_amber",
+      "primary"
+    ]
+  ]
 }

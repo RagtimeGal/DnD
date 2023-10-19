@@ -1,0 +1,43 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "dnd:item/dodo_secondary_fossil"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dnd:item/dwarf_elephant_secondary_fossil"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dnd:item/giant_swan_secondary_fossil"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dnd:item/gigantopithecus_secondary_fossil"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dnd:item/dodo_primary_fossil"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dnd:item/dwarf_elephant_primary_fossil"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dnd:item/giant_swan_primary_fossil"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dnd:item/gigantopithecus_primary_fossil"
+          }
+        ]
+      }
+    ]
+  }
+  

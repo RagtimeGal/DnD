@@ -1,0 +1,1 @@
+setblock ~ ~ ~ suspicious_sand{LootTable:"dnd:paleontology/sand/main"}

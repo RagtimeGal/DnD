@@ -1,0 +1,40 @@
+{
+	"credit": "https://ragnois.gay/",
+	"texture_size": [12, 6],
+	"textures": {
+		"0": "dnd:entity/fossil_display/compsognathus_fossil_0"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 6],
+			"to": [9, 2, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -7, 12]},
+			"faces": {
+				"north": {"uv": [16, 10.66667, 13.33333, 16], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [5.33333, 10.66667, 0, 16], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [8, 10.66667, 5.33333, 16], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [13.33333, 10.66667, 8, 16], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [8, 0, 5.33333, 10.66667], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [10.66667, 10.66667, 8, 0], "texture": "#0", "tintindex": 0}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [-180, 0, -180],
+			"translation": [0, -9.5, 0]
+		},
+		"head": {
+			"translation": [22.75, -26, -3.25],
+			"scale": [1.6, 1.6, 1.6]
+		}
+	},
+	"groups": [
+		{
+			"name": "Entire",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

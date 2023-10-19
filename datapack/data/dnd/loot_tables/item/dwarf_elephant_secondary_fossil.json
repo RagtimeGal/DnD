@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnd:{id:\"dnd:secondary_fossil\",entity:\"dnd:dwarf_elephant\",fossil_specimen_name:'{\"translate\":\"item.dnd.fossil_specimen\",\"italic\":false,\"with\":[{\"translate\":\"entity.dnd.dwarf_elephant\"}]}',fossil_specimens:3,specimen_cmd:[400031,400032,400033]},CustomModelData:400119}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.secondary_fossil.dwarf_elephant",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.dnd.tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "font": "dnd:tooltip",
+                  "with": [
+                    {
+                      "translate": "pack.dnd",
+                      "color": "#FFAA00",
+                      "italic": true,
+                      "font": "minecraft:default"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

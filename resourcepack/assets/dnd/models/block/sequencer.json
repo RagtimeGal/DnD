@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "dnd:block/sequencer_front",
+    "north": "dnd:block/sequencer_front",
+    "south": "dnd:block/sequencer_back",
+    "east": "dnd:block/sequencer_left",
+    "west": "dnd:block/sequencer_right",
+    "up": "dnd:block/sequencer_top",
+    "down": "dnd:block/sequencer_bottom"
+  },
+  "display": {
+    "head": {
+      "rotation": [0, 0, 0],
+      "translation": [0, -43.23, 0],
+      "scale": [1.601, 1.601, 1.601]
+    }
+  }
+}

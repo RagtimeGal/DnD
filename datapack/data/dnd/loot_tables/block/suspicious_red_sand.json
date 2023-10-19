@@ -1,0 +1,46 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:furnace",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:400001,dnd:{id:\"dnd:suspicious_red_sand\"},BlockEntityTag:{Items:[{id:\"minecraft:stone\",Count:1b,Slot:0b,tag:{smithed:{block:{id:\"dnd:suspicious_red_sand\"}}}}]}}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "block.dnd.suspicious_red_sand",
+                  "color": "white",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "translate": "pack.dnd.tooltip",
+                    "color": "white",
+                    "italic": false,
+                    "font": "dnd:tooltip",
+                    "with": [
+                      {
+                        "translate": "pack.dnd",
+                        "color": "#FFAA00",
+                        "italic": true,
+                        "font": "minecraft:default"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -1,3 +1,5 @@
 {
-		"values":["dnd:technical/tick","qcb:tick"]
-	}
+	"values": [
+		"dnd:technical/improper_version"
+	]
+}

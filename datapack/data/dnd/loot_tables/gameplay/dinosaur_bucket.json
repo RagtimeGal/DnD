@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnd:{id:\"dnd:custom_egg\",entity:\"minecraft:wandering_trader\",bucket:1b}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "pack.dnd",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.dnd.tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "font": "dnd:tooltip",
+                  "with": [
+                    {
+                      "translate": "pack.dnd",
+                      "color": "#FFAA00",
+                      "italic": true,
+                      "font": "minecraft:default"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "function": "minecraft:copy_nbt",
+              "source": {
+                "type": "minecraft:storage",
+                "source": "dnd:storage"
+              },
+              "ops": [
+                {
+                  "source": "root.temp.entity.ArmorItems[3].tag.dnd.bucket.Name",
+                  "target": "display.Name",
+                  "op": "replace"
+                },
+                {
+                  "source": "root.temp.entity.ArmorItems[3].tag.dnd.bucket.CustomModelData",
+                  "target": "CustomModelData",
+                  "op": "replace"
+                },
+                {
+                  "source": "root.temp.entity",
+                  "target": "dnd.EntityNBT",
+                  "op": "replace"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

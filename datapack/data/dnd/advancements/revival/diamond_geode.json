@@ -1,0 +1,36 @@
+{
+  "parent": "dnd:revival/obtain_geode",
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_block",
+      "nbt": "{CustomModelData:400009}"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.diamond_geode.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.diamond_geode.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "diamond_geode": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:diamond_geode\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "diamond_geode"
+    ]
+  ]
+}

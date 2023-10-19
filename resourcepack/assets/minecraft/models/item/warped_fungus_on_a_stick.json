@@ -1,0 +1,536 @@
+{
+	"parent": "item/handheld_rod",
+	"textures": {
+		"layer0": "item/warped_fungus_on_a_stick"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 400000
+			},
+			"model": "dnd:item/syringe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400001
+			},
+			"model": "dnd:item/fossil_specimen"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400002
+			},
+			"model": "dnd:item/music_disc_extinction"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400003
+			},
+			"model": "dnd:item/clockwork_gizmo_off"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400004
+			},
+			"model": "dnd:item/clockwork_gizmo_on"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400100
+			},
+			"model": "dnd:item/embryo_needle"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400101
+			},
+			"model": "dnd:item/axolotl_spawn"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400102
+			},
+			"model": "dnd:item/bee_larva"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400103
+			},
+			"model": "dnd:item/cave_spider_sac"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400104
+			},
+			"model": "dnd:item/cod_roe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400105
+			},
+			"model": "dnd:item/culture_vat"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400106
+			},
+			"model": "dnd:item/endermite_ootheca"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400107
+			},
+			"model": "dnd:item/glow_squid_roe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400108
+			},
+			"model": "dnd:item/pufferfish_roe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400109
+			},
+			"model": "dnd:item/salmon_roe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400110
+			},
+			"model": "dnd:item/shulker_spawn"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400111
+			},
+			"model": "dnd:item/silverfish_ootheca"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400112
+			},
+			"model": "dnd:item/spider_sac"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400113
+			},
+			"model": "dnd:item/squid_roe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400114
+			},
+			"model": "dnd:item/tropical_fish_roe"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400115
+			},
+			"model": "dnd:item/magma_culture"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400116
+			},
+			"model": "dnd:item/slime_culture"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400117
+			},
+			"model": "dnd:item/allay_vat"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400118
+			},
+			"model": "dnd:item/vex_vat"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400119
+			},
+			"model": "dnd:item/blaze_constructor"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400120
+			},
+			"model": "dnd:item/iron_golem_constructor"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400121
+			},
+			"model": "dnd:item/snow_golem_constructor"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400122
+			},
+			"model": "dnd:item/guardian_constructor"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400123
+			},
+			"model": "dnd:item/elder_guardian_constructor"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400124
+			},
+			"model": "dnd:item/cloned_frogspawn"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400125
+			},
+			"model": "dnd:item/zombie_vat"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400126
+			},
+			"model": "dnd:item/husk_vat"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400127
+			},
+			"model": "dnd:item/drowned_vat"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400128
+			},
+			"model": "dnd:item/ravager_vat"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400129
+			},
+			"model": "dnd:item/wither_constructor"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400130
+			},
+			"model": "dnd:item/skeleton_vat"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400131
+			},
+			"model": "dnd:item/stray_vat"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400132
+			},
+			"model": "dnd:item/wither_skeleton_vat"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400133
+			},
+			"model": "dnd:item/phantom_vat"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400134
+			},
+			"model": "dnd:item/warden_vat"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400135
+			},
+			"model": "dnd:item/bat_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400136
+			},
+			"model": "dnd:item/cow_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400137
+			},
+			"model": "dnd:item/dolphin_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400138
+			},
+			"model": "dnd:item/donkey_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400139
+			},
+			"model": "dnd:item/fox_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400140
+			},
+			"model": "dnd:item/ghast_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400141
+			},
+			"model": "dnd:item/hoglin_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400142
+			},
+			"model": "dnd:item/horse_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400143
+			},
+			"model": "dnd:item/mule_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400144
+			},
+			"model": "dnd:item/zoglin_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400145
+			},
+			"model": "dnd:item/strider_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400146
+			},
+			"model": "dnd:item/zombie_horse_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400147
+			},
+			"model": "dnd:item/wolf_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400148
+			},
+			"model": "dnd:item/llama_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400149
+			},
+			"model": "dnd:item/trader_llama_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400150
+			},
+			"model": "dnd:item/goat_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400151
+			},
+			"model": "dnd:item/sheep_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400152
+			},
+			"model": "dnd:item/rabbit_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400153
+			},
+			"model": "dnd:item/pig_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400154
+			},
+			"model": "dnd:item/ocelot_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400155
+			},
+			"model": "dnd:item/panda_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400156
+			},
+			"model": "dnd:item/cat_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400157
+			},
+			"model": "dnd:item/polar_bear_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400158
+			},
+			"model": "dnd:item/mooshroom_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400159
+			},
+			"model": "dnd:item/piglin_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400160
+			},
+			"model": "dnd:item/piglin_brute_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400161
+			},
+			"model": "dnd:item/zombified_piglin_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400162
+			},
+			"model": "dnd:item/evoker_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400163
+			},
+			"model": "dnd:item/vindicator_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400164
+			},
+			"model": "dnd:item/pillager_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400165
+			},
+			"model": "dnd:item/villager_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400166
+			},
+			"model": "dnd:item/zombie_villager_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400167
+			},
+			"model": "dnd:item/wandering_trader_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400168
+			},
+			"model": "dnd:item/witch_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400169
+			},
+			"model": "dnd:item/enderman_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400170
+			},
+			"model": "dnd:item/camel_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400800
+			},
+			"model": "dnd:item/compsognathus_bucket"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400900
+			},
+			"model": "dnd:item/acrocanthosaurus_egg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400901
+			},
+			"model": "dnd:item/ankylosaurus_egg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400902
+			},
+			"model": "dnd:item/compsognathus_egg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400903
+			},
+			"model": "dnd:item/concavenator_egg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400904
+			},
+			"model": "dnd:item/corythosaurus_egg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400905
+			},
+			"model": "dnd:item/gallimimus_egg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400906
+			},
+			"model": "dnd:item/pachycephalosaurus_egg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400907
+			},
+			"model": "dnd:item/triceratops_egg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400908
+			},
+			"model": "dnd:item/tyrannosaurus_egg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400909
+			},
+			"model": "dnd:item/dwarf_elephant_embryo"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400910
+			},
+			"model": "dnd:item/gigantopithecus_embryo"
+		}
+	]
+}

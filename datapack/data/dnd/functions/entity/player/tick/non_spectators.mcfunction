@@ -1,9 +1,9 @@
 ####################
-# Commands to run for players not in spectator mode
+# Runs every tick for all players who aren't in spectator
 ####################
 
-## Commands for holding items
-execute if entity @s[predicate=dnd:entity/holding/anything] run function dnd:entity/player/tick/holding_item
+## Commands for holding WFOAS
+execute if entity @s[predicate=dnd:entity_properties/holding_custom_warped_fungus_on_a_stick] run function dnd:item/warped_fungus_on_a_stick/holding
 
-## Reset Scoreboard
-function dnd:entity/player/score_reset
+## Command for mining sus sand
+execute if entity @s[scores={dnd.suspicious_sand=1..}] run function dnd:block/suspicious_red_sand/particle/check_item

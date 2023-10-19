@@ -1,0 +1,29 @@
+{
+  "parent": "dnd:revival/craft_clockwork",
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "nbt": "{CustomModelData:400004}"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.use_clockwork.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.use_clockwork.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ]
+}

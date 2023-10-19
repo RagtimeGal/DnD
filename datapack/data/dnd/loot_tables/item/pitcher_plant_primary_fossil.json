@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnd:{id:\"dnd:primary_fossil\",entity:\"dnd:plant\",eggItem:{id:\"minecraft:pitcher_pod\"}},CustomModelData:400126}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.primary_fossil.pitcher_plant",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.dnd.tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "font": "dnd:tooltip",
+                  "with": [
+                    {
+                      "translate": "pack.dnd",
+                      "color": "#FFAA00",
+                      "italic": true,
+                      "font": "minecraft:default"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

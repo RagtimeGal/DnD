@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnd:{id:\"dnd:primary_fossil\",entity:\"dnd:giant_swan\",ModifiedEntityName:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.egg_item.dnd:giant_swan\",\"with\":[{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.tooltip.modified\",\"with\":[{\"italic\":false,\"color\":\"white\",\"translate\":\"entity.dnd.giant_swan\"}]}]}',eggItem:{id:\"minecraft:snowball\",tag:{CustomModelData:400007,HideFlags:4,Unbreakable:1b,display:{Name:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.egg_item.dnd:giant_swan\",\"with\":[{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.tooltip.generic\",\"with\":[{\"italic\":false,\"color\":\"white\",\"translate\":\"entity.dnd.giant_swan\"}]}]}'},dnd:{EntityNBT:{Team:\"smithed.prevent_aggression\",Silent:1b,PersistenceRequired:1b,Offers:{},DeathLootTable:\"dnd:entity/giant_swan\",Tags:[\"dnd.prey.small\",\"dnd.predator.medium\",\"dnd.predator\",\"dnd.baby\",\"dnd.tick\",\"dnd.second_clock\",\"dnd.entity\",\"dnd.dinosaur\",\"dnd.giant_swan\",\"smithed.entity\"],CustomName:'{\"translate\":\"entity.dnd.giant_swan\",\"italic\":false}',ArmorItems:[{},{},{},{id:\"minecraft:structure_block\",Count:1b,tag:{CustomModelData:400000,dnd:{baby:[400051,400052],adult:[400049,400050]}}}],HandDropChances:[0.000F,0.000F],ArmorDropChances:[0F,0F,0F,0F],Health:20.0f,Attributes:[{Name:generic.max_health,Base:20},{Name:generic.movement_speed,Base:0.3}]},entity:\"minecraft:wandering_trader\",id:\"dnd:custom_thrown_egg\"}}},entityName:'{\"italic\":false,\"color\":\"gray\",\"translate\":\"item.dnd.tooltip.generic\",\"with\":[{\"italic\":false,\"color\":\"gray\",\"translate\":\"entity.dnd.giant_swan\"}]}'},CustomModelData:400120}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.primary_fossil.giant_swan",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.dnd.tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "font": "dnd:tooltip",
+                  "with": [
+                    {
+                      "translate": "pack.dnd",
+                      "color": "#FFAA00",
+                      "italic": true,
+                      "font": "minecraft:default"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

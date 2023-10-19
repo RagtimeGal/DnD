@@ -1,0 +1,128 @@
+{
+	"credit": "https://ragnois.gay/",
+	"texture_size": [20, 17],
+	"textures": {
+		"0": "dnd:entity/fossil_display/dodo_fossil_0"
+	},
+	"elements": [
+		{
+			"from": [5.49, -0.01, 3.99],
+			"to": [10.51, 6.01, 9.01],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -10, 12]},
+			"faces": {
+				"north": {"uv": [16, 4.70588, 12, 10.35294], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [4, 4.70588, 0, 10.35294], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [8, 4.70588, 4, 10.35294], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [12, 4.70588, 8, 10.35294], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [8, 0, 4, 4.70588], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [12, 4.70588, 8, 0], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [6.49, 0.99, 8.99],
+			"to": [9.51, 4.01, 12.01],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -10, 12]},
+			"faces": {
+				"north": {"uv": [9.6, 13.17647, 7.2, 16], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [2.4, 13.17647, 0, 16], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [4.8, 13.17647, 2.4, 16], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [7.2, 13.17647, 4.8, 16], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [4.8, 10.35294, 2.4, 13.17647], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [7.2, 13.17647, 4.8, 10.35294], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [6.49, -0.01, 10.99],
+			"to": [9.51, 1.01, 12.01],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -10, 12]},
+			"faces": {
+				"north": {"uv": [15.2, 11.29412, 12.8, 12.23529], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [9.6, 11.29412, 8.8, 12.23529], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [12, 11.29412, 9.6, 12.23529], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [12.8, 11.29412, 12, 12.23529], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [12, 10.35294, 9.6, 11.29412], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [14.4, 11.29412, 12, 10.35294], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"name": "cube inverted",
+			"from": [10.51, 6.01, 9.01],
+			"to": [5.49, -0.01, 3.99],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -10, 12]},
+			"faces": {
+				"north": {"uv": [8, 10.35294, 4, 4.70588], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [12, 10.35294, 8, 4.70588], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [16, 10.35294, 12, 4.70588], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [4, 10.35294, 0, 4.70588], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [8, 4.70588, 12, 0], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [4, 0, 8, 4.70588], "texture": "#0", "tintindex": 0}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "Entire",
+			"origin": [8, 7, 9.5],
+			"color": 0,
+			"children": [
+				{
+					"name": "Body",
+					"origin": [8, 7, 9.5],
+					"color": 0,
+					"children": [
+						{
+							"name": "Tail",
+							"origin": [8, 10.5, 13.5],
+							"color": 0,
+							"children": []
+						},
+						{
+							"name": "Wings",
+							"origin": [8, 9, 6.5],
+							"color": 0,
+							"children": [
+								{
+									"name": "LWing",
+									"origin": [3.5, 9, 6.5],
+									"color": 0,
+									"children": []
+								},
+								{
+									"name": "RWing",
+									"origin": [12.5, 9, 6.5],
+									"color": 0,
+									"children": []
+								}
+							]
+						},
+						{
+							"name": "Head",
+							"origin": [8, 8.5, 6.5],
+							"color": 0,
+							"children": [0, 1, 2, 3]
+						}
+					]
+				},
+				{
+					"name": "Legs",
+					"origin": [8, 3, 11],
+					"color": 0,
+					"children": [
+						{
+							"name": "LLeg",
+							"origin": [5, 3, 11],
+							"color": 0,
+							"children": []
+						},
+						{
+							"name": "RLeg",
+							"origin": [11, 3, 11],
+							"color": 0,
+							"children": []
+						}
+					]
+				}
+			]
+		}
+	]
+}

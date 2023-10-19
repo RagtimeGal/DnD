@@ -1,0 +1,19 @@
+{
+  "function": "minecraft:copy_nbt",
+  "source": {
+    "type": "minecraft:storage",
+    "source": "dnd:storage"
+  },
+  "ops": [
+    {
+      "source": "root.temp.sequencer.modified_with",
+      "target": "display.Lore[0]",
+      "op": "replace"
+    },
+    {
+      "source": "root.temp.sequencer.modified_name",
+      "target": "display.Name",
+      "op": "replace"
+    }
+  ]
+}

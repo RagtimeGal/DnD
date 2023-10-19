@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.dnd.tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "font": "dnd:tooltip",
+                  "with": [
+                    {
+                      "translate": "pack.dnd",
+                      "color": "#FFAA00",
+                      "italic": true,
+                      "font": "minecraft:default"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "function": "minecraft:copy_nbt",
+              "source": {
+                "type": "minecraft:storage",
+                "source": "dnd:storage"
+              },
+              "ops": [
+                {
+                  "source": "root.temp.sequencer.input1.tag",
+                  "target": "{}",
+                  "op": "merge"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

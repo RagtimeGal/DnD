@@ -1,0 +1,36 @@
+{
+  "parent": "dnd:revival/enter_formation",
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_block",
+      "nbt": "{CustomModelData:400010}"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.petrified_wood.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.petrified_wood.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "petrified_wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:petrified_wood\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "petrified_wood"
+    ]
+  ]
+}

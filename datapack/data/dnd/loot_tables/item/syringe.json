@@ -1,0 +1,82 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:400000,HideFlags:4,Unbreakable:1b,dnd:{id:\"dnd:syringe\"}}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.syringe",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "translate": "item.dnd.syringe.desc1",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "translate": "item.dnd.syringe.desc2",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ],
+                {
+                  "translate": "item.dnd.syringe.desc3",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "translate": "item.dnd.syringe.desc4",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": ""
+                },
+                {
+                  "translate": "pack.dnd.tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "font": "dnd:tooltip",
+                  "with": [
+                    {
+                      "translate": "pack.dnd",
+                      "color": "#FFAA00",
+                      "italic": true,
+                      "font": "minecraft:default"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

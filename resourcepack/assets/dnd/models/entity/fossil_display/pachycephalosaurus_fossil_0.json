@@ -1,0 +1,86 @@
+{
+	"credit": "https://ragnois.gay/",
+	"texture_size": [26, 23],
+	"textures": {
+		"0": "dnd:entity/fossil_display/pachycephalosaurus_fossil_0"
+	},
+	"elements": [
+		{
+			"from": [5, -0.01978, 3.07819],
+			"to": [11, 7.98022, 10.07819],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 4.41789, 7.23695]},
+			"faces": {
+				"north": {"uv": [16, 4.86957, 12.30769, 10.43478], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [4.30769, 4.86957, 0, 10.43478], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [8, 4.86957, 4.30769, 10.43478], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [12.30769, 4.86957, 8, 10.43478], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [8, 0, 4.30769, 4.86957], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [11.69231, 4.86957, 8, 0], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [6.5, -0.01977, 10.07819],
+			"to": [9.5, 4.98023, 13.07819],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 4.41789, 7.23695]},
+			"faces": {
+				"north": {"uv": [7.38462, 12.52174, 5.53846, 16], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [1.84615, 12.52174, 0, 16], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [3.69231, 12.52174, 1.84615, 16], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [5.53846, 12.52174, 3.69231, 16], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [3.69231, 10.43478, 1.84615, 12.52174], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [5.53846, 12.52174, 3.69231, 10.43478], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [4, 4.96022, 2.07819],
+			"to": [6.02, 6.98022, 4.09819],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 4.41789, 7.23695]},
+			"faces": {
+				"north": {"uv": [12.30769, 11.82609, 11.07692, 13.21739], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [8.61538, 11.82609, 7.38462, 13.21739], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [9.84615, 11.82609, 8.61538, 13.21739], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [11.07692, 11.82609, 9.84615, 13.21739], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [9.84615, 10.43478, 8.61538, 11.82609], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [11.07692, 11.82609, 9.84615, 10.43478], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [9.98, 4.96022, 2.07819],
+			"to": [12, 6.98022, 4.09819],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 4.41789, 7.23695]},
+			"faces": {
+				"north": {"uv": [11.07692, 11.82609, 12.30769, 13.21739], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [9.84615, 11.82609, 11.07692, 13.21739], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [8.61538, 11.82609, 9.84615, 13.21739], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [7.38462, 11.82609, 8.61538, 13.21739], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [8.61538, 10.43478, 9.84615, 11.82609], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [9.84615, 11.82609, 11.07692, 10.43478], "texture": "#0", "tintindex": 0}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [-157.5, 0, -180],
+			"translation": [0, -1.5, -5]
+		},
+		"head": {
+			"rotation": [-22.5, 0, 0],
+			"translation": [30.75, -18.5, 0],
+			"scale": [1.65, 1.65, 1.65]
+		},
+		"fixed": {
+			"rotation": [-67, 0, 0],
+			"translation": [0, -0.5, -79],
+			"scale": [4, 4, 4]
+		}
+	},
+	"groups": [
+		{
+			"name": "Entire",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

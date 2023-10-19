@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnd:{id:\"dnd:primary_fossil\",entity:\"dnd:sniffer\",ModifiedEntityName:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.minecraft:sniffer\",\"with\":[{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.tooltip.modified\",\"with\":[{\"italic\":false,\"color\":\"white\",\"translate\":\"entity.minecraft.sniffer\"}]}]}',eggItem:{id:\"minecraft:snowball\",tag:{CustomModelData:400004,HideFlags:4,Unbreakable:1b,display:{Name:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.minecraft:sniffer\",\"with\":[{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.tooltip.generic\",\"with\":[{\"italic\":false,\"color\":\"white\",\"translate\":\"entity.minecraft.sniffer\"}]}]}'},dnd:{EntityNBT:{Age:-24000,Attributes:[{Base:16d,Name:\"minecraft:generic.follow_range\"},{Base:14.0d,Name:\"minecraft:generic.max_health\"},{Base:0.1d,Name:\"minecraft:generic.movement_speed\"}],CanPickUpLoot:0b,FallFlying:0b,Health:14.0d,Invulnerable:0b,LeftHanded:0b,PersistenceRequired:1b,Tags:[\"dnd.clone\"]},entity:\"minecraft:sniffer\",id:\"dnd:custom_thrown_egg\"}}},entityName:'{\"italic\":false,\"color\":\"gray\",\"translate\":\"item.dnd.tooltip.generic\",\"with\":[{\"italic\":false,\"color\":\"gray\",\"translate\":\"entity.minecraft.sniffer\"}]}'},CustomModelData:400124}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.primary_fossil.sniffer",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.dnd.tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "font": "dnd:tooltip",
+                  "with": [
+                    {
+                      "translate": "pack.dnd",
+                      "color": "#FFAA00",
+                      "italic": true,
+                      "font": "minecraft:default"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

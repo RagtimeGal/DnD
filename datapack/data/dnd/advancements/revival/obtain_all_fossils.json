@@ -1,0 +1,386 @@
+{
+  "parent": "dnd:revival/obtain_fossil",
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_block",
+      "nbt": "{CustomModelData:400114}"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.obtain_all_fossils.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.obtain_all_fossils.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "acrocanthosaurus_primary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:primary_fossil\",entity:\"dnd:acrocanthosaurus\"}}"
+          }
+        ]
+      }
+    },
+    "acrocanthosaurus_secondary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:secondary_fossil\",entity:\"dnd:acrocanthosaurus\"}}"
+          }
+        ]
+      }
+    },
+    "ankylosaurus_primary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:primary_fossil\",entity:\"dnd:ankylosaurus\"}}"
+          }
+        ]
+      }
+    },
+    "ankylosaurus_secondary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:secondary_fossil\",entity:\"dnd:ankylosaurus\"}}"
+          }
+        ]
+      }
+    },
+    "compsognathus_primary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:primary_fossil\",entity:\"dnd:compsognathus\"}}"
+          }
+        ]
+      }
+    },
+    "compsognathus_secondary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:secondary_fossil\",entity:\"dnd:compsognathus\"}}"
+          }
+        ]
+      }
+    },
+    "concavenator_primary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:primary_fossil\",entity:\"dnd:concavenator\"}}"
+          }
+        ]
+      }
+    },
+    "concavenator_secondary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:secondary_fossil\",entity:\"dnd:concavenator\"}}"
+          }
+        ]
+      }
+    },
+    "corythosaurus_primary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:primary_fossil\",entity:\"dnd:corythosaurus\"}}"
+          }
+        ]
+      }
+    },
+    "corythosaurus_secondary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:secondary_fossil\",entity:\"dnd:corythosaurus\"}}"
+          }
+        ]
+      }
+    },
+    "dodo_primary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:primary_fossil\",entity:\"dnd:dodo\"}}"
+          }
+        ]
+      }
+    },
+    "dodo_secondary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:secondary_fossil\",entity:\"dnd:dodo\"}}"
+          }
+        ]
+      }
+    },
+    "dwarf_elephant_primary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:primary_fossil\",entity:\"dnd:dwarf_elephant\"}}"
+          }
+        ]
+      }
+    },
+    "dwarf_elephant_secondary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:secondary_fossil\",entity:\"dnd:dwarf_elephant\"}}"
+          }
+        ]
+      }
+    },
+    "gallimimus_primary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:primary_fossil\",entity:\"dnd:gallimimus\"}}"
+          }
+        ]
+      }
+    },
+    "gallimimus_secondary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:secondary_fossil\",entity:\"dnd:gallimimus\"}}"
+          }
+        ]
+      }
+    },
+    "giant_swan_primary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:primary_fossil\",entity:\"dnd:giant_swan\"}}"
+          }
+        ]
+      }
+    },
+    "giant_swan_secondary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:secondary_fossil\",entity:\"dnd:giant_swan\"}}"
+          }
+        ]
+      }
+    },
+    "gigantopithecus_primary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:primary_fossil\",entity:\"dnd:gigantopithecus\"}}"
+          }
+        ]
+      }
+    },
+    "gigantopithecus_secondary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:secondary_fossil\",entity:\"dnd:gigantopithecus\"}}"
+          }
+        ]
+      }
+    },
+    "pachycephalosaurus_primary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:primary_fossil\",entity:\"dnd:pachycephalosaurus\"}}"
+          }
+        ]
+      }
+    },
+    "pachycephalosaurus_secondary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:secondary_fossil\",entity:\"dnd:pachycephalosaurus\"}}"
+          }
+        ]
+      }
+    },
+    "triceratops_primary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:primary_fossil\",entity:\"dnd:triceratops\"}}"
+          }
+        ]
+      }
+    },
+    "triceratops_secondary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:secondary_fossil\",entity:\"dnd:triceratops\"}}"
+          }
+        ]
+      }
+    },
+    "tyrannosaurus_primary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:primary_fossil\",entity:\"dnd:tyrannosaurus\"}}"
+          }
+        ]
+      }
+    },
+    "tyrannosaurus_secondary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:secondary_fossil\",entity:\"dnd:tyrannosaurus\"}}"
+          }
+        ]
+      }
+    },
+    "sniffer_primary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:primary_fossil\",entity:\"dnd:sniffer\"}}"
+          }
+        ]
+      }
+    },
+    "sniffer_secondary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:secondary_fossil\",entity:\"dnd:sniffer\"}}"
+          }
+        ]
+      }
+    },
+    "torchflower_primary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:primary_fossil\",entity:\"dnd:torchflower\"}}"
+          }
+        ]
+      }
+    },
+    "torchflower_secondary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:secondary_fossil\",entity:\"dnd:torchflower\"}}"
+          }
+        ]
+      }
+    },
+    "pitcher_plant_primary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:primary_fossil\",entity:\"dnd:pitcher_plant\"}}"
+          }
+        ]
+      }
+    },
+    "pitcher_plant_secondary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:secondary_fossil\",entity:\"dnd:pitcher_plant\"}}"
+          }
+        ]
+      }
+    },
+    "entombed_endermite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:primary_fossil\",entity:\"dnd:endermite\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["acrocanthosaurus_primary"],
+    ["acrocanthosaurus_secondary"],
+    ["ankylosaurus_primary"],
+    ["ankylosaurus_secondary"],
+    ["compsognathus_primary"],
+    ["compsognathus_secondary"],
+    ["concavenator_primary"],
+    ["concavenator_secondary"],
+    ["corythosaurus_primary"],
+    ["corythosaurus_secondary"],
+    ["dodo_primary"],
+    ["dodo_secondary"],
+    ["dwarf_elephant_primary"],
+    ["dwarf_elephant_secondary"],
+    ["gallimimus_primary"],
+    ["gallimimus_secondary"],
+    ["giant_swan_primary"],
+    ["giant_swan_secondary"],
+    ["gigantopithecus_primary"],
+    ["gigantopithecus_secondary"],
+    ["pachycephalosaurus_primary"],
+    ["pachycephalosaurus_secondary"],
+    ["triceratops_primary"],
+    ["triceratops_secondary"],
+    ["tyrannosaurus_primary"],
+    ["tyrannosaurus_secondary"],
+    ["sniffer_primary"],
+    ["sniffer_secondary"],
+    ["pitcher_plant_primary"],
+    ["pitcher_plant_secondary"],
+    ["torchflower_primary"],
+    ["torchflower_secondary"],
+    ["entombed_endermite"]
+  ]
+}

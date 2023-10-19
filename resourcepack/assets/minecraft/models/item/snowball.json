@@ -1,0 +1,56 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:item/snowball"
+    },
+	"overrides": [
+        {
+			"predicate": {
+				"custom_model_data": 400000
+			},
+			"model": "dnd:item/cloned_egg"
+		},
+        {
+			"predicate": {
+				"custom_model_data": 400001
+			},
+			"model": "dnd:item/parrot_egg"
+		},
+        {
+			"predicate": {
+				"custom_model_data": 400002
+			},
+			"model": "dnd:item/creeper_spore"
+		},
+        {
+			"predicate": {
+				"custom_model_data": 400003
+			},
+			"model": "dnd:item/cloned_turtle_egg"
+		},
+        {
+			"predicate": {
+				"custom_model_data": 400004
+			},
+			"model": "dnd:item/cloned_sniffer_egg"
+		},
+        {
+			"predicate": {
+				"custom_model_data": 400005
+			},
+			"model": "dnd:item/geode"
+		},
+        {
+			"predicate": {
+				"custom_model_data": 400006
+			},
+			"model": "dnd:item/dodo_egg"
+		},
+        {
+			"predicate": {
+				"custom_model_data": 400007
+			},
+			"model": "dnd:item/giant_swan_egg"
+		}
+    ]
+}

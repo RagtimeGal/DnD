@@ -1,57 +1,20 @@
 {
   "providers": [
     {
-      "type": "bitmap",
-      "file": "dnd:dnd_gui/negative_space.png",
-      "ascent": -32768,
-      "height": -10,
-      "chars": [
-        "\uc000"
-      ]
+      "type": "space",
+      "advances": {
+        " ": 4,
+        "\uc000": -12,
+        "\uc001": -166
+      }
     },
     {
       "type": "bitmap",
-      "file": "dnd:dnd_gui/negative_space.png",
-      "ascent": -32768,
-      "height": -171,
-      "chars": [
-        "\uc001"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "dnd:dnd_gui/paleontology_table.png",
+      "file": "dnd:gui/container/sequencer.png",
       "ascent": 14,
       "height": 176.0,
       "chars": [
         "\uc002"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "dnd:dnd_gui/cultivator.png",
-      "ascent": 14,
-      "height": 176.0,
-      "chars": [
-        "\uc003"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "dnd:dnd_gui/extractor.png",
-      "ascent": 14,
-      "height": 176.0,
-      "chars": [
-        "\uc004"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "dnd:dnd_gui/modifier.png",
-      "ascent": 14,
-      "height": 176.0,
-      "chars": [
-        "\uc005"
       ]
     }
   ]

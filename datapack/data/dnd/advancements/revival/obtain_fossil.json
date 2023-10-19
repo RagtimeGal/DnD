@@ -1,0 +1,47 @@
+{
+  "parent": "dnd:revival/enter_formation",
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_block",
+      "nbt": "{CustomModelData:400103}"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.obtain_fossil.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.obtain_fossil.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "secondary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:secondary_fossil\"}}"
+          }
+        ]
+      }
+    },
+    "primary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:primary_fossil\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "secondary",
+      "primary"
+    ]
+  ]
+}

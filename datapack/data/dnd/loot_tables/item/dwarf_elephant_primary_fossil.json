@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnd:{id:\"dnd:primary_fossil\",entity:\"dnd:dwarf_elephant\",ModifiedEntityName:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.egg_item.dnd:dwarf_elephant\",\"with\":[{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.tooltip.modified\",\"with\":[{\"italic\":false,\"color\":\"white\",\"translate\":\"entity.dnd.dwarf_elephant\"}]}]}',eggItem:{id:\"minecraft:warped_fungus_on_a_stick\",tag:{CustomModelData:400909,HideFlags:4,Unbreakable:1b,display:{Name:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.egg_item.dnd:dwarf_elephant\",\"with\":[{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.tooltip.generic\",\"with\":[{\"italic\":false,\"color\":\"white\",\"translate\":\"entity.dnd.dwarf_elephant\"}]}]}'},dnd:{EntityNBT:{Team:\"smithed.prevent_aggression\",Silent:1b,PersistenceRequired:1b,Offers:{},DeathLootTable:\"dnd:entity/dwarf_elephant\",Tags:[\"dnd.prey.small\",\"dnd.baby\",\"dnd.tick\",\"dnd.second_clock\",\"dnd.entity\",\"dnd.dinosaur\",\"dnd.dwarf_elephant\",\"smithed.entity\"],CustomName:'{\"translate\":\"entity.dnd.dwarf_elephant\",\"italic\":false}',ArmorItems:[{},{},{},{id:\"minecraft:structure_block\",Count:1b,tag:{CustomModelData:400000,dnd:{baby:[400055,400056],adult:[400053,400054]}}}],HandDropChances:[0.000F,0.000F],ArmorDropChances:[0F,0F,0F,0F],Attributes:[{Name:generic.max_health,Base:15},{Name:generic.movement_speed,Base:0.3}]},entity:\"minecraft:wandering_trader\",id:\"dnd:custom_embryo\"}}},entityName:'{\"italic\":false,\"color\":\"gray\",\"translate\":\"item.dnd.tooltip.generic\",\"with\":[{\"italic\":false,\"color\":\"gray\",\"translate\":\"entity.dnd.dwarf_elephant\"}]}'},CustomModelData:400118}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.primary_fossil.dwarf_elephant",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.dnd.tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "font": "dnd:tooltip",
+                  "with": [
+                    {
+                      "translate": "pack.dnd",
+                      "color": "#FFAA00",
+                      "italic": true,
+                      "font": "minecraft:default"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

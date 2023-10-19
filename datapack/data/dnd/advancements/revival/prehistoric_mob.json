@@ -1,0 +1,168 @@
+{
+  "parent": "dnd:revival/sequencer",
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "nbt": "{CustomModelData:400901}"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.prehistoric_mob.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.prehistoric_mob.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dodo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:custom_thrown_egg\",EntityNBT:{Tags:[\"dnd.dodo\"]}}}"
+          }
+        ]
+      }
+    },
+    "giant_swan": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:custom_thrown_egg\",EntityNBT:{Tags:[\"dnd.giant_swan\"]}}}"
+          }
+        ]
+      }
+    },
+    "gigantopithecus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:custom_embryo\",EntityNBT:{Tags:[\"dnd.gigantopithecus\"]}}}"
+          }
+        ]
+      }
+    },
+    "dwarf_elephant": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:custom_embryo\",EntityNBT:{Tags:[\"dnd.dwarf_elephant\"]}}}"
+          }
+        ]
+      }
+    },
+    "acrocanthosaurus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:custom_placed_egg\",EntityNBT:{Tags:[\"dnd.acrocanthosaurus\"]}}}"
+          }
+        ]
+      }
+    },
+    "ankylosaurus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:custom_placed_egg\",EntityNBT:{Tags:[\"dnd.ankylosaurus\"]}}}"
+          }
+        ]
+      }
+    },
+    "compsognathus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:custom_placed_egg\",EntityNBT:{Tags:[\"dnd.compsognathus\"]}}}"
+          }
+        ]
+      }
+    },
+    "concavenator": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:custom_placed_egg\",EntityNBT:{Tags:[\"dnd.concavenator\"]}}}"
+          }
+        ]
+      }
+    },
+    "corythosaurus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:custom_placed_egg\",EntityNBT:{Tags:[\"dnd.corythosaurus\"]}}}"
+          }
+        ]
+      }
+    },
+    "gallimimus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:custom_placed_egg\",EntityNBT:{Tags:[\"dnd.gallimimus\"]}}}"
+          }
+        ]
+      }
+    },
+    "pachycephalosaurus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:custom_placed_egg\",EntityNBT:{Tags:[\"dnd.pachycephalosaurus\"]}}}"
+          }
+        ]
+      }
+    },
+    "triceratops": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:custom_placed_egg\",EntityNBT:{Tags:[\"dnd.triceratops\"]}}}"
+          }
+        ]
+      }
+    },
+    "tyrannosaurus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:custom_placed_egg\",EntityNBT:{Tags:[\"dnd.tyrannosaurus\"]}}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dodo",
+      "giant_swan",
+      "gigantopithecus",
+      "dwarf_elephant",
+      "acrocanthosaurus",
+      "ankylosaurus",
+      "compsognathus",
+      "concavenator",
+      "corythosaurus",
+      "gallimimus",
+      "pachycephalosaurus",
+      "triceratops",
+      "tyrannosaurus"
+    ]
+  ]
+}

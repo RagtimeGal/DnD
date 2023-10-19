@@ -1,0 +1,99 @@
+{
+    "criteria": {
+        "fed_dinosaur": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:any_of",
+                        "terms": [
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "equipment": {
+                                        "offhand": {
+                                            "items": [
+                                                "minecraft:torchflower_seeds"
+                                            ]
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "equipment": {
+                                        "mainhand": {
+                                            "items": [
+                                                "minecraft:torchflower_seeds"
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "entity": [
+                    {
+                        "condition": "minecraft:any_of",
+                        "terms": [
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"dnd.ankylosaurus\"]}"
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"dnd.corythosaurus\"]}"
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"dnd.dwarf_elephant\"]}"
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"dnd.gallimimus\"]}"
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"dnd.pachycephalosaurus\"]}"
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "nbt": "{Tags:[\"dnd.triceratops\"]}"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "fed_dinosaur"
+        ]
+    ],
+    "rewards": {
+        "function": "dnd:entity/dinosaur/behavior/feeding/main"
+    }
+}

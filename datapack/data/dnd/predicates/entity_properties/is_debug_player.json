@@ -1,0 +1,19 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{UUID:[I;-960403072, 937248058, -1342518238, -154432479]}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Tags:[\"dnd.debug\"]}"
+      }
+    }
+  ]
+}

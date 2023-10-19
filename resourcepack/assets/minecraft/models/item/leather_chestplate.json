@@ -9,12 +9,6 @@
 			"predicate": {
 				"custom_model_data": 400000
 			},
-			"model": "dnd:item/paleontologist_chestplate"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 400001
-			},
 			"model": "dnd:item/osteoderm_chestplate"
 		}
 	]

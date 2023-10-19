@@ -1,0 +1,26 @@
+{
+  "structures": [
+    {
+      "structure": "dnd:formation_sandy",
+      "weight": 1
+    },
+    {
+      "structure": "dnd:formation_red_sandy",
+      "weight": 1
+    },
+    {
+      "structure": "dnd:formation_rocky",
+      "weight": 1
+    },
+    {
+      "structure": "dnd:formation_icy",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 93468219,
+    "separation": 8,
+    "spacing": 24
+  }
+}

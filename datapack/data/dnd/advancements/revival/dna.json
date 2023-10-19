@@ -1,9 +1,9 @@
 {
-  "parent": "dnd:revival/extractor",
+  "parent": "dnd:revival/syringe",
   "display": {
     "icon": {
       "item": "minecraft:structure_block",
-      "nbt": "{CustomModelData:400002}"
+      "nbt": "{CustomModelData:400001}"
     },
     "title": {
       "translate": "advancements.dnd.revival.dna.title"
@@ -22,13 +22,15 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:structure_block"
-            ],
-            "nbt": "{dnd:{id:\"dna_vial\"}}"
+            "nbt": "{dnd:{id:\"dnd:dna_vial\"}}"
           }
         ]
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "dna_vial"
+    ]
+  ]
 }

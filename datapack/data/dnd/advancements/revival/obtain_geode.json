@@ -1,0 +1,36 @@
+{
+  "parent": "dnd:revival/enter_formation",
+  "display": {
+    "icon": {
+      "item": "minecraft:snowball",
+      "nbt": "{CustomModelData:400005}"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.obtain_geode.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.obtain_geode.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "geode": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:geode\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "geode"
+    ]
+  ]
+}

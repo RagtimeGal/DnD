@@ -8,319 +8,337 @@
         "predicate": {
           "custom_model_data": 400001
         },
-      "model": "dnd:entity/adult_acrocanthosaurus_idle"
+      "model": "dnd:entity/acrocanthosaurus/adult_idle"
     },
     {
         "predicate": {
           "custom_model_data": 400002
         },
-      "model": "dnd:entity/adult_acrocanthosaurus_walking"
+      "model": "dnd:entity/acrocanthosaurus/adult_walk"
     },
     {
         "predicate": {
           "custom_model_data": 400003
         },
-      "model": "dnd:entity/baby_acrocanthosaurus_idle"
+      "model": "dnd:entity/acrocanthosaurus/baby_idle"
     },
     {
         "predicate": {
           "custom_model_data": 400004
         },
-      "model": "dnd:entity/baby_acrocanthosaurus_walking"
+      "model": "dnd:entity/acrocanthosaurus/baby_walk"
     },
     {
         "predicate": {
           "custom_model_data": 400005
         },
-      "model": "dnd:entity/adult_concavenator_idle"
+      "model": "dnd:entity/concavenator/adult_idle"
     },
     {
         "predicate": {
           "custom_model_data": 400006
         },
-      "model": "dnd:entity/adult_concavenator_walking"
+      "model": "dnd:entity/concavenator/adult_walk"
     },
     {
         "predicate": {
           "custom_model_data": 400007
         },
-      "model": "dnd:entity/baby_concavenator_idle"
+      "model": "dnd:entity/concavenator/baby_idle"
     },
     {
         "predicate": {
           "custom_model_data": 400008
         },
-      "model": "dnd:entity/baby_concavenator_walking"
+      "model": "dnd:entity/concavenator/baby_walk"
     },
     {
         "predicate": {
           "custom_model_data": 400009
         },
-      "model": "dnd:entity/adult_corythosaurus_idle"
+      "model": "dnd:entity/corythosaurus/adult_idle"
     },
     {
         "predicate": {
           "custom_model_data": 400010
         },
-      "model": "dnd:entity/adult_corythosaurus_walking"
+      "model": "dnd:entity/corythosaurus/adult_walk"
     },
     {
         "predicate": {
           "custom_model_data": 400011
         },
-      "model": "dnd:entity/baby_corythosaurus_idle"
+      "model": "dnd:entity/corythosaurus/baby_idle"
     },
     {
         "predicate": {
           "custom_model_data": 400012
         },
-      "model": "dnd:entity/baby_corythosaurus_walking"
+      "model": "dnd:entity/corythosaurus/baby_walk"
     },
     {
         "predicate": {
           "custom_model_data": 400013
         },
-      "model": "dnd:entity/adult_gallimimus_idle"
+      "model": "dnd:entity/gallimimus/adult_idle"
     },
     {
         "predicate": {
           "custom_model_data": 400014
         },
-      "model": "dnd:entity/adult_gallimimus_walking"
+      "model": "dnd:entity/gallimimus/adult_walk"
     },
     {
         "predicate": {
           "custom_model_data": 400015
         },
-      "model": "dnd:entity/baby_gallimimus_idle"
+      "model": "dnd:entity/gallimimus/baby_idle"
     },
     {
         "predicate": {
           "custom_model_data": 400016
         },
-      "model": "dnd:entity/baby_gallimimus_walking"
+      "model": "dnd:entity/gallimimus/baby_walk"
     },
     {
         "predicate": {
           "custom_model_data": 400017
         },
-      "model": "dnd:entity/adult_tyrannosaurus_idle"
+      "model": "dnd:entity/tyrannosaurus/adult_idle"
     },
     {
         "predicate": {
           "custom_model_data": 400018
         },
-      "model": "dnd:entity/adult_tyrannosaurus_walking"
+      "model": "dnd:entity/tyrannosaurus/adult_walk"
     },
     {
         "predicate": {
           "custom_model_data": 400019
         },
-      "model": "dnd:entity/baby_tyrannosaurus_idle"
+      "model": "dnd:entity/tyrannosaurus/baby_idle"
     },
     {
         "predicate": {
           "custom_model_data": 400020
         },
-      "model": "dnd:entity/baby_tyrannosaurus_walking"
+      "model": "dnd:entity/tyrannosaurus/baby_walk"
     },
     {
         "predicate": {
           "custom_model_data": 400021
         },
-      "model": "dnd:entity/adult_compsognathus_idle"
+      "model": "dnd:entity/compsognathus/adult_idle"
     },
     {
         "predicate": {
           "custom_model_data": 400022
         },
-      "model": "dnd:entity/adult_compsognathus_walking"
+      "model": "dnd:entity/compsognathus/adult_walk"
     },
     {
         "predicate": {
           "custom_model_data": 400023
         },
-      "model": "dnd:entity/baby_compsognathus_idle"
+      "model": "dnd:entity/compsognathus/baby_idle"
     },
     {
         "predicate": {
           "custom_model_data": 400024
         },
-      "model": "dnd:entity/baby_compsognathus_walking"
+      "model": "dnd:entity/compsognathus/baby_walk"
     },
     {
         "predicate": {
           "custom_model_data": 400025
         },
-      "model": "dnd:entity/adult_ankylosaurus_idle"
+      "model": "dnd:entity/ankylosaurus/adult_idle"
     },
     {
         "predicate": {
           "custom_model_data": 400026
         },
-      "model": "dnd:entity/adult_ankylosaurus_walking"
+      "model": "dnd:entity/ankylosaurus/adult_walk"
     },
     {
         "predicate": {
           "custom_model_data": 400027
         },
-      "model": "dnd:entity/baby_ankylosaurus_idle"
+      "model": "dnd:entity/ankylosaurus/baby_idle"
     },
     {
         "predicate": {
           "custom_model_data": 400028
         },
-      "model": "dnd:entity/baby_ankylosaurus_walking"
+      "model": "dnd:entity/ankylosaurus/baby_walk"
     },
     {
         "predicate": {
           "custom_model_data": 400029
         },
-      "model": "dnd:entity/adult_pachycephalosaurus_idle"
+      "model": "dnd:entity/pachycephalosaurus/adult_idle"
     },
     {
         "predicate": {
           "custom_model_data": 400030
         },
-      "model": "dnd:entity/adult_pachycephalosaurus_walking"
+      "model": "dnd:entity/pachycephalosaurus/adult_walk"
     },
     {
         "predicate": {
           "custom_model_data": 400031
         },
-      "model": "dnd:entity/baby_pachycephalosaurus_idle"
+      "model": "dnd:entity/pachycephalosaurus/baby_idle"
     },
     {
         "predicate": {
           "custom_model_data": 400032
         },
-      "model": "dnd:entity/baby_pachycephalosaurus_walking"
+      "model": "dnd:entity/pachycephalosaurus/baby_walk"
     },
     {
         "predicate": {
           "custom_model_data": 400033
         },
-      "model": "dnd:entity/adult_dodo_idle"
+      "model": "dnd:entity/dodo/adult_idle"
     },
     {
         "predicate": {
           "custom_model_data": 400034
         },
-      "model": "dnd:entity/adult_dodo_walking"
+      "model": "dnd:entity/dodo/adult_walk"
     },
     {
         "predicate": {
           "custom_model_data": 400035
         },
-      "model": "dnd:entity/baby_dodo_idle"
+      "model": "dnd:entity/dodo/baby_idle"
     },
     {
         "predicate": {
           "custom_model_data": 400036
         },
-      "model": "dnd:entity/baby_dodo_walking"
+      "model": "dnd:entity/dodo/baby_walk"
     },
     {
         "predicate": {
           "custom_model_data": 400037
         },
-      "model": "dnd:entity/adult_gigantopithecus_eating"
+      "model": "dnd:entity/gigantopithecus/adult_eat"
     },
     {
         "predicate": {
           "custom_model_data": 400038
         },
-      "model": "dnd:entity/adult_gigantopithecus_sitting"
+      "model": "dnd:entity/gigantopithecus/adult_sit"
     },
     {
         "predicate": {
           "custom_model_data": 400039
         },
-      "model": "dnd:entity/adult_gigantopithecus_idle"
+      "model": "dnd:entity/gigantopithecus/adult_idle"
     },
     {
         "predicate": {
           "custom_model_data": 400040
         },
-      "model": "dnd:entity/adult_gigantopithecus_walking"
+      "model": "dnd:entity/gigantopithecus/adult_walk"
     },
     {
         "predicate": {
           "custom_model_data": 400041
         },
-      "model": "dnd:entity/baby_gigantopithecus_eating"
+      "model": "dnd:entity/gigantopithecus/baby_eat"
     },
     {
         "predicate": {
           "custom_model_data": 400042
         },
-      "model": "dnd:entity/baby_gigantopithecus_sitting"
+      "model": "dnd:entity/gigantopithecus/baby_sit"
     },
     {
         "predicate": {
           "custom_model_data": 400043
         },
-      "model": "dnd:entity/baby_gigantopithecus_idle"
+      "model": "dnd:entity/gigantopithecus/baby_idle"
     },
     {
         "predicate": {
           "custom_model_data": 400044
         },
-      "model": "dnd:entity/baby_gigantopithecus_walking"
+      "model": "dnd:entity/gigantopithecus/baby_walk"
     },
     {
         "predicate": {
           "custom_model_data": 400045
         },
-      "model": "dnd:entity/adult_triceratops_idle"
+      "model": "dnd:entity/triceratops/adult_idle"
     },
     {
         "predicate": {
           "custom_model_data": 400046
         },
-      "model": "dnd:entity/adult_triceratops_walking"
+      "model": "dnd:entity/triceratops/adult_walk"
     },
     {
         "predicate": {
           "custom_model_data": 400047
         },
-      "model": "dnd:entity/baby_triceratops_idle"
+      "model": "dnd:entity/triceratops/baby_idle"
     },
     {
         "predicate": {
           "custom_model_data": 400048
         },
-      "model": "dnd:entity/baby_triceratops_walking"
+      "model": "dnd:entity/triceratops/baby_walk"
     },
     {
         "predicate": {
-          "custom_model_data": 409000
+          "custom_model_data": 400049
         },
-      "model": "dnd:entity/paleontologist/head"
+      "model": "dnd:entity/giant_swan/adult_idle"
     },
     {
         "predicate": {
-          "custom_model_data": 409001
+          "custom_model_data": 400050
         },
-      "model": "dnd:entity/paleontologist/body"
+      "model": "dnd:entity/giant_swan/adult_walk"
     },
     {
         "predicate": {
-          "custom_model_data": 409002
+          "custom_model_data": 400051
         },
-      "model": "dnd:entity/paleontologist/head_hurt"
+      "model": "dnd:entity/giant_swan/baby_idle"
     },
     {
         "predicate": {
-          "custom_model_data": 409003
+          "custom_model_data": 400052
         },
-      "model": "dnd:entity/paleontologist/body_hurt"
+      "model": "dnd:entity/giant_swan/baby_walk"
     },
     {
         "predicate": {
-          "custom_model_data": 409999
+          "custom_model_data": 400053
         },
-      "model": "dnd:item/nothing"
+      "model": "dnd:entity/dwarf_elephant/adult_idle"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400054
+        },
+      "model": "dnd:entity/dwarf_elephant/adult_walk"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400055
+        },
+      "model": "dnd:entity/dwarf_elephant/baby_idle"
+    },
+    {
+        "predicate": {
+          "custom_model_data": 400056
+        },
+      "model": "dnd:entity/dwarf_elephant/baby_walk"
     }
   ]
 }

@@ -1,0 +1,91 @@
+{
+  "parent": "dnd:revival/dna",
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_block",
+      "nbt": "{CustomModelData:400001}"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.golem_dna.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.golem_dna.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "iron_golem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:iron_golem\"}}}}}"
+          }
+        ]
+      }
+    },
+    "snow_golem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:snow_golem\"}}}}}"
+          }
+        ]
+      }
+    },
+    "blaze": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:blaze\"}}}}}"
+          }
+        ]
+      }
+    },
+    "wither": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:wither\"}}}}}"
+          }
+        ]
+      }
+    },
+    "guardian": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:guardian\"}}}}}"
+          }
+        ]
+      }
+    },
+    "elder_guardian": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:elder_guardian\"}}}}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "blaze",
+      "iron_golem",
+      "snow_golem",
+      "guardian",
+      "elder_guardian",
+      "wither"
+  ]
+  ]
+}

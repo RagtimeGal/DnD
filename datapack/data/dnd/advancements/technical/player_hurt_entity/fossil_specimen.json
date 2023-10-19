@@ -1,0 +1,27 @@
+{
+  "parent": "dnd:technical/root",
+  "criteria": {
+    "hurt_entity": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"dnd.fossil_specimen\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "dnd:entity/fossil_specimen/attack"
+  },
+  "requirements": [
+    [
+      "hurt_entity"
+    ]
+  ]
+}

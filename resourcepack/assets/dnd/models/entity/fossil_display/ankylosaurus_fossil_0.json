@@ -1,0 +1,67 @@
+{
+	"credit": "https://ragnois.gay/",
+	"textures": {
+		"0": "dnd:entity/fossil_display/ankylosaurus_fossil_0"
+	},
+	"elements": [
+		{
+			"from": [3, 0, 14],
+			"to": [13, 6, 26],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, -13.5, 24.25]},
+			"faces": {
+				"north": {"uv": [4.52174, 4.68293, 8, 7.02439], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [0.34783, 4.68293, 4.52174, 7.02439], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [12.17391, 4.68293, 15.65217, 7.02439], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [8, 4.68293, 12.17391, 7.02439], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [8, 4.68293, 4.52174, 0], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [11.47826, 0, 8, 4.68293], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [4, 1, -5],
+			"to": [12, 5, 14],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, -13.5, 24.25]},
+			"faces": {
+				"north": {"uv": [6.6087, 14.43902, 9.3913, 16], "texture": "#0", "cullface": "north", "tintindex": 0},
+				"east": {"uv": [0, 14.43902, 6.6087, 16], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [16, 14.43902, 18.78261, 16], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [9.3913, 14.43902, 16, 16], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [9.3913, 14.43902, 6.6087, 7.02439], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [12.17391, 7.02439, 9.3913, 14.43902], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"name": "cube inverted",
+			"from": [12, 5, 14],
+			"to": [4, 1, -5],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, -13.5, 24.25]},
+			"faces": {
+				"north": {"uv": [16, 16, 18.78261, 14.43902], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [9.3913, 16, 16, 14.43902], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [6.6087, 16, 9.3913, 14.43902], "texture": "#0", "cullface": "north", "tintindex": 0},
+				"west": {"uv": [0, 16, 6.6087, 14.43902], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [9.3913, 7.02439, 12.17391, 14.43902], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [6.6087, 14.43902, 9.3913, 7.02439], "texture": "#0", "tintindex": 0}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [-157.5, 0, -180],
+			"translation": [0, 2.5, 0]
+		},
+		"fixed": {
+			"rotation": [-67, 0, 0],
+			"translation": [0, -0.5, -79],
+			"scale": [4, 4, 4]
+		}
+	},
+	"groups": [
+		{
+			"name": "Entire",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}

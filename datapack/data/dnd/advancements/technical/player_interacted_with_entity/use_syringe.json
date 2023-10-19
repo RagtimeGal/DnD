@@ -1,0 +1,49 @@
+{
+  "criteria": {
+    "used_syringe": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "offhand": {
+                      "nbt": "{dnd:{id:\"dnd:syringe\"}}"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "nbt": "{dnd:{id:\"dnd:syringe\"}}"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "entity": {
+          "type": "#dnd:has_genome"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dnd:item/syringe/main"
+  },
+  "requirements": [
+    [
+      "used_syringe"
+    ]
+  ]
+}

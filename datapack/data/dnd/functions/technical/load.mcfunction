@@ -1,32 +1,24 @@
 ####################
-# Load
+# Runs when loaded
 ####################
 
-## Add Scoreboards
-scoreboard objectives add dnd.config dummy
+## Create Scoreboards
 scoreboard objectives add dnd.dummy dummy
-scoreboard objectives add dnd.timer dummy
-scoreboard objectives add dnd.carrot_on_a_stick minecraft.used:carrot_on_a_stick
-scoreboard objectives add dnd.mine_sand minecraft.mined:minecraft.sand
-scoreboard objectives add dnd.mine_red_sand minecraft.mined:minecraft.red_sand
-scoreboard objectives add dnd.mine_packed_ice minecraft.mined:minecraft.packed_ice
-scoreboard objectives add dnd.mine_blue_ice minecraft.mined:minecraft.blue_ice
-scoreboard objectives add dnd.fossil_preservation dummy
-scoreboard objectives add dnd.current_xp xp
-scoreboard objectives add dnd.old_xp dummy
+scoreboard objectives add dnd.dummy2 dummy
+scoreboard objectives add dnd.syringe_cooldown dummy
+scoreboard objectives add dnd.data dummy
+scoreboard objectives add dnd.warped_fungus_on_a_stick minecraft.used:minecraft.warped_fungus_on_a_stick
+scoreboard objectives add dnd.suspicious_sand minecraft.mined:suspicious_sand
+scoreboard objectives add dnd.cmd_idle dummy
+scoreboard objectives add dnd.cmd_walk dummy
+scoreboard objectives add dnd.cmd_sit dummy
+scoreboard objectives add dnd.cmd_eat dummy
 
-## Antivillager
-team add smithed.prevent_aggression
+## Trigger
+scoreboard objectives add dnd.wiki trigger
+scoreboard objectives add dnd.discord trigger
 
-## Schedule
-schedule function dnd:technical/ten_second_clock/main 10s replace
-schedule function dnd:technical/second_clock/main 1s replace
-
-## Set Config
-execute unless score version dnd.config matches 142 run function dnd:technical/update
-scoreboard players set version dnd.config 142
-
-## Send Chat Messages
-execute if score IsInstalled dnd.config matches 1 if score doReloadMessage dnd.config matches 1 run function dnd:technical/reload_message
-execute unless score IsInstalled dnd.config matches 1 run function dnd:technical/default_config
-execute unless score IsInstalled dnd.config matches 1 run function dnd:technical/install_message
+## Run on Load
+tellraw @a[predicate=dnd:entity_properties/is_debug_player] [{"translate":"debug.prefix","color":"yellow","bold":true},{"translate":"commands.dnd.reload.success","color":"white","bold":false}]
+execute unless score #server_version dnd.dummy matches 200 run function dnd:technical/initiate
+execute store result score #difficulty dnd.dummy run difficulty

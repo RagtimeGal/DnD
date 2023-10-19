@@ -1,6 +1,12 @@
 ####################
-# Block Second Clock
+# Runs as blocks every second
 ####################
 
-## Remove dnd.inside_custom_gui
-execute if entity @s[tag=dnd.barrel] unless entity @a[tag=dnd.inside_custom_gui,distance=..10] as @a[tag=dnd.inside_custom_gui,distance=10..] at @s unless entity @e[tag=dnd.barrel,distance=..10] run tag @s remove dnd.inside_custom_gui
+## Light
+execute if entity @s[tag=dnd.block,type=item_display] run function dnd:block/update_light/main
+
+## Jukebox particle
+execute if entity @s[tag=dnd.jukebox] run particle minecraft:note ~ ~ ~ 0 0 0 1 1 normal
+
+## Egg
+execute if entity @s[tag=dnd.egg] run function dnd:block/placed_egg/main

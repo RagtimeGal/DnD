@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnd:{id:\"dnd:primary_fossil\",entity:\"dnd:endermite\",ModifiedEntityName:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.egg_item.minecraft:endermite\",\"with\":[{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.tooltip.modified\",\"with\":[{\"italic\":false,\"color\":\"white\",\"translate\":\"entity.minecraft.endermite\"}]}]}',eggItem:{id:\"minecraft:warped_fungus_on_a_stick\",tag:{CustomModelData:400106,HideFlags:4,Unbreakable:1b,display:{Name:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.egg_item.minecraft:endermite\",\"with\":[{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.tooltip.generic\",\"with\":[{\"italic\":false,\"color\":\"white\",\"translate\":\"entity.minecraft.endermite\"}]}]}'},dnd:{EntityNBT:{Attributes:[{Base:16d,Name:\"minecraft:generic.follow_range\"},{Base:8.0d,Name:\"minecraft:generic.max_health\"},{Base:0.25d,Name:\"minecraft:generic.movement_speed\"}],PersistenceRequired:1b,Tags:[\"dnd.clone\"]},entity:\"minecraft:endermite\",id:\"dnd:custom_egg\"}}},entityName:'{\"italic\":false,\"color\":\"gray\",\"translate\":\"item.dnd.tooltip.generic\",\"with\":[{\"italic\":false,\"color\":\"gray\",\"translate\":\"entity.minecraft.endermite\"}]}'},CustomModelData:400132}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.amber.endermite",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.dnd.tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "font": "dnd:tooltip",
+                  "with": [
+                    {
+                      "translate": "pack.dnd",
+                      "color": "#FFAA00",
+                      "italic": true,
+                      "font": "minecraft:default"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

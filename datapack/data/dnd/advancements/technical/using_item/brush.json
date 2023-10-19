@@ -1,0 +1,23 @@
+{
+  "parent": "dnd:technical/root",
+  "criteria": {
+    "using_brush": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:brush"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dnd:block/suspicious_red_sand/particle/main"
+  },
+  "requirements": [
+    [
+      "using_brush"
+    ]
+  ]
+}

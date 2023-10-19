@@ -1,3 +1,6 @@
 {
-		"values":["dnd:technical/load","qcb:load"]
-	}
+	"values":[
+		"dnd:technical/load",
+		"dnd:technical/second_clock/main"
+	]
+  }

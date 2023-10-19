@@ -1,0 +1,36 @@
+{
+  "parent": "dnd:revival/enter_formation",
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_block",
+      "nbt": "{CustomModelData:400011}"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.thunder_egg.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.thunder_egg.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "thunder_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:thunder_egg\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "thunder_egg"
+    ]
+  ]
+}

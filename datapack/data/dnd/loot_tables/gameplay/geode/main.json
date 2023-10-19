@@ -1,0 +1,46 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:smooth_basalt"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.5
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "weight": 25,
+            "name": "dnd:gameplay/geode/quartz"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 60,
+            "name": "dnd:gameplay/geode/amethyst"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 1,
+            "name": "dnd:gameplay/geode/diamond"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 14,
+            "name": "dnd:gameplay/geode/emerald"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,55 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "dnd:item/ankylosaurus_secondary_fossil"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dnd:item/sniffer_secondary_fossil"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dnd:item/pitcher_plant_primary_fossil"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dnd:item/torchflower_primary_fossil"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dnd:item/acrocanthosaurus_primary_fossil"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dnd:item/ankylosaurus_primary_fossil"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dnd:item/compsognathus_primary_fossil"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dnd:item/concavenator_primary_fossil"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dnd:item/pachycephalosaurus_primary_fossil"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dnd:item/triceratops_primary_fossil"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dnd:item/tyrannosaurus_primary_fossil"
+          }
+        ]
+      }
+    ]
+  }
+  

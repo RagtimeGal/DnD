@@ -1,0 +1,275 @@
+{
+    "parent": "minecraft:block/stone",
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 400000
+			},
+			"model": "dnd:entity/fossil_display/acrocanthosaurus_fossil_0"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400001
+			},
+			"model": "dnd:entity/fossil_display/acrocanthosaurus_fossil_1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400002
+			},
+			"model": "dnd:entity/fossil_display/acrocanthosaurus_fossil_2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400003
+			},
+			"model": "dnd:entity/fossil_display/ankylosaurus_fossil_0"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400004
+			},
+			"model": "dnd:entity/fossil_display/ankylosaurus_fossil_1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400005
+			},
+			"model": "dnd:entity/fossil_display/ankylosaurus_fossil_2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400006
+			},
+			"model": "dnd:entity/fossil_display/ankylosaurus_fossil_3"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400007
+			},
+			"model": "dnd:entity/fossil_display/compsognathus_fossil_0"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400008
+			},
+			"model": "dnd:entity/fossil_display/compsognathus_fossil_1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400009
+			},
+			"model": "dnd:entity/fossil_display/compsognathus_fossil_2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400010
+			},
+			"model": "dnd:entity/fossil_display/concavenator_fossil_0"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400011
+			},
+			"model": "dnd:entity/fossil_display/concavenator_fossil_1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400012
+			},
+			"model": "dnd:entity/fossil_display/concavenator_fossil_2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400013
+			},
+			"model": "dnd:entity/fossil_display/corythosaurus_fossil_0"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400014
+			},
+			"model": "dnd:entity/fossil_display/corythosaurus_fossil_1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400015
+			},
+			"model": "dnd:entity/fossil_display/corythosaurus_fossil_2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400016
+			},
+			"model": "dnd:entity/fossil_display/gallimimus_fossil_0"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400017
+			},
+			"model": "dnd:entity/fossil_display/gallimimus_fossil_1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400018
+			},
+			"model": "dnd:entity/fossil_display/gallimimus_fossil_2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400019
+			},
+			"model": "dnd:entity/fossil_display/pachycephalosaurus_fossil_0"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400020
+			},
+			"model": "dnd:entity/fossil_display/pachycephalosaurus_fossil_1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400021
+			},
+			"model": "dnd:entity/fossil_display/pachycephalosaurus_fossil_2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400022
+			},
+			"model": "dnd:entity/fossil_display/triceratops_fossil_0"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400023
+			},
+			"model": "dnd:entity/fossil_display/triceratops_fossil_1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400024
+			},
+			"model": "dnd:entity/fossil_display/triceratops_fossil_2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400025
+			},
+			"model": "dnd:entity/fossil_display/tyrannosaurus_fossil_0"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400026
+			},
+			"model": "dnd:entity/fossil_display/tyrannosaurus_fossil_1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400027
+			},
+			"model": "dnd:entity/fossil_display/tyrannosaurus_fossil_2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400028
+			},
+			"model": "dnd:entity/fossil_display/dodo_fossil_0"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400029
+			},
+			"model": "dnd:entity/fossil_display/dodo_fossil_1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400030
+			},
+			"model": "dnd:entity/fossil_display/dodo_fossil_2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400031
+			},
+			"model": "dnd:entity/fossil_display/dwarf_elephant_fossil_0"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400032
+			},
+			"model": "dnd:entity/fossil_display/dwarf_elephant_fossil_1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400033
+			},
+			"model": "dnd:entity/fossil_display/dwarf_elephant_fossil_2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400034
+			},
+			"model": "dnd:entity/fossil_display/giant_swan_fossil_0"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400035
+			},
+			"model": "dnd:entity/fossil_display/giant_swan_fossil_1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400036
+			},
+			"model": "dnd:entity/fossil_display/giant_swan_fossil_2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400037
+			},
+			"model": "dnd:entity/fossil_display/gigantopithecus_fossil_0"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400038
+			},
+			"model": "dnd:entity/fossil_display/gigantopithecus_fossil_1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400039
+			},
+			"model": "dnd:entity/fossil_display/gigantopithecus_fossil_2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400040
+			},
+			"model": "dnd:entity/fossil_display/pitcher_plant_fossil_0"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400041
+			},
+			"model": "dnd:entity/fossil_display/torchflower_fossil_0"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400042
+			},
+			"model": "dnd:entity/fossil_display/sniffer_fossil_0"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400043
+			},
+			"model": "dnd:entity/fossil_display/sniffer_fossil_1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 400044
+			},
+			"model": "dnd:entity/fossil_display/sniffer_fossil_2"
+		}
+	]
+}

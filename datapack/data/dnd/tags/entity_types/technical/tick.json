@@ -1,7 +1,9 @@
 {
   "values": [
-    "minecraft:armor_stand",
-    "minecraft:wandering_trader",
-    "minecraft:villager"
+    "minecraft:item_display",
+    "minecraft:marker",
+    "minecraft:snowball",
+    "minecraft:interaction",
+    "minecraft:wandering_trader"
   ]
 }

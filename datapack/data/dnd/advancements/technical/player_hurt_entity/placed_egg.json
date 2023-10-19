@@ -1,0 +1,27 @@
+{
+  "parent": "dnd:technical/root",
+  "criteria": {
+    "hurt_entity": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"dnd.egg\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "dnd:block/placed_egg/attack"
+  },
+  "requirements": [
+    [
+      "hurt_entity"
+    ]
+  ]
+}

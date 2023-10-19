@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "dnd:item/petrified_wood"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dnd:item/thunder_egg"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "dnd:item/shattered_clockwork"
+          }
+        ]
+      }
+    ]
+  }
+  

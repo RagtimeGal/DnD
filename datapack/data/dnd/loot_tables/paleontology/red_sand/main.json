@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "weight": 75,
+            "name": "dnd:paleontology/red_sand/junk"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 20,
+            "name": "dnd:paleontology/red_sand/fossil"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 5,
+            "name": "dnd:paleontology/red_sand/treasure"
+          }
+        ]
+      }
+    ]
+  }
+  

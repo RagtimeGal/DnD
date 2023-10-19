@@ -1,0 +1,45 @@
+{
+	"credit": "https://ragnois.gay/",
+	"texture_size": [48, 49],
+	"textures": {
+		"0": "dnd:entity/fossil_display/sniffer_fossil_0"
+	},
+	"elements": [
+		{
+			"name": "head",
+			"from": [1.5, 0, -2],
+			"to": [14.5, 15, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [16, 3.59184, 11.66667, 8.4898], "texture": "#0"},
+				"east": {"uv": [3.66667, 3.59184, 0, 8.4898], "texture": "#0"},
+				"south": {"uv": [8, 3.59184, 3.66667, 8.4898], "texture": "#0"},
+				"west": {"uv": [11.66667, 3.59184, 8, 8.4898], "texture": "#0"},
+				"up": {"uv": [8, 0, 3.66667, 3.59184], "texture": "#0"},
+				"down": {"uv": [12.33333, 3.59184, 8, 0], "texture": "#0"}
+			}
+		},
+		{
+			"name": "lower_beak",
+			"from": [1.5, 0, 9],
+			"to": [14.5, 14, 18],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [14.66667, 11.42857, 10.33333, 16], "texture": "#0"},
+				"east": {"uv": [3, 11.42857, 0, 16], "texture": "#0"},
+				"south": {"uv": [7.33333, 11.42857, 3, 16], "texture": "#0"},
+				"west": {"uv": [10.33333, 11.42857, 7.33333, 16], "texture": "#0"},
+				"up": {"uv": [7.33333, 8.4898, 3, 11.42857], "texture": "#0"},
+				"down": {"uv": [11.66667, 11.42857, 7.33333, 8.4898], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "Entire",
+			"origin": [8, 0, 8],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

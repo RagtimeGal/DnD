@@ -1,0 +1,73 @@
+{
+	"credit": "https://ragnois.gay/",
+	"texture_size": [20, 21],
+	"textures": {
+		"0": "dnd:entity/fossil_display/gallimimus_fossil_0"
+	},
+	"elements": [
+		{
+			"from": [5.99827, 0, 2.02479],
+			"to": [9.99827, 5, 8.02479],
+			"rotation": {"angle": 0, "axis": "x", "origin": [7.99827, 2.75, 6.63739]},
+			"faces": {
+				"north": {"uv": [16, 4.57143, 12.8, 8.38095], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [4.8, 4.57143, 0, 8.38095], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [8, 4.57143, 4.8, 8.38095], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [12.8, 4.57143, 8, 8.38095], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [8, 0, 4.8, 4.57143], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [11.2, 4.57143, 8, 0], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [5.99827, 1, 8.02479],
+			"to": [9.99827, 5, 14.02479],
+			"rotation": {"angle": 0, "axis": "x", "origin": [7.99827, 2.75, 9.41218]},
+			"faces": {
+				"north": {"uv": [16, 12.95238, 12.8, 16], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [4.8, 12.95238, 0, 16], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [8, 12.95238, 4.8, 16], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [12.8, 12.95238, 8, 16], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [8, 8.38095, 4.8, 12.95238], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [11.2, 12.95238, 8, 8.38095], "texture": "#0", "tintindex": 0}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [-157.5, 0, -180],
+			"translation": [0, -1.25, 0]
+		},
+		"head": {
+			"rotation": [-22.5, 0, 0],
+			"translation": [0, -18, -12],
+			"scale": [1.6, 1.6, 1.6]
+		}
+	},
+	"groups": [
+		{
+			"name": "Entire",
+			"origin": [0, 4, 0],
+			"color": 0,
+			"children": [
+				{
+					"name": "Body",
+					"origin": [0, 4, 0],
+					"color": 0,
+					"children": []
+				},
+				{
+					"name": "Head",
+					"origin": [-0.00294, 20.625, -5.25],
+					"color": 0,
+					"children": [0, 1]
+				},
+				{
+					"name": "Limbs",
+					"origin": [0, 4, 0],
+					"color": 0,
+					"children": []
+				}
+			]
+		}
+	]
+}

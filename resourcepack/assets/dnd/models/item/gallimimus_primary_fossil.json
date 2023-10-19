@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "dnd:item/gallimimus_primary_fossil"
+      "layer0": "dnd:item/gallimimus_primary_fossil"
     }
-}
+  }

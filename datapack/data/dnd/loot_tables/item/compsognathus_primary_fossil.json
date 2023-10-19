@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnd:{id:\"dnd:primary_fossil\",entity:\"dnd:compsognathus\",ModifiedEntityName:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.egg_item.dnd:compsognathus\",\"with\":[{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.tooltip.modified\",\"with\":[{\"italic\":false,\"color\":\"white\",\"translate\":\"entity.dnd.compsognathus\"}]}]}',eggItem:{id:\"minecraft:warped_fungus_on_a_stick\",tag:{CustomModelData:400902,HideFlags:4,Unbreakable:1b,display:{Name:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.egg_item.dnd:compsognathus\",\"with\":[{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.tooltip.generic\",\"with\":[{\"italic\":false,\"color\":\"white\",\"translate\":\"entity.dnd.compsognathus\"}]}]}'},dnd:{EntityNBT:{Team:\"smithed.prevent_aggression\",Silent:1b,PersistenceRequired:1b,Offers:{},DeathLootTable:\"dnd:entity/compsognathus\",Tags:[\"dnd.prey.small\",\"dnd.predator.small\",\"dnd.predator\",\"dnd.herd\",\"dnd.bucketable\",\"dnd.baby\",\"dnd.tick\",\"dnd.second_clock\",\"dnd.entity\",\"dnd.dinosaur\",\"dnd.compsognathus\",\"smithed.entity\"],CustomName:'{\"translate\":\"entity.dnd.compsognathus\",\"italic\":false}',ArmorItems:[{},{},{},{id:\"minecraft:structure_block\",Count:1b,tag:{CustomModelData:400000,dnd:{baby:[400023,400024],adult:[400021,400022],bucket:{Name:'{\"translate\":\"item.dnd.compsognathus_bucket\",\"color\":\"white\",\"italic\":false}',CustomModelData:400800}}}}],HandDropChances:[0.000F,0.000F],ArmorDropChances:[0F,0F,0F,0F],Health:5.0f,Attributes:[{Name:generic.max_health,Base:5},{Name:generic.movement_speed,Base:0.65}]},entity:\"minecraft:wandering_trader\",id:\"dnd:custom_placed_egg\"}}},entityName:'{\"italic\":false,\"color\":\"gray\",\"translate\":\"item.dnd.tooltip.generic\",\"with\":[{\"italic\":false,\"color\":\"gray\",\"translate\":\"entity.dnd.compsognathus\"}]}'},CustomModelData:400102}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.primary_fossil.compsognathus",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.dnd.tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "font": "dnd:tooltip",
+                  "with": [
+                    {
+                      "translate": "pack.dnd",
+                      "color": "#FFAA00",
+                      "italic": true,
+                      "font": "minecraft:default"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

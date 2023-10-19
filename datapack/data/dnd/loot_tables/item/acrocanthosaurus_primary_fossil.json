@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnd:{id:\"dnd:primary_fossil\",entity:\"dnd:acrocanthosaurus\",ModifiedEntityName:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.egg_item.dnd:acrocanthosaurus\",\"with\":[{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.tooltip.modified\",\"with\":[{\"italic\":false,\"color\":\"white\",\"translate\":\"entity.dnd.acrocanthosaurus\"}]}]}',eggItem:{id:\"minecraft:warped_fungus_on_a_stick\",tag:{CustomModelData:400900,HideFlags:4,Unbreakable:1b,display:{Name:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.egg_item.dnd:acrocanthosaurus\",\"with\":[{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.tooltip.generic\",\"with\":[{\"italic\":false,\"color\":\"white\",\"translate\":\"entity.dnd.acrocanthosaurus\"}]}]}'},dnd:{EntityNBT:{Team:\"smithed.prevent_aggression\",Silent:1b,PersistenceRequired:1b,Offers:{},DeathLootTable:\"dnd:entity/acrocanthosaurus\",Tags:[\"dnd.predator.large\",\"dnd.predator\",\"dnd.baby\",\"dnd.tick\",\"dnd.second_clock\",\"dnd.entity\",\"dnd.dinosaur\",\"dnd.acrocanthosaurus\",\"smithed.entity\"],CustomName:'{\"translate\":\"entity.dnd.acrocanthosaurus\",\"italic\":false}',ArmorItems:[{},{},{},{id:\"minecraft:structure_block\",Count:1b,tag:{CustomModelData:400000,dnd:{baby:[400003,400004],adult:[400001,400002]}}}],HandDropChances:[0.000F,0.000F],ArmorDropChances:[0F,0F,0F,0F],Health:60.0f,Attributes:[{Name:generic.max_health,Base:60},{Name:generic.movement_speed,Base:0.49}]},entity:\"minecraft:wandering_trader\",id:\"dnd:custom_placed_egg\"}}},entityName:'{\"italic\":false,\"color\":\"gray\",\"translate\":\"item.dnd.tooltip.generic\",\"with\":[{\"italic\":false,\"color\":\"gray\",\"translate\":\"entity.dnd.acrocanthosaurus\"}]}'},CustomModelData:400130}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.primary_fossil.acrocanthosaurus",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.dnd.tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "font": "dnd:tooltip",
+                  "with": [
+                    {
+                      "translate": "pack.dnd",
+                      "color": "#FFAA00",
+                      "italic": true,
+                      "font": "minecraft:default"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

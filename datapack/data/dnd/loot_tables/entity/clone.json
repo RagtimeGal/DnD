@@ -1,0 +1,22 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "dnd:item/clone_goop",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

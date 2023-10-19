@@ -1,0 +1,36 @@
+{
+  "parent": "dnd:revival/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "nbt": "{CustomModelData:400000}"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.syringe.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.syringe.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "syringe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:syringe\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "syringe"
+    ]
+  ]
+}

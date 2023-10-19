@@ -1,6 +1,6 @@
 {
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "dnd:item/embryo_needle"
+    "parent": "item/handheld_rod",
+    "textures": {
+      "layer0": "dnd:item/embryo_needle"
+    }
   }
-}

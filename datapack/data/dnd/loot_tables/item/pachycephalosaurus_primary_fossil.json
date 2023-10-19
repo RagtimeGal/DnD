@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{dnd:{id:\"dnd:primary_fossil\",entity:\"dnd:pachycephalosaurus\",ModifiedEntityName:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.egg_item.dnd:pachycephalosaurus\",\"with\":[{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.tooltip.modified\",\"with\":[{\"italic\":false,\"color\":\"white\",\"translate\":\"entity.dnd.pachycephalosaurus\"}]}]}',eggItem:{id:\"minecraft:warped_fungus_on_a_stick\",tag:{CustomModelData:400906,HideFlags:4,Unbreakable:1b,display:{Name:'{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.egg_item.dnd:pachycephalosaurus\",\"with\":[{\"italic\":false,\"color\":\"white\",\"translate\":\"item.dnd.tooltip.generic\",\"with\":[{\"italic\":false,\"color\":\"white\",\"translate\":\"entity.dnd.pachycephalosaurus\"}]}]}'},dnd:{EntityNBT:{Team:\"smithed.prevent_aggression\",Silent:1b,PersistenceRequired:1b,Offers:{},DeathLootTable:\"dnd:entity/pachycephalosaurus\",Tags:[\"dnd.prey.medium\",\"dnd.baby\",\"dnd.tick\",\"dnd.second_clock\",\"dnd.entity\",\"dnd.dinosaur\",\"dnd.pachycephalosaurus\",\"smithed.entity\"],CustomName:'{\"translate\":\"entity.dnd.pachycephalosaurus\",\"italic\":false}',ArmorItems:[{},{},{},{id:\"minecraft:structure_block\",Count:1b,tag:{CustomModelData:400000,dnd:{baby:[400031,400032],adult:[400029,400030]}}}],HandDropChances:[0.000F,0.000F],ArmorDropChances:[0F,0F,0F,0F],Health:20.0f,Attributes:[{Name:generic.max_health,Base:20},{Name:generic.movement_speed,Base:0.40}]},entity:\"minecraft:wandering_trader\",id:\"dnd:custom_placed_egg\"}}},entityName:'{\"italic\":false,\"color\":\"gray\",\"translate\":\"item.dnd.tooltip.generic\",\"with\":[{\"italic\":false,\"color\":\"gray\",\"translate\":\"entity.dnd.pachycephalosaurus\"}]}'},CustomModelData:400110}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.dnd.primary_fossil.pachycephalosaurus",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.dnd.tooltip",
+                  "color": "white",
+                  "italic": false,
+                  "font": "dnd:tooltip",
+                  "with": [
+                    {
+                      "translate": "pack.dnd",
+                      "color": "#FFAA00",
+                      "italic": true,
+                      "font": "minecraft:default"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "criteria": {
+    "used_embryo": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "offhand": {
+                      "nbt": "{dnd:{id:\"dnd:custom_embryo\"}}"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "nbt": "{dnd:{id:\"dnd:custom_embryo\"}}"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "entity": {
+          "type": "#dnd:has_genome"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dnd:item/embryo/main"
+  },
+  "requirements": [
+    [
+      "used_embryo"
+    ]
+  ]
+}

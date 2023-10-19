@@ -1,0 +1,36 @@
+{
+  "parent": "dnd:revival/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:furnace",
+      "nbt": "{CustomModelData:400000}"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.sequencer.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.sequencer.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sequencer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:sequencer\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sequencer"
+    ]
+  ]
+}

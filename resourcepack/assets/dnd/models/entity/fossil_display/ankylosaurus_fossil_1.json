@@ -1,0 +1,94 @@
+{
+	"credit": "https://ragnois.gay/",
+	"textures": {
+		"0": "dnd:entity/fossil_display/ankylosaurus_fossil_1"
+	},
+	"elements": [
+		{
+			"from": [4, 0.36208, 2.6918],
+			"to": [12, 9.36208, 11.6918],
+			"rotation": {"angle": 0, "axis": "x", "origin": [9, 13.36208, 8.6918]},
+			"faces": {
+				"north": {"uv": [16, 8, 12.23529, 16], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [4.23529, 8, 0, 16], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [8, 8, 4.23529, 16], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [12.23529, 8, 8, 16], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [8, 0, 4.23529, 8], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [11.76471, 8, 8, 0], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [11, 7.36208, 0.6918],
+			"to": [14, 10.36208, 3.6918],
+			"rotation": {"angle": 0, "axis": "x", "origin": [9, 13.36208, 8.6918]},
+			"faces": {
+				"north": {"uv": [2.82353, 5.33333, 1.41176, 8], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [1.41176, 2.66667, 0, 5.33333], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [2.82353, 2.66667, 1.41176, 5.33333], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [1.41176, 5.33333, 0, 8], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [1.41176, 0, 0, 2.66667], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [2.82353, 2.66667, 1.41176, 0], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [11, -0.81898, 0.6918],
+			"to": [14, 2.18102, 3.6918],
+			"rotation": {"angle": 0, "axis": "x", "origin": [9, 13.36208, 8.6918]},
+			"faces": {
+				"north": {"uv": [2.82353, 5.33333, 1.41176, 8], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [1.41176, 2.66667, 0, 5.33333], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [2.82353, 2.66667, 1.41176, 5.33333], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [1.41176, 5.33333, 0, 8], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [1.41176, 0, 0, 2.66667], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [2.82353, 2.66667, 1.41176, 0], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [2, 7.36208, 0.6918],
+			"to": [5, 10.36208, 3.6918],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "x", "origin": [9, 13.36208, 8.6918]},
+			"faces": {
+				"north": {"uv": [1.41176, 5.33333, 2.82353, 8], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [0, 2.66667, 1.41176, 5.33333], "rotation": 180, "texture": "#0", "tintindex": 0},
+				"south": {"uv": [1.41176, 2.66667, 2.82353, 5.33333], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [0, 5.33333, 1.41176, 8], "rotation": 180, "texture": "#0", "tintindex": 0},
+				"up": {"uv": [0, 0, 1.41176, 2.66667], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [1.41176, 2.66667, 2.82353, 0], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [2, -0.81898, 0.6918],
+			"to": [5, 2.18102, 3.6918],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "x", "origin": [9, 13.36208, 8.6918]},
+			"faces": {
+				"north": {"uv": [1.41176, 5.33333, 2.82353, 8], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [0, 2.66667, 1.41176, 5.33333], "rotation": 180, "texture": "#0", "tintindex": 0},
+				"south": {"uv": [1.41176, 2.66667, 2.82353, 5.33333], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [0, 5.33333, 1.41176, 8], "rotation": 180, "texture": "#0", "tintindex": 0},
+				"up": {"uv": [0, 0, 1.41176, 2.66667], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [1.41176, 2.66667, 2.82353, 0], "texture": "#0", "tintindex": 0}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [-157.5, 0, -180],
+			"translation": [0, 2.5, 0]
+		},
+		"fixed": {
+			"rotation": [-67, 0, 0],
+			"translation": [0, -0.5, -79],
+			"scale": [4, 4, 4]
+		}
+	},
+	"groups": [
+		{
+			"name": "Entire",
+			"origin": [9, 13.36208, 7.3082],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4]
+		}
+	]
+}

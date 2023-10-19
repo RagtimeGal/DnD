@@ -1,6 +1,6 @@
 {
-    "parent": "item/handheld",
+    "parent": "item/generated",
     "textures": {
-        "layer0": "dnd:item/gigantopithecus_primary_fossil"
+      "layer0": "dnd:item/gigantopithecus_primary_fossil"
     }
-}
+  }

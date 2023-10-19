@@ -1,0 +1,1 @@
+setblock ~ ~ ~ suspicious_gravel{LootTable:"dnd:paleontology/gravel/main"}

@@ -1,6 +1,26 @@
 {
   "pack": {
-    "description": "[Dinos & Dodos] v1.4.3",
-    "pack_format": 10
+    "pack_format": 18,
+    "description": [
+      {
+        "color": "#FFAA00",
+        "text": "Dinos & Dodos"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "color": "#6eea6e",
+        "text": "v2.0.0"
+      }
+    ]
+  },
+  "overlays" : {
+    "entries": [
+      {
+        "formats": 18,
+        "directory": "versioning"
+      }
+    ]
   }
 }

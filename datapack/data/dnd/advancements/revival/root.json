@@ -13,14 +13,16 @@
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": false,
-    "background": "minecraft:textures/block/bone_block_side.png"
+    "background": "dnd:textures/block/suspicious_red_sand_0.png"
   },
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"
     }
   },
-  "rewards": {
-    "function": "dnd:entity/player/join"
-  }
+  "requirements": [
+    [
+      "tick"
+    ]
+  ]
 }

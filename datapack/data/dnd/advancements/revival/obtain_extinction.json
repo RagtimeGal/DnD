@@ -1,0 +1,34 @@
+{
+  "parent": "dnd:revival/prehistoric_mob",
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "nbt": "{CustomModelData:400002}"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.obtain_extinction.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.obtain_extinction.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "extinction_disc": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:music_disc_extinction\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["extinction_disc"]
+  ]
+}

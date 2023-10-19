@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld_rod",
+    "textures": {
+      "layer0": "dnd:item/wandering_trader_embryo"
+    }
+  }

@@ -1,6 +1,9 @@
 ####################
-# Second Clock for Entities
+# Second Clock as the entities required
 ####################
 
-## Run Functions
-execute as @s[tag=dnd.second_clock] at @s run function dnd:entity/second_clock
+## Blocks
+execute if entity @s[tag=dnd.block] run function dnd:block/second_clock
+
+## Dinosaur
+execute if entity @s[tag=dnd.dinosaur] run function dnd:entity/dinosaur/second_clock

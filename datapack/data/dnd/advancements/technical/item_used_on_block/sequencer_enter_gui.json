@@ -1,0 +1,31 @@
+{
+  "parent": "dnd:technical/root",
+  "criteria": {
+    "click_sequencer": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:barrel"
+                ],
+                "nbt": "{CustomName:'{\"color\":\"white\",\"font\":\"dnd:gui\",\"translate\":\"block.dnd.sequencer.gui\",\"with\":[{\"color\":\"#3F3F3F\",\"font\":\"minecraft:default\",\"translate\":\"block.dnd.sequencer\"}]}'}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "dnd:block/sequencer/interact/enter_gui"
+  },
+  "requirements": [
+    [
+      "click_sequencer"
+    ]
+  ]
+}

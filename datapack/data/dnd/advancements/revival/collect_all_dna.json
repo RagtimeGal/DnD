@@ -1,0 +1,815 @@
+{
+  "parent": "dnd:revival/dna",
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_block",
+      "nbt": "{CustomModelData:400001}"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.collect_all_dna.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.collect_all_dna.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "allay": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:allay\"}}}}}"
+          }
+        ]
+      }
+    },
+    "axolotl": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:axolotl\"}}}}}"
+          }
+        ]
+      }
+    },
+    "bat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:bat\"}}}}}"
+          }
+        ]
+      }
+    },
+    "bee": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:bee\"}}}}}"
+          }
+        ]
+      }
+    },
+    "blaze": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:blaze\"}}}}}"
+          }
+        ]
+      }
+    },
+    "cat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:cat\"}}}}}"
+          }
+        ]
+      }
+    },
+    "camel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:camel\"}}}}}"
+          }
+        ]
+      }
+    },
+    "cave_spider": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:cave_spider\"}}}}}"
+          }
+        ]
+      }
+    },
+    "chicken": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:chicken\"}}}}}"
+          }
+        ]
+      }
+    },
+    "cod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:cod\"}}}}}"
+          }
+        ]
+      }
+    },
+    "cow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:cow\"}}}}}"
+          }
+        ]
+      }
+    },
+    "creeper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:creeper\"}}}}}"
+          }
+        ]
+      }
+    },
+    "dolphin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:dolphin\"}}}}}"
+          }
+        ]
+      }
+    },
+    "donkey": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:donkey\"}}}}}"
+          }
+        ]
+      }
+    },
+    "drowned": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:drowned\"}}}}}"
+          }
+        ]
+      }
+    },
+    "enderman": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:enderman\"}}}}}"
+          }
+        ]
+      }
+    },
+    "endermite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:endermite\"}}}}}"
+          }
+        ]
+      }
+    },
+    "evoker": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:evoker\"}}}}}"
+          }
+        ]
+      }
+    },
+    "fox": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:fox\"}}}}}"
+          }
+        ]
+      }
+    },
+    "frog": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:frog\"}}}}}"
+          }
+        ]
+      }
+    },
+    "ghast": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:ghast\"}}}}}"
+          }
+        ]
+      }
+    },
+    "glow_squid": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:glow_squid\"}}}}}"
+          }
+        ]
+      }
+    },
+    "goat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:goat\"}}}}}"
+          }
+        ]
+      }
+    },
+    "guardian": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:guardian\"}}}}}"
+          }
+        ]
+      }
+    },
+    "hoglin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:hoglin\"}}}}}"
+          }
+        ]
+      }
+    },
+    "horse": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:horse\"}}}}}"
+          }
+        ]
+      }
+    },
+    "husk": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:husk\"}}}}}"
+          }
+        ]
+      }
+    },
+    "iron_golem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:iron_golem\"}}}}}"
+          }
+        ]
+      }
+    },
+    "llama": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:llama\"}}}}}"
+          }
+        ]
+      }
+    },
+    "magma_cube": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:magma_cube\"}}}}}"
+          }
+        ]
+      }
+    },
+    "mooshroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:mooshroom\"}}}}}"
+          }
+        ]
+      }
+    },
+    "mule": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:mule\"}}}}}"
+          }
+        ]
+      }
+    },
+    "ocelot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:ocelot\"}}}}}"
+          }
+        ]
+      }
+    },
+    "panda": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:panda\"}}}}}"
+          }
+        ]
+      }
+    },
+    "parrot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:parrot\"}}}}}"
+          }
+        ]
+      }
+    },
+    "phantom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:phantom\"}}}}}"
+          }
+        ]
+      }
+    },
+    "pig": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:pig\"}}}}}"
+          }
+        ]
+      }
+    },
+    "piglin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:piglin\"}}}}}"
+          }
+        ]
+      }
+    },
+    "piglin_brute": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:piglin_brute\"}}}}}"
+          }
+        ]
+      }
+    },
+    "pillager": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:pillager\"}}}}}"
+          }
+        ]
+      }
+    },
+    "polar_bear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:polar_bear\"}}}}}"
+          }
+        ]
+      }
+    },
+    "pufferfish": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:pufferfish\"}}}}}"
+          }
+        ]
+      }
+    },
+    "rabbit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:rabbit\"}}}}}"
+          }
+        ]
+      }
+    },
+    "ravager": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:ravager\"}}}}}"
+          }
+        ]
+      }
+    },
+    "salmon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:salmon\"}}}}}"
+          }
+        ]
+      }
+    },
+    "sheep": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:sheep\"}}}}}"
+          }
+        ]
+      }
+    },
+    "shulker": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:shulker\"}}}}}"
+          }
+        ]
+      }
+    },
+    "silverfish": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:silverfish\"}}}}}"
+          }
+        ]
+      }
+    },
+    "skeleton": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:skeleton\"}}}}}"
+          }
+        ]
+      }
+    },
+    "skeleton_horse": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:skeleton_horse\"}}}}}"
+          }
+        ]
+      }
+    },
+    "slime": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:slime\"}}}}}"
+          }
+        ]
+      }
+    },
+    "sniffer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:sniffer\"}}}}}"
+          }
+        ]
+      }
+    },
+    "snow_golem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:snow_golem\"}}}}}"
+          }
+        ]
+      }
+    },
+    "spider": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:spider\"}}}}}"
+          }
+        ]
+      }
+    },
+    "squid": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:squid\"}}}}}"
+          }
+        ]
+      }
+    },
+    "stray": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:stray\"}}}}}"
+          }
+        ]
+      }
+    },
+    "strider": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:strider\"}}}}}"
+          }
+        ]
+      }
+    },
+    "tadpole": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:tadpole\"}}}}}"
+          }
+        ]
+      }
+    },
+    "trader_llama": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:trader_llama\"}}}}}"
+          }
+        ]
+      }
+    },
+    "tropical_fish": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:tropical_fish\"}}}}}"
+          }
+        ]
+      }
+    },
+    "turtle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:turtle\"}}}}}"
+          }
+        ]
+      }
+    },
+    "vex": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:vex\"}}}}}"
+          }
+        ]
+      }
+    },
+    "villager": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:villager\"}}}}}"
+          }
+        ]
+      }
+    },
+    "vindicator": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:vindicator\"}}}}}"
+          }
+        ]
+      }
+    },
+    "wandering_trader": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:wandering_trader\"}}}}}"
+          }
+        ]
+      }
+    },
+    "witch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:witch\"}}}}}"
+          }
+        ]
+      }
+    },
+    "wither_skeleton": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:wither_skeleton\"}}}}}"
+          }
+        ]
+      }
+    },
+    "wolf": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:wolf\"}}}}}"
+          }
+        ]
+      }
+    },
+    "zoglin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:zoglin\"}}}}}"
+          }
+        ]
+      }
+    },
+    "zombie": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:zombie\"}}}}}"
+          }
+        ]
+      }
+    },
+    "zombie_villager": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:zombie_villager\"}}}}}"
+          }
+        ]
+      }
+    },
+    "zombified_piglin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:dna_vial\",eggItem:{tag:{dnd:{entity:\"minecraft:zombified_piglin\"}}}}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["allay"],
+    ["axolotl"],
+    ["bat"],
+    ["bee"],
+    ["blaze"],
+    ["cat"],
+    ["camel"],
+    ["cave_spider"],
+    ["chicken"],
+    ["cod"],
+    ["cow"],
+    ["creeper"],
+    ["dolphin"],
+    ["donkey"],
+    ["drowned"],
+    ["enderman"],
+    ["endermite"],
+    ["evoker"],
+    ["fox"],
+    ["frog"],
+    ["ghast"],
+    ["glow_squid"],
+    ["goat"],
+    ["guardian"],
+    ["hoglin"],
+    ["horse"],
+    ["husk"],
+    ["iron_golem"],
+    ["llama"],
+    ["magma_cube"],
+    ["mooshroom"],
+    ["mule"],
+    ["ocelot"],
+    ["panda"],
+    ["parrot"],
+    ["phantom"],
+    ["pig"],
+    ["piglin"],
+    ["piglin_brute"],
+    ["pillager"],
+    ["polar_bear"],
+    ["pufferfish"],
+    ["rabbit"],
+    ["ravager"],
+    ["salmon"],
+    ["sheep"],
+    ["shulker"],
+    ["silverfish"],
+    ["skeleton"],
+    ["skeleton_horse"],
+    ["slime"],
+    ["sniffer"],
+    ["snow_golem"],
+    ["spider"],
+    ["squid"],
+    ["stray"],
+    ["strider"],
+    ["tadpole"],
+    ["trader_llama"],
+    ["tropical_fish"],
+    ["turtle"],
+    ["vex"],
+    ["villager"],
+    ["vindicator"],
+    ["wandering_trader"],
+    ["witch"],
+    ["wither_skeleton"],
+    ["wolf"],
+    ["zoglin"],
+    ["zombie"],
+    ["zombie_villager"],
+    ["zombified_piglin"]
+  ]
+}

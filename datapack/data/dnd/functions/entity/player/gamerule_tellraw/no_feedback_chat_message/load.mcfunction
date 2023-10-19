@@ -1,5 +1,5 @@
 ####################
-# Removes unwanted chat messages
+# Removes the feedback from using commands
 ####################
 
 tellraw @s[tag=!dnd.no_space] ""

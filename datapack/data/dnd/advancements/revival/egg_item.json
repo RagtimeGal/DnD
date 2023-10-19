@@ -1,9 +1,9 @@
 {
-  "parent": "dnd:revival/cultivator",
+  "parent": "dnd:revival/sequencer",
   "display": {
     "icon": {
-      "item": "minecraft:carrot_on_a_stick",
-      "nbt": "{CustomModelData:401001}"
+      "item": "minecraft:snowball",
+      "nbt": "{CustomModelData:400000}"
     },
     "title": {
       "translate": "advancements.dnd.revival.egg_item.title"
@@ -17,8 +17,53 @@
     "hidden": false
   },
   "criteria": {
-    "impossible": {
-      "trigger": "minecraft:impossible"
+    "thrown_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:custom_thrown_egg\"}}"
+          }
+        ]
+      }
+    },
+    "egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:custom_egg\"}}"
+          }
+        ]
+      }
+    },
+    "embryo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:custom_embryo\"}}"
+          }
+        ]
+      }
+    },
+    "placed_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:custom_placed_egg\"}}"
+          }
+        ]
+      }
     }
-  }
+  },
+  "requirements": [
+    [
+      "thrown_egg",
+      "egg",
+      "embryo",
+      "placed_egg"
+    ]
+  ]
 }

@@ -1,0 +1,73 @@
+{
+	"credit": "https://ragnois.gay/",
+	"texture_size": [30, 33],
+	"textures": {
+		"0": "dnd:entity/fossil_display/concavenator_fossil_0"
+	},
+	"elements": [
+		{
+			"from": [4.99938, -0.01712, 0.41171],
+			"to": [10.99938, 7.98288, 9.41171],
+			"rotation": {"angle": 0, "axis": "x", "origin": [7.99938, 4.73288, 7.91171]},
+			"faces": {
+				"north": {"uv": [16, 4.36364, 12.8, 8.24242], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [4.8, 4.36364, 0, 8.24242], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [8, 4.36364, 4.8, 8.24242], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [12.8, 4.36364, 8, 8.24242], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [8, 0, 4.8, 4.36364], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [11.2, 4.36364, 8, 0], "texture": "#0", "tintindex": 0}
+			}
+		},
+		{
+			"from": [5.99938, 1.98288, 6.41171],
+			"to": [9.99938, 8.98288, 15.41171],
+			"rotation": {"angle": 0, "axis": "x", "origin": [7.99938, 4.73288, 7.91171]},
+			"faces": {
+				"north": {"uv": [13.86667, 12.60606, 11.73333, 16], "texture": "#0", "tintindex": 0},
+				"east": {"uv": [4.8, 12.60606, 0, 16], "texture": "#0", "tintindex": 0},
+				"south": {"uv": [6.93333, 12.60606, 4.8, 16], "texture": "#0", "tintindex": 0},
+				"west": {"uv": [11.73333, 12.60606, 6.93333, 16], "texture": "#0", "tintindex": 0},
+				"up": {"uv": [6.93333, 8.24242, 4.8, 12.60606], "texture": "#0", "tintindex": 0},
+				"down": {"uv": [9.06667, 12.60606, 6.93333, 8.24242], "texture": "#0", "tintindex": 0}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"rotation": [-157.5, 0, -180],
+			"translation": [0, -1, 0]
+		},
+		"head": {
+			"rotation": [-22.5, 0, 0],
+			"translation": [26.25, -18, -12],
+			"scale": [1.6, 1.6, 1.6]
+		}
+	},
+	"groups": [
+		{
+			"name": "Entire",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [
+				{
+					"name": "Body",
+					"origin": [0, 0, 0],
+					"color": 0,
+					"children": []
+				},
+				{
+					"name": "Head",
+					"origin": [0, 0, 0],
+					"color": 0,
+					"children": [0, 1]
+				},
+				{
+					"name": "Limbs",
+					"origin": [0, 0, 0],
+					"color": 0,
+					"children": []
+				}
+			]
+		}
+	]
+}

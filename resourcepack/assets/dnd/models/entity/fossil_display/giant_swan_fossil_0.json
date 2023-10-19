@@ -1,0 +1,108 @@
+{
+	"credit": "https://ragnois.gay/",
+	"texture_size": [16, 13],
+	"textures": {
+		"0": "dnd:entity/fossil_display/giant_swan_fossil_0"
+	},
+	"elements": [
+		{
+			"from": [6.5, 0, 4],
+			"to": [9.5, 3, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 4, 14]},
+			"faces": {
+				"north": {"uv": [16, 6.15385, 13, 9.84615], "texture": "#0"},
+				"east": {"uv": [5, 6.15385, 0, 9.84615], "texture": "#0"},
+				"south": {"uv": [8, 6.15385, 5, 9.84615], "texture": "#0"},
+				"west": {"uv": [13, 6.15385, 8, 9.84615], "texture": "#0"},
+				"up": {"uv": [8, 0, 5, 6.15385], "texture": "#0"},
+				"down": {"uv": [11, 6.15385, 8, 0], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 0, 9],
+			"to": [9, 2, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 4, 14]},
+			"faces": {
+				"north": {"uv": [10, 13.53846, 8, 16], "texture": "#0"},
+				"east": {"uv": [3, 13.53846, 0, 16], "texture": "#0"},
+				"south": {"uv": [5, 13.53846, 3, 16], "texture": "#0"},
+				"west": {"uv": [8, 13.53846, 5, 16], "texture": "#0"},
+				"up": {"uv": [5, 9.84615, 3, 13.53846], "texture": "#0"},
+				"down": {"uv": [7, 13.53846, 5, 9.84615], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "Entire",
+			"origin": [4, 4, 2],
+			"color": 0,
+			"children": [
+				{
+					"name": "Body",
+					"origin": [8, 11.25, 12],
+					"color": 0,
+					"children": [
+						{
+							"name": "Neck",
+							"origin": [8, 12, 1],
+							"color": 0,
+							"children": [
+								{
+									"name": "Head",
+									"origin": [8, 23, -0.5],
+									"color": 0,
+									"children": [0, 1]
+								}
+							]
+						},
+						{
+							"name": "Arms",
+							"origin": [4, 14, 2],
+							"color": 0,
+							"children": [
+								{
+									"name": "LeftArm",
+									"origin": [3.5, 14, 2],
+									"color": 0,
+									"children": []
+								},
+								{
+									"name": "RightArm",
+									"origin": [12.5, 14, 2],
+									"color": 0,
+									"children": []
+								}
+							]
+						},
+						{
+							"name": "TailSeg1",
+							"origin": [8, 15, 14],
+							"color": 0,
+							"children": []
+						}
+					]
+				},
+				{
+					"name": "Legs",
+					"origin": [8, 4, 8],
+					"color": 0,
+					"children": [
+						{
+							"name": "LeftLeg",
+							"origin": [5.5, 4, 8],
+							"color": 0,
+							"children": []
+						},
+						{
+							"name": "RightLeg",
+							"origin": [10.5, 4, 8],
+							"color": 0,
+							"children": []
+						}
+					]
+				}
+			]
+		}
+	]
+}

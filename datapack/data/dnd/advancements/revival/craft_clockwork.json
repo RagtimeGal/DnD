@@ -1,0 +1,36 @@
+{
+  "parent": "dnd:revival/shattered_clockwork",
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "nbt": "{CustomModelData:400003}"
+    },
+    "title": {
+      "translate": "advancements.dnd.revival.craft_clockwork.title"
+    },
+    "description": {
+      "translate": "advancements.dnd.revival.craft_clockwork.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "clockwork": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{dnd:{id:\"dnd:clockwork_gizmo\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "clockwork"
+    ]
+  ]
+}
